@@ -1,19 +1,3 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <title>Fundamentals of Internet Design</title>
-  <meta charset="utf-8">
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-  <link rel="stylesheet" href="css/reveal.css">
-  <link rel="stylesheet" href="_/ray_light.css" id="theme">
-  <link rel="stylesheet" href="_/solarized_dark.css">
-</head>
-<body>
-<div class="reveal">
-<div class="slides">
 
 <!-- ============================== slide -->
 <section>
@@ -59,12 +43,12 @@
     <a href="?theme=night#/themes">Night</a>
     <br><a href="?#/themes">Default</a>
   </div>
-  
+
   <div class="fragment">
     <h3>Change the look websites</h3>
     <p>Can change the layout of a site (<a href="http://www.csszengarden.com">CSS Garden</a>)</p>
   </div>
-  
+
 
 </section> <!-- slide -->
 
@@ -427,10 +411,3 @@ font-weight: bold; font-family: courier;
     <li class="fragment"><a class="jsbin-embed" href="http://jsbin.com/pegitu/2/edit">Try it</a> Add a full screen background image using <a href="http://css-tricks.com/perfect-full-page-background-image/">this tip</a></li>
 	</ul>
 </section>
-
-</div><!-- slides -->
-</div><!-- reveal -->
-<script src="lib/js/head.min.js"></script>
-<script src="js/reveal.min.js"></script>
-<script src="_/reveal_defaults.js"></script>
-</html>

@@ -1,25 +1,3 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <title>Using Analytics</title>
-  <meta charset="utf-8">
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-  <link rel="stylesheet" href="css/reveal.css">
-  <link rel="stylesheet" href="_/ray_light.css" id="theme">
-  <link rel="stylesheet" href="_/solarized_dark.css">
-
-
-</head>
-<body>
-<div class="reveal">
-<div class="slides">
-
-<section data-markdown data-separator="\n---\n"><!--  style="width: 200px"-->
-<script type="text/template">
-
 <!-- .slide: class="title" -->
 #Online Advertising
 
@@ -118,18 +96,3 @@
 - Sponsorships<!-- .element: class="fragment"-->
 - Video Ads<!-- .element: class="fragment"-->
 <li class="fragment">Other <a href="http://www.smartinsights.com/digital-marketing-strategy/online-business-revenue-models/online-revenue-model-options-internet-business/">Models</a></li>
-
----
-
-
-</script>
-</section>
-
-</div><!-- slides -->
-</div><!-- reveal -->
-
-<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-<script src="lib/js/head.min.js"></script>
-<script src="js/reveal.min.js"></script>
-<script src="_/reveal_defaults.js"></script>
-</html>

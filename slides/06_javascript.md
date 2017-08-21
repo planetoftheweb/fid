@@ -1,22 +1,3 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <title>JavaScript Essentials</title>
-  <meta charset="utf-8">
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-  <link rel="stylesheet" href="css/reveal.css">
-  <link rel="stylesheet" href="_/ray_light.css" id="theme">
-  <link rel="stylesheet" href="_/solarized_dark.css">
-</head>
-<body>
-<div class="reveal">
-<div class="slides">
-
-
-
 <!-- ============================== slide -->
 
 <section> <!-- slide -->
@@ -163,7 +144,7 @@ var info = {
     "facebook" : "http://facebook.com/iviewsource",
     "youtube"  : "http://www.youtube.com/planetoftheweb",
     "podcast"  : "http://feeds.feedburner.com/authoredcontent",
-    "twitter"  : "http://twitter.com/planetoftheweb" 
+    "twitter"  : "http://twitter.com/planetoftheweb"
   }
 };
 
@@ -252,16 +233,3 @@ console.log(info.links.blog);    </code></pre>
 <section class="title">
   <h1>The end</h1>
 </section>
-
-
-</div><!-- slides -->
-</div><!-- reveal -->
-
-
-
-<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-
-<script src="lib/js/head.min.js"></script>
-<script src="js/reveal.min.js"></script>
-<script src="_/reveal_defaults.js"></script>
-</html>

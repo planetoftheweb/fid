@@ -1,21 +1,3 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <title>Fundamentals of Internet Design</title>
-  <meta charset="utf-8">
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-  <link rel="stylesheet" href="css/reveal.css">
-  <link rel="stylesheet" href="/presentations/reveal.js/css/theme/ray.css" id="theme">
-  <link rel="stylesheet" href="_/solarized_dark.css">
-</head>
-<body>
-<div class="reveal">
-<div class="slides">
-
-<!-- ============================== slide -->
  <section>
   <h1>Learning HTML</h1>
   <h2>by Ray Villalobos</h2>
@@ -149,7 +131,7 @@
   <ul>
     <li class="fragment">Generic tags let you create your own sections of content</li>
     <li class="fragment">&lt;div&gt; generic block level tag</li>
-    
+
     <li class="fragment">&lt;span&gt; generic inline tag.</li>
     <li class="fragment">You can add meaning to these tags using the <code>id</code> and <code>class</code> attributes</li>
   </ul>
@@ -261,15 +243,3 @@
     <li class="fragment"><a class="jsbin-embed" href="http://jsbin.com/ibesIXi/1/embed?html,output">Try it</a> Add the userinfo class to the experience section</li>
     <li class="fragment"><a class="jsbin-embed" href="http://jsbin.com/ONAyUgOh/2/embed?html,output">Try it</a> Add another paragraph with some tabs and spaces after the last paragraph</li>
   </ul>
-</section>
-
-<section class="title">
-  <h1>The End</h1>
-</section>
- 
-</div><!-- slides -->
-</div><!-- reveal -->
-<script src="lib/js/head.min.js"></script>
-<script src="js/reveal.min.js"></script>
-<script src="_/reveal_defaults.js"></script>
-</html>

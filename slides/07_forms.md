@@ -1,15 +1,3 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <title>Using Forms</title>
-  <meta charset="utf-8">
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-  <link rel="stylesheet" href="css/reveal.css">
-  <link rel="stylesheet" href="_/ray_light.css" id="theme">
-  <link rel="stylesheet" href="_/solarized_dark.css">
 
   <style>
     .formsamples label {
@@ -40,10 +28,7 @@
       padding: 10px !important;
     }
   </style>
-</head>
-<body>
-<div class="reveal">
-<div class="slides">
+
 
 <!-- ============================== slide -->
 <section>
@@ -276,7 +261,7 @@
     <li>
         <input type="image" src="http://planetoftheweb.com/images/headlights.jpg" alt="order headlights" />
       <div class="fragment" id="fragsubbutton">
-        <pre><code style="width: 600px;" class="html" contenteditable>&lt;input type=&quot;image&quot; src=&quot;images/headlights.jpg&quot; 
+        <pre><code style="width: 600px;" class="html" contenteditable>&lt;input type=&quot;image&quot; src=&quot;images/headlights.jpg&quot;
 alt=&quot;order headlights&quot; &gt;</code></pre>
       </div>
     </li>
@@ -314,7 +299,7 @@ alt=&quot;order headlights&quot; &gt;</code></pre>
   &lt;option value="d" &gt;Label 4&lt;/option&gt;
 &lt;/select&gt;</code></pre>
 
-            <label>Select: 
+            <label>Select:
             <select style="vertical-align: bottom">
               <option >Choose...</option>
               <option id="thingtoselect" value="a">Item 1</option>
@@ -392,13 +377,3 @@ alt=&quot;order headlights&quot; &gt;</code></pre>
     <li class="fragment"><a class="jsbin-embed" href="http://jsbin.com/rofaq/6/embed?html,output">Try it</a> Horizontal Form</li>
   </ul>
 </section>
-
-
-
-</div><!-- slides -->
-</div><!-- reveal -->
-<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-<script src="lib/js/head.min.js"></script>
-<script src="js/reveal.min.js"></script>
-<script src="_/reveal_defaults.js"></script>
-</html>

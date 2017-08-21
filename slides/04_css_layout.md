@@ -1,21 +1,3 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <title>Fundamentals of Internet Design</title>
-  <meta charset="utf-8">
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-  <link rel="stylesheet" href="css/reveal.css">
-  <link rel="stylesheet" href="_/ray_light.css" id="theme">
-  <link rel="stylesheet" href="_/solarized_dark.css">
-</head>
-<body>
-<div class="reveal">
-<div class="slides">
-
-
 <section class="title"> <!-- slide -->
   <h1>Advanced CSS &amp; Layouts</h1>
   <p>by Ray Villalobos</p>
@@ -96,7 +78,7 @@ body {
   background: #839496;
 }
 
-@media all and (max-width: 699px) 
+@media all and (max-width: 699px)
   and (min-width: 520px),
   (min-width: 1151px) {
   body {
