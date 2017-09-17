@@ -4,11 +4,15 @@ const gulp = require('gulp'),
   source = './',
   dest = './';
 
-gulp.task('html', function() {
-  gulp.src(dest + '**/*.html');
-});
-
-// Regular CSS
+  gulp.task('html', function() {
+    gulp.src(dest + '**/*.html');
+  });
+  
+  gulp.task('js', function() {
+    gulp.src(dest + '**/*.js');
+  });
+  
+  // Regular CSS
 gulp.task('css', function() {
   gulp.src(dest + '**/*.css');
 });
