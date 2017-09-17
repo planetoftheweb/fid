@@ -110,8 +110,7 @@ body {
 .reveal ul {
   display: inline-block;
   text-align: left;
-  margin: 0;
-  margin-top: 20px; }
+  margin: 0 5%; }
 
 .reveal ol {
   list-style-type: decimal; }
@@ -143,14 +142,12 @@ body {
 .reveal ul ol,
 .reveal ol ol,
 .reveal ol ul {
-  display: block;
-  margin-left: 40px; }
+  display: block;}
 
 .reveal dt {
   font-weight: bold; }
 
-.reveal dd {
-  margin-left: 40px; }
+.reveal dd {}
 
 .reveal q,
 .reveal blockquote {
