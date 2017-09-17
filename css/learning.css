@@ -3,7 +3,7 @@
  * built to match LinkedIn Learning Style
  * By Ray Villalobos, http://raybo.org
  */
-section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
+ section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #444; }
 
 /*********************************************
@@ -86,7 +86,6 @@ body {
 
 .reveal li p {
   padding: 0; }
-  
 
 /* Ensure certain elements are never larger than the slide itself */
 .reveal img,
@@ -142,12 +141,10 @@ body {
 .reveal ul ol,
 .reveal ol ol,
 .reveal ol ul {
-  display: block;}
+  display: block; }
 
 .reveal dt {
   font-weight: bold; }
-
-.reveal dd {}
 
 .reveal q,
 .reveal blockquote {
@@ -372,7 +369,6 @@ body {
 
 .reveal .code-danger {
   background-color: #D9534E !important;
-  margin: 5px;
   color: #FFF !important; }
 
 /*********************************************
@@ -461,7 +457,7 @@ body {
 /*********************************************
  * Title Slide
  *********************************************/
- .title body {
+.title body {
   background: #0077B5; }
 
 .title .slides {
@@ -482,7 +478,7 @@ body {
   margin-top: 0;
   font-size: 4.2rem; }
 
-  /*********************************************
+/*********************************************
  * Text On Image
  *********************************************/
 .textonimage body {
@@ -654,5 +650,4 @@ footer.fadeout {
   color: #FFF !important; }
 
 .reveal a code {
-  cursor: pointer !important;
-}
+  cursor: pointer !important; }

@@ -50,7 +50,7 @@ One of the most important jobs for HTML is to focus on the semantics of your doc
 ---
 
 ## Standalone vs Container
-<iframe height='300' scrolling='no' title='zdmGxJ' src='//codepen.io/planetoftheweb/embed/zdmGxJ/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100% !important; height: 50vh;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/zdmGxJ/'>zdmGxJ</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='300' scrolling='no' title='zdmGxJ' src='//codepen.io/planetoftheweb/embed/zdmGxJ/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/zdmGxJ/'>zdmGxJ</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 - Inserts vs wraps
@@ -63,7 +63,7 @@ One of the most important jobs for HTML is to focus on the semantics of your doc
 
 ## Heading Elements
 
-<iframe height='300' scrolling='no' title='rzqaEv' src='//codepen.io/planetoftheweb/embed/rzqaEv/?height=300&theme-id=27192&default-tab=html,result&embed-version=2&editable=true' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100% !important; height: 50vh;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/rzqaEv/'>rzqaEv</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='300' scrolling='no' title='rzqaEv' src='//codepen.io/planetoftheweb/embed/rzqaEv/?height=300&theme-id=27192&default-tab=html,result&embed-version=2&editable=true' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/rzqaEv/'>rzqaEv</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 - [Denote Importance](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
@@ -90,7 +90,7 @@ One of the most important jobs for HTML is to focus on the semantics of your doc
 
 # Block Level Elements
 
-<iframe height='300' scrolling='no' title='EvdjRz' src='//codepen.io/planetoftheweb/embed/EvdjRz/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100% !important; height: 50vh;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/EvdjRz/'>EvdjRz</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='300' scrolling='no' title='EvdjRz' src='//codepen.io/planetoftheweb/embed/EvdjRz/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/EvdjRz/'>EvdjRz</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 [Major Sections](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements): [`<h1>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements), [`<p>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
@@ -104,7 +104,7 @@ One of the most important jobs for HTML is to focus on the semantics of your doc
 
 ## Inline Elements
 
-<iframe height='300' scrolling='no' title='wqYaYP' src='//codepen.io/planetoftheweb/embed/wqYaYP/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100% !important; height: 50vh;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/wqYaYP/'>wqYaYP</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='300' scrolling='no' title='wqYaYP' src='//codepen.io/planetoftheweb/embed/wqYaYP/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/wqYaYP/'>wqYaYP</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 [Inline Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente): [`<a>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a), [`<em>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
@@ -116,7 +116,7 @@ Inline elements occupy the space that are bound by the parent or container tag, 
 
 <h1>Structural Tags</h1>
 
-<iframe height='300' scrolling='no' title='KvGpJx' src='//codepen.io/planetoftheweb/embed/KvGpJx/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100% !important; height: 50vh;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/KvGpJx/'>KvGpJx</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='300' scrolling='no' title='KvGpJx' src='//codepen.io/planetoftheweb/embed/KvGpJx/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/KvGpJx/'>KvGpJx</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 - Denote function:  [`<address>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address)<a href="http://www.w3schools.com/html/html5_semantic_elements.asp">, [`<header>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header), [`<nav>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)
@@ -130,7 +130,7 @@ Structural tags add meaning to common sections of content, so for example there 
 
 <h1>Generic Tags</h1>
 
-<iframe height='300' scrolling='no' title='wqYqjB' src='//codepen.io/planetoftheweb/embed/wqYqjB/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100% !important; height: 50vh;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/wqYqjB/'>wqYqjB</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='300' scrolling='no' title='wqYqjB' src='//codepen.io/planetoftheweb/embed/wqYqjB/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/wqYqjB/'>wqYqjB</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 - [`<div>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div) and [`<span>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span)
@@ -142,7 +142,7 @@ Structural tags add meaning to common sections of content, so for example there 
 
 <h1>Class vs IDs</h1>
 
-<iframe height='300' scrolling='no' title='dzgJbd' src='//codepen.io/planetoftheweb/embed/dzgJbd/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100% !important; height: 50vh;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/dzgJbd/'>dzgJbd</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='300' scrolling='no' title='dzgJbd' src='//codepen.io/planetoftheweb/embed/dzgJbd/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/dzgJbd/'>dzgJbd</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 [class](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class) vs [id](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id) attributes
@@ -194,7 +194,7 @@ Every page needs to have a basic page structure using these elements.
 
 ## Whitespace, Comments, Entity
 
-<iframe height='300' scrolling='no' title='mMzpjY' src='//codepen.io/planetoftheweb/embed/mMzpjY/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100% !important; height: 50vh;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/mMzpjY/'>mMzpjY</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='300' scrolling='no' title='mMzpjY' src='//codepen.io/planetoftheweb/embed/mMzpjY/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/mMzpjY/'>mMzpjY</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 
