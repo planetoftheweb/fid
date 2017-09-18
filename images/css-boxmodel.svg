@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 646 479" style="enable-background:new 0 0 646 479;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#BADBFF;}
+	.st1{fill:#FFEE8B;stroke:#000000;stroke-width:17;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#636363;}
+	.st4{font-family:'HelveticaNeue';}
+	.st5{font-size:22px;}
+	.st6{font-family:'HelveticaNeue-Bold';}
+	.st7{font-size:14px;}
+	.st8{font-size:26px;}
+	.st9{font-size:28px;}
+	.st10{fill:none;stroke:#E90060;stroke-miterlimit:10;}
+</style>
+<rect x="141" y="128" class="st0" width="331" height="225"/>
+<rect x="200.5" y="162.5" class="st1" width="211" height="157"/>
+<rect x="237" y="197" class="st2" width="139" height="87"/>
+<text transform="matrix(1 0 0 1 289.9507 116.9233)" class="st3 st4 st5">top</text>
+<text transform="matrix(1 0 0 1 283.958 167.0684)" class="st2 st6 st7">border</text>
+<text transform="matrix(1 0 0 1 282.936 145.6943)" class="st6 st7">margin</text>
+<text transform="matrix(1 0 0 1 279.1699 189.6787)" class="st6 st7">padding</text>
+<text transform="matrix(1 0 0 1 136.5029 95.6787)" class="st6 st8">Box Model</text>
+<text transform="matrix(1 0 0 1 273.0728 400.9766)" class="st4 st7">CSS width</text>
+<text transform="matrix(1 0 0 1 268.1382 420.7705)" class="st4 st7">Old IE width</text>
+<text transform="matrix(1 0 0 1 255.1675 251.106)" class="st3 st6 st9">content</text>
+<text transform="matrix(1 0 0 1 482.7319 252.6948)" class="st3 st4 st5">right</text>
+<text transform="matrix(1 0 0 1 102.9209 252.6948)" class="st3 st4 st5">left</text>
+<text transform="matrix(1 0 0 1 270.7886 375.5952)" class="st3 st4 st5">bottom</text>
+<polyline class="st10" points="346,397.5 375.5,397.5 375.5,288 "/>
+<polyline class="st10" points="236.5,288 236.5,397.5 263,397.5 "/>
+<polyline class="st10" points="352,416.5 419.5,416.5 419.5,330 "/>
+<polyline class="st10" points="192.5,330 192.5,416.5 260,416.5 "/>
+</svg>
