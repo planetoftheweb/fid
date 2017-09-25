@@ -1,22 +1,24 @@
-## 171499-609025_01_01_XR15_CreatingaBasicApp.mov
+## 171499-609025\_01\_01\_XR15\_CreatingaBasicApp.mov
 05:41 - 05:52
 “If you've installed the Chrome developer tools you should see a little icon right here and that means that we can inspect the page and switch over to this Vue element right here. . .
 
 ### Solution
-Record a Pickup showing where to install the [developer tools][1]
+Record a Pickup and insert before 5:41
+When working with Vue.js, you'll probably want to install the Vuejs Developer tools. You can find it at this URL.
+
+[https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd][1]
+
+[developer tools][2]
+If you've installed the Chrome Developer Tools
+
+## 171538-609025\_03\_04\_XR15\_Update.mov
+In the finished branch of exercise files for this movie called 03\_04e, there is a small coding mistake on line 24 of the AppointmentListItem.vue file. ontenteditable="true"
+
+### Solution
+Fixed Github Repo with the updated code.
 
 
-## 171538-609025_03_04_XR15_Update.mov
-In the finished branch of exercise files for this movie called 03_04e, there is a small coding mistake on line 24 of the AppointmentListItem.vue file.
+## 02_04 Slide Typo_
 
-ontenteditable="true"
-
-should actually be
-
-contenteditable="true"
-
-This issue effects all the other branches going forward which I will list here so they can also be fixed:
-04_01b, 04_01e, 04_02b, 04_02e, 04_03b, 04_03e, 04_04b, 04_04e, 04_05b, 04_05e
-
-
-[1]:	https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en
+[1]:	https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
+[2]:	https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en
