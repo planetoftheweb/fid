@@ -1,167 +1,308 @@
-![Bootstrap Logo](../images/bootstraplogo.png)<!-- .element: style="height: 200px;"-->
-# Bootstrap Framework
-## Mastering Responsive Layouts
+<!-- .slide: data-state="title" -->
 
-<div class="small">with <a href="http://en.gravatar.com/planetoftheweb">Ray Villalobos</a></div>
+# Bootstrap Framework
 
 ---
-![Bootstrap Logo](../images/bootstraplogo.png)<!-- .element: style="height: 130px; padding-right: 20px;"-->
 ## What is Bootstrap?
 
-- A framework<!-- .element: class="fragment"-->
-- Mobile first<!-- .element: class="fragment"-->
-- Responsive design<!-- .element: class="fragment"-->
-- Battle tested<!-- .element: class="fragment"-->
-- Uses modern web technologies<!-- .element: class="fragment"-->
+- Mobile first framework
+- Responsive design
+- Battle tested
+- Modern web concepts
 
 ---
-![Bootstrap Logo](../images/bootstraplogo.png)<!-- .element: style="height: 130px; padding-right: 20px;"-->
+
 ## What’s a Framework?
-- A way to organize your code<!-- .element: class="fragment"-->
-- If you follow a certain structure…<!-- .element: class="fragment"-->
-- A framework gives you many abilities.<!-- .element: class="fragment"-->
-  - Pre-built CSS styles<!-- .element: class="fragment"-->
-  - JavaScript functionality<!-- .element: class="fragment"-->
+- A way to organize your code
+- If you follow a certain structure…
+- A framework gives you many abilities.
+  - Pre-built CSS styles
+  - JavaScript functionality
 
 ---
-![Bootstrap Logo](../images/bootstraplogo.png)<!-- .element: style="height: 130px; padding-right: 20px;"-->
-## When Should I Use Bootstrap?
-- Excellent for small, quick projects<!-- .element: class="fragment"-->
-- Prototyping and scaffolding sites<!-- .element: class="fragment"-->
-- Also great for larger projects<!-- .element: class="fragment"-->
-  - Customize your install<!-- .element: class="fragment"-->
 
----
-![Bootstrap Logo](../images/bootstraplogo.png)<!-- .element: style="height: 130px; padding-right: 20px;"-->
 ## Installation: Basic
-- CDNs<!-- .element: class="fragment"-->
-- Download and install<!-- .element: class="fragment"-->
-- Requires jQuery<!-- .element: class="fragment"-->
+- CDNs
+- Download and install
+- Requires jQuery
+- [Try it](http://jsbin.com/losegir/1/edit?html,output)
 
 ---
-![Bootstrap Logo](../images/bootstraplogo.png)<!-- .element: style="height: 130px; padding-right: 20px;"-->
+<!-- .slide: data-state="title" -->
+
+# The Grid
+
+---
+
 ## Grid System
-- 12-column grid<!-- .element: class="fragment"-->
-- Accessed through CSS classes<!-- .element: class="fragment"-->
-- Three key concepts<!-- .element: class="fragment"-->
-  - Containers<!-- .element: class="fragment"-->
-  - Rows<!-- .element: class="fragment"-->
-  - Columns<!-- .element: class="fragment"-->
-
+- 12-column grid
+- Accessed through CSS classes
+- Three key concepts
+  - Containers
+  - Rows
+  - Columns
 
 ---
-![Bootstrap Logo](../images/bootstraplogo.png)<!-- .element: style="height: 130px; padding-right: 20px;"-->
+
 
 ## Bootstrap Containers
-- Control layout<!-- .element: class="fragment"-->
-- Add padding<!-- .element: class="fragment"-->
-- Two types<!-- .element: class="fragment"-->
-  - Fluid<!-- .element: class="fragment"-->
-  - Fixed<!-- .element: class="fragment"-->
-
-<p class="fragment"><a class="jsbin-embed" href="http://jsbin.com/sozuho/3/edit?html,css,output">Try it!</a></p>
+- Control layout
+- Add padding
+- Fluid vs Fixed
 
 ---
 
-![Bootstrap Logo](../images/bootstraplogo.png)<!-- .element: style="height: 130px; padding-right: 20px;"-->
-## Fixed-Width Container
-- 15 pixel padding on each side<!-- .element: class="fragment"-->
-- Adjusts to media query breakpoints<!-- .element: class="fragment"-->
-
-| |  Extra Small <small><768px</small> | Small <small>≥768px</small> | Medium <small>≥992px</small> | Large <small>≥1200px</small> |
-|---|---|---|---|---|
-| **Width** | Auto | 750px | 970px | 1170px |
-<!-- .element: class="fragment"-->
-
----
-
-
-
----
-
-## The Bootstrap Breakpoints
-![Bootstrap Logo](../images/bootstrap_grid.png)
-
----
-
-![Bootstrap Logo](../images/bootstraplogo.png)<!-- .element: style="height: 130px; padding-right: 20px;"-->
 ## Rows
 
-- Horizontal groups of columns<!-- .element: class="fragment"-->
-- Place within container<!-- .element: class="fragment"-->
-- Should always include columns<!-- .element: class="fragment"-->
-- Gets rid of container padding<!-- .element: class="fragment"-->
+- Horizontal groups of columns
+- Place within container
+- Should always include columns
+- Gets rid of container padding
 
-
-<p class="fragment"><a class="jsbin-embed" href="http://jsbin.com/sozuho/4/edit?html,output">Try it!</a></p>
-
----
-![Bootstrap Logo](../images/bootstraplogo.png)<!-- .element: style="height: 130px; padding-right: 20px;"-->
-## Columns
-- 30px gutters<!-- .element: class="fragment"-->
-  - 15px on each side<!-- .element: class="fragment"-->
-- Use col-SIZE-SPAN<!-- .element: class="fragment"-->
-  - Size: When it stacks<!-- .element: class="fragment"-->
-  - SPAN: How many columns<!-- .element: class="fragment"-->
-- &gt;12 columns wrap<!-- .element: class="fragment"-->
+- [Try it](http://jsbin.com/losegir/1/edit?html,output)
 
 ---
 
-![Bootstrap Logo](../images/bootstraplogo.png)<!-- .element: style="height: 130px; padding-right: 20px;"-->
+## Grid Columns
+
+- 30px gutters (15px per side)
+- <div contenteditable>`col(-BP)(-COL)`</div>
+  <b>BP:</b> <code class="code-success">sm</code> >576px
+  <code class="code-success">md</code> >768px
+  <code class="code-success">lg</code> >992px
+  <code class="code-success">xl</code> >1200px<br>
+  <b>COL:</b> <code class="code-warning">1-12</code>
+
+- [Try it](http://jsbin.com/dobahar/2/edit?html,output)
+
+---
+
 ## Column Metrics
 
-| |  Extra small <small>< 768px</small> | Small <small> ≥ 768px</small> | Medium <small>≥992px</small> | Large <small>≥1200px</small> |
-|---|---|---|---|---|
-| **Container** | Auto | 750px | 970px | 1170px |
-| **Size**  | .col-xs- | .col-sm- | .col-md- | .col-lg- |
-| **Column width** | Auto | ~62px | ~81px | ~97px |
-<!-- .element: class="fragment"-->
+| |  Extra small <small>< 576px</small> | Small <small> ≥ 576px</small> | Medium <small>≥768px</small> | Large <small>≥992px</small> | Extra large <small>≥1200px</small> |
+|---|---|---|---|---|---|
+| **Prefix**	| .col- | .col-sm- | .col-md- | .col-lg- | .col-xl- |
 
 <p class="fragment"><a class="jsbin-embed" href="http://jsbin.com/sozuho/9/edit?html,output">Try it!</a></p>
 
 ---
 
-![Bootstrap Logo](../images/bootstraplogo.png)<!-- .element: style="height: 130px; padding-right: 20px;"-->
+
 ## Multiple Layouts
 
-* Assign multiple breakpoints  <!-- .element: class="fragment"-->
-* Column adjusts depending on breakpoint  <!-- .element: class="fragment"-->
-
-<p class="fragment"><a class="jsbin-embed" href="http://jsbin.com/sozuho/10/edit?html,output">Try it!</a></p>
-
----
-
-![Bootstrap Logo](../images/bootstraplogo.png)<!-- .element: style="height: 130px; padding-right: 20px;"-->
-## Pad Columns
-
-* Columns can be padded  <!-- .element: class="fragment"-->
-* No need to pad last one  <!-- .element: class="fragment"-->
-
-<p class="fragment"><a class="jsbin-embed" href="http://jsbin.com/sozuho/13/edit">Try it!</a></p>
-
----
-![Bootstrap Logo](../images/bootstraplogo.png)<!-- .element: style="height: 130px; padding-right: 20px;"-->
-## Responsive Utilities
-- Visibility at breakpoints/print<!-- .element: class="fragment"-->
-- VISIBILITY-SIZE(-DISPLAY)<!-- .element: class="fragment"-->
-  - __Visibility__: visible or hidden
-  - __Size__: xs, sm, md, lg, print
-  - __Display__: block, inline, inline-block, print
----
-
-![Bootstrap Logo](../images/bootstraplogo.png)<!-- .element: style="height: 130px; padding-right: 20px;"-->
-## Column Metrics
-
-| |  Extra small <small>< 768px</small> | Small <small> ≥ 768px</small> | Medium <small>≥992px</small> | Large <small>≥1200px</small> |
-|---|---|---|---|---|
-| **Container** | Auto | 750px | 970px | 1170px |
-| **Size**  | .col-xs- | .col-sm- | .col-md- | .col-lg- |
-| **Column width** | Auto | ~62px | ~81px | ~97px |
-<!-- .element: class="fragment"-->
+- Assign multiple breakpoints
+- Column adjusts depending on breakpoint  
+- [Try it](http://jsbin.com/jemuhin/2/edit?html,output)
 
 ---
 
-![Bootstrap Logo](../images/bootstraplogo.png)<!-- .element: style="height: 130px; padding-right: 20px;"-->
-## Real World Example
+## <i class="fa fa-th"></i> Basic Display
+<ul>
+- Mimics CSS
+- <div contenteditable>`d(-BP)-TYPE`</div>
+<small><b>BP:</b> <code class="code-success">sm</code> >576px
+<code class="code-success">md</code> >768px
+<code class="code-success">lg</code> >992px
+<code class="code-success">xl</code> >1200px<br>
+<b>ALN:</b>
+<code class="code-warning">none</code>
+<code class="code-warning">block</code>
+<code class="code-warning">inline</code>
+<code class="code-warning">inline-block</code>
+<code class="code-warning">flex (options)</code>
+</small>
+---
 
-* [Responsive Bootstrap](http://iviewsource.com/exercises/responsivebootstrap/)
+## <i class="fa fa-th"></i> Margin/Padding
+
+<ul>
+	<li class="fragment"><p contenteditable>`PRO(SID)(-BP)-SIZ`</p>
+		<small style="line-height: 220%; vertical-align: text-bottom;">
+			<b>PRO:</b>
+			<code style="background:#0275D8; color:white;">m</code> margin
+			<code style="background:#0275D8; color:white;">p</code> padding
+		</small><br>
+		<small style="line-height: 220%; vertical-align: text-bottom;">
+			<b>SID:</b>
+			<code style="background:#F0AD4E; color:white;">t</code>
+			<code style="background:#F0AD4E; color:white;">r</code>
+			<code style="background:#F0AD4E; color:white;">b</code>
+			<code style="background:#F0AD4E; color:white;">l</code>
+			<code style="background:#F0AD4E; color:white;">x</code>
+			<code style="background:#F0AD4E; color:white;">y</code>
+		</small><br>
+		<small style="line-height: 220%; vertical-align: text-bottom;">
+			<b>BP:</b> <code style="background:#5cb85c; color:white;">sm</code> >576px
+			<code style="background:#5cb85c; color:white;">md</code> >768px
+			<code style="background:#5cb85c; color:white;">lg</code> >992px
+			<code style="background:#5cb85c; color:white;">xl</code> >1200px
+		</small><br>
+		<small style="line-height: 220%; vertical-align: text-bottom;">
+			<b>SIZ:</b>
+			<code style="background:#D95357; color:white;">0</code>
+			<code style="background:#D95357; color:white;">1</code>
+			<code style="background:#D95357; color:white;">2</code>
+			<code style="background:#D95357; color:white;">3</code>
+			<code style="background:#D95357; color:white;">4</code>
+			<code style="background:#D95357; color:white;">5</code>
+			<code style="background:#D95357; color:white;">auto</code>
+		</small>
+	</li>
+</ul>
+
+---
+
+<!-- .slide: data-state="hasicon" -->
+
+## <i class="fa fa-th"></i> Basic Flex Container
+
+- <div contenteditable>`d(-BP)(-inline)-flex`</div>
+<small><b>BP:</b> <code class="code-success">sm</code> >576px
+<code class="code-success">md</code> >768px
+<code class="code-success">lg</code> >992px
+<code class="code-success">xl</code> >1200px
+</small>
+- [Try it](http://jsbin.com/jemuhin/3/edit?html,output)
+
+---
+<!-- .slide: data-state="title" -->
+
+# Navbars
+
+---
+
+<!-- .slide: data-state="hasicon" -->
+
+## <i class="fa fa-bars"></i> Navbar Classes
+<ul>
+	<li class="fragment">`navbar`</li>
+	<li class="fragment"><p contenteditable>`navbar-expand(-BP)`</p>
+		<small style="line-height: 120%; vertical-align: text-bottom;">
+			<b>BP:</b> <code style="background:#5cb85c; color:white;">sm</code> >576px
+			<code style="background:#5cb85c; color:white;">md</code> >768px
+			<code style="background:#5cb85c; color:white;">lg</code> >992px
+			<code style="background:#5cb85c; color:white;">xl</code> >1200px
+		</small><br>
+	</li>
+	<li class="fragment">`navbar-nav`</li>
+</ul>
+
+---
+
+<!-- .slide: data-state="hasicon" -->
+
+## <i class="fa fa-bars"></i> Navbar Colors
+<ul>
+<li><p contenteditable>`bg-COLOR` for backgrounds</p>
+  <small style="line-height: 120%; vertical-align: text-bottom;">
+  <code style="background:#007bff; color:white;">primary</code>
+  <code style="background:#868e96; color:white;">secondary</code>
+  <code style="background:#28a745; color:white;">success</code>
+  <code style="background:#dc3545; color:white;">danger</code><br>
+  <code style="background:#ffc107; color:white;">warning</code>
+  <code style="background:#17a2b8; color:white;">info</code>
+  <code style="background:#f8f9fa; color:black;">light</code>
+  <code style="background:#343a40; color:white;">dark</code>
+  <code style="background:white; border: 1px solid gray; color:black;">white</code></small>
+</li>
+	<li class="fragment">`navbar-light`</li>
+	<li class="fragment">`navbar-dark`</li>
+</ul>
+
+---
+
+<!-- .slide: data-state="hasicon" -->
+
+## <i class="fa fa-bars"></i> navbar-nav Options
+- `nav-item` & `nav-link`
+- `active` & `disabled`
+- [Try it](http://jsbin.com/gezaneh/1/edit?html,output)
+- [Complex + Dropdowns](http://jsbin.com/zakoniy/2/edit?html,output)
+
+
+---
+<!-- .slide: data-state="title" -->
+
+# Carousels
+
+---
+
+## Basic Carousel
+
+<ul>
+	<li class="fragment">`carousel`</li>
+	<li class="fragment">`data-ride="carousel"`</li>
+	<li class="fragment">`carousel-inner`</li>
+	<li class="fragment">`carousel-item`</li>
+</ul>
+
+> > Speaker Notes:
+1. The main container to use is of course carousel
+1. If you want the carousel to automatically animate when the page loads, use data-ride="carousel", there are a lot of other options you can activate using data attributes or javascript...more of that in a sec.
+1. carousel-inner is the main container for the images
+1. carousel-item is a wrapper for each image.
+
+---
+
+## Options
+
+<ul>
+	<li class="fragment">one element `active`</li>
+	<li class="fragment">Crop and size photos</li>
+</ul>
+
+> > Speaker Notes:
+1. At least one of the carousel image containers should have a class of active.
+1. Also, bootstrap is not going to perform any sizing on your images, so make sure you crop and resize your images. You may also need to size your images using css.
+
+---
+
+## Captions
+<ul>
+	<li class="fragment">`carousel-caption`</li>
+</ul>
+
+```
+<div class="carousel-caption d-none d-md-block">
+  <h3>...</h3>
+  <p>...</p>
+</div>
+```
+<!-- .element: data-trim="true" contenteditable="true" class="fragment" -->
+
+> > Speaker Notes:
+1. There is a special class for captions called carousel-caption.
+
+---
+
+## Navigation
+
+<ul>
+	<li class="fragment">`data-target`</li>
+	<li class="fragment">`carousel-control-prev`</li>
+	<li class="fragment">`carousel-control-prev-icon`</li>
+	<li class="fragment">`carousel-control-next`</li>
+	<li class="fragment">`carousel-control-next-icon`</li>
+</ul>
+
+> > Speaker Notes:
+1. You can add previous and next icons on the images using classes.
+
+---
+
+## Indicators
+
+<ul>
+	<li class="fragment">`carousel-indicators`</li>
+	<li class="fragment">`data-target`</li>
+	<li class="fragment">`data-slide-to`</li>
+</ul>
+
+> > Speaker Notes:
+1. You can also add indicators. They look very different from the old indicators, but are just easy to set up.
+
+---
+
+## Try it
+
+- [Try it](http://jsbin.com/butuwud/2/edit?html,output)
