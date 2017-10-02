@@ -303,6 +303,17 @@
 
 ---
 
+## Data Attributes
+
+<ul>
+	<li class="fragment">`interval` : 5000</li>
+	<li class="fragment">`pause` : hover | null</li>
+	<li class="fragment">`ride` : false</li>
+	<li class="fragment">`wrap` : true</li>
+</ul>
+
+---
+
 ## Try it
 
 - [Try it](http://jsbin.com/butuwud/2/edit?html,output)
