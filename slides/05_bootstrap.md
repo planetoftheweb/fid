@@ -25,7 +25,7 @@
 - CDNs
 - Download and install
 - Requires jQuery
-- [Try it](http://jsbin.com/losegir/1/edit?html,output)
+- [Try it](http://jsbin.com/losegir/4/edit?html,output)
 
 ---
 <!-- .slide: data-state="title" -->
@@ -59,20 +59,19 @@
 - Should always include columns
 - Gets rid of container padding
 
-- [Try it](http://jsbin.com/losegir/1/edit?html,output)
-
 ---
 
 ## Grid Columns
 
 - 30px gutters (15px per side)
 - <div contenteditable>`col(-BP)(-COL)`</div>
-  <b>BP:</b> <code class="code-success">sm</code> >576px
-  <code class="code-success">md</code> >768px
-  <code class="code-success">lg</code> >992px
-  <code class="code-success">xl</code> >1200px<br>
-  <b>COL:</b> <code class="code-warning">1-12</code>
-
+  <small>
+    <b>BP:</b> <code class="code-success">sm</code> >576px
+    <code class="code-success">md</code> >768px
+    <code class="code-success">lg</code> >992px
+    <code class="code-success">xl</code> >1200px<br>
+    <b>COL:</b> <code class="code-warning">1-12</code>
+  </small>
 - [Try it](http://jsbin.com/dobahar/2/edit?html,output)
 
 ---
@@ -83,12 +82,9 @@
 |---|---|---|---|---|---|
 | **Prefix**	| .col- | .col-sm- | .col-md- | .col-lg- | .col-xl- |
 
-<p class="fragment"><a class="jsbin-embed" href="http://jsbin.com/sozuho/9/edit?html,output">Try it!</a></p>
-
 ---
 
-
-## Multiple Layouts
+## Multiple Columns
 
 - Assign multiple breakpoints
 - Column adjusts depending on breakpoint  
@@ -115,40 +111,34 @@
 
 ## <i class="fa fa-th"></i> Margin/Padding
 
-<ul>
-	<li class="fragment"><p contenteditable>`PRO(SID)(-BP)-SIZ`</p>
-		<small style="line-height: 220%; vertical-align: text-bottom;">
-			<b>PRO:</b>
-			<code style="background:#0275D8; color:white;">m</code> margin
-			<code style="background:#0275D8; color:white;">p</code> padding
-		</small><br>
-		<small style="line-height: 220%; vertical-align: text-bottom;">
-			<b>SID:</b>
-			<code style="background:#F0AD4E; color:white;">t</code>
-			<code style="background:#F0AD4E; color:white;">r</code>
-			<code style="background:#F0AD4E; color:white;">b</code>
-			<code style="background:#F0AD4E; color:white;">l</code>
-			<code style="background:#F0AD4E; color:white;">x</code>
-			<code style="background:#F0AD4E; color:white;">y</code>
-		</small><br>
-		<small style="line-height: 220%; vertical-align: text-bottom;">
-			<b>BP:</b> <code style="background:#5cb85c; color:white;">sm</code> >576px
-			<code style="background:#5cb85c; color:white;">md</code> >768px
-			<code style="background:#5cb85c; color:white;">lg</code> >992px
-			<code style="background:#5cb85c; color:white;">xl</code> >1200px
-		</small><br>
-		<small style="line-height: 220%; vertical-align: text-bottom;">
-			<b>SIZ:</b>
-			<code style="background:#D95357; color:white;">0</code>
-			<code style="background:#D95357; color:white;">1</code>
-			<code style="background:#D95357; color:white;">2</code>
-			<code style="background:#D95357; color:white;">3</code>
-			<code style="background:#D95357; color:white;">4</code>
-			<code style="background:#D95357; color:white;">5</code>
-			<code style="background:#D95357; color:white;">auto</code>
-		</small>
-	</li>
-</ul>
+<div contenteditable>`PRO(SID)(-BP)-SIZ`</div>
+<small>
+  <b>PRO:</b>
+  <code class="code-primary">m</code> margin
+  <code class="code-primary">p</code> padding<br>
+
+  <b>SID:</b>
+  <code class="code-primary">t</code>
+  <code class="code-warning">r</code>
+  <code class="code-warning">b</code>
+  <code class="code-warning">l</code>
+  <code class="code-warning">x</code>
+  <code class="code-warning">y</code><br>
+
+  <b>BP:</b> <code class="code-success">sm</code> >576px
+  <code class="code-success">md</code> >768px
+  <code class="code-success">lg</code> >992px
+  <code class="code-success">xl</code> >1200px<br>
+
+  <b>SIZ:</b>
+  <code class="code-danger">0</code>
+  <code class="code-danger">1</code>
+  <code class="code-danger">2</code>
+  <code class="code-danger">3</code>
+  <code class="code-danger">4</code>
+  <code class="code-danger">5</code>
+  <code class="code-danger">auto</code>
+</small>
 
 ---
 
@@ -162,7 +152,7 @@
 <code class="code-success">lg</code> >992px
 <code class="code-success">xl</code> >1200px
 </small>
-- [Try it](http://jsbin.com/jemuhin/3/edit?html,output)
+- [Try it](http://jsbin.com/jemuhin/7/edit?html,output)
 
 ---
 <!-- .slide: data-state="title" -->
@@ -216,8 +206,9 @@
 ## <i class="fa fa-bars"></i> navbar-nav Options
 - `nav-item` & `nav-link`
 - `active` & `disabled`
-- [Try it](http://jsbin.com/gezaneh/1/edit?html,output)
-- [Complex + Dropdowns](http://jsbin.com/zakoniy/2/edit?html,output)
+- [Try it](http://jsbin.com/gezaneh/3/edit?html,output)
+- [Custom Color](http://jsbin.com/gezaneh/2/edit?html,output)
+-
 
 
 ---
