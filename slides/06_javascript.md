@@ -1,141 +1,100 @@
-<!-- ============================== slide -->
+<!-- .slide: data-state="title" -->
 
-<section> <!-- slide -->
-  <h1>JavaScript Essentials</h1>
-  <p>by Ray Villalobos</p>
-  <p><small>Use arrow keys to advance or esc</small></p>
-</section> <!-- slide -->        
+# JavaScript Essentials
 
-<!-- ============================== slide -->
-<section>
-  <h1>Responsible for Interaction</h1>
-  <img src="images/webpage.png" alt="Web Page Structure" />
-  <ul>
-    <li class="fragment">Scripting Language</li>
-    <li class="fragment">Runs on the client (browser)</li>
-  </ul>
-</section> <!-- slide -->
+---
 
-<!-- ============================== slide -->
-<section>
-  <h1>What is it good for?</h1>
-  <ul>
-    <li class="fragment">DOM Management</li>
-    <li class="fragment">Event Handling</li>
-    <li class="fragment">AJAX Communication</li>
-  </ul>
-</section> <!-- slide -->
+## What is JavaScript?
 
-<section class="title">
-  <h1>Running Scripts</h1>
-</section>
+- Responsible for Interaction
+- Scripting Language
+- Runs on client
 
-<!-- ============================== slide -->
-<section>
-<h1>How do you use it?</h1>
-<h2>inline within regular tags*</h2>
+---
+## What is it good for?
 
-  <ul>
-    <li class="fragment">Inline through events (<a href="http://jsbin.com/fiq/1/edit">sample</a>)</li>
-    <li class="fragment">Inefficient and bad practice *</li>
-    <li class="fragment">
-<pre><code id="theformtag" class="html" contenteditable  data-trim>
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;title&gt;JavaScript&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;button onclick=&quot;alert('Hi')&quot;&gt;Hello&lt;/button&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre></code>
-    </li>
+- DOM Management
+- Event Handling
+- AJAX Communication
 
-  </ul>
-</section> <!-- slide -->
+---
+## How do you use it?
 
-<!-- ============================== slide -->
-<section>
-<h1>How do you use it?</h1>
-<h2>Using the &lt;script&gt; tag</h2>
+- Inline, `<script>`, `<script src="">`
+- Inline w/event attributes
+- Inefficient practice
 
-  <ul>
-    <li class="fragment">Better than inline, but not as maintainable</li>
-    <li class="fragment">Code executes when script tags are read</li>
-    <li class="fragment">
-<pre><code id="theformtag" class="html" contenteditable  data-trim>
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;title&gt;JavaScript&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;button id=&quot;hitme&quot;&gt;Hello&lt;/button&gt;
-  &lt;script&gt;
-    document.queryselector('#hitme').onclick=function {
-        alert &quot;I'm hit&quot;;
-    }
-  &lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre></code>
-    </li>
-  </ul>
-</section> <!-- slide -->
+---
+## Try it
 
-<!-- ============================== slide -->
-<section>
-<h1>How do you use it?</h1>
-<h2>As an external document</h2>
+<iframe height='500' scrolling='no' title='EwLxKz' src='//codepen.io/planetoftheweb/embed/EwLxKz/?height=500&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/EwLxKz/'>EwLxKz</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
-  <ul>
-    <li class="fragment">Using <code>&lt;script src=&quot;&quot;&gt;&lt;/script&gt;</code></li>
-    <li class="fragment">Code executes when script tags are read</li>
-    <li class="fragment">Position of <code>&lt;script&gt;</code> tag is important</li>
-  </ul>
-</section> <!-- slide -->
+---
 
-<section class="title">
-  <h1>JavaScript data types</h1>
-</section>
+## Using the `<script>` tag
 
-<!-- ============================== slide -->
-<section>
-  <h1>Understanding Variables</h1>
-  <ul>
-    <li class="fragment">Can hold basic information
-    <pre><code class="javascript" contenteditable data-trim>
+- Better than inline, but maintainable
+- Code executes when script read
+
+---
+## Try It
+
+
+<iframe height='500' scrolling='no' title='aLGbZe' src='//codepen.io/planetoftheweb/embed/aLGbZe/?height=500&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/aLGbZe/'>aLGbZe</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+
+---
+
+## As an external document
+
+- Using `<script src=""></script>`
+- `<script>` position important
+
+---
+
+## JavaScript Variables
+
+- Losely typed
+- Basic types
+
+```
 var myName = 'Ray';
 var myNumber = 3;
 var myBoolean = true;
-    </code></pre>
-    </li>
-    <li class="fragment">Can also be lists (arrays)
-    <pre><code class="javascript" contenteditable data-trim>
+```
+<!-- .element: class="fragment" -->
+
+---
+
+## JavaScript Lists
+
+- 0 Indexed
+
+```
 var myList = ['Ray', 'Fred', 'Bonnie'];
 var otherList = ['Ray', 3, false];
-    </code></pre>
-    </li>
-    <li class="fragment">Have an index
-    <pre><code class="javascript" contenteditable data-trim>
+
 myList[1]; //Fred;
 otherList[0]; //Ray;
-    </code></pre>
-    </li>
-    <li class="fragment"><a class="jsbin-embed" href="http://jsbin.com/litin/1/embed?javascript,console">Try it</a> Print out some of the other values</li>
-  </ul>
-</section> <!-- slide -->
+```
+<!-- .element: class="fragment" -->
 
-<!-- ============================== slide -->
-<section>
-  <h1>JavaScript Objects</h1>
-  <ul>
-    <li class="fragment">JavaScript's complex data type</li>
-    <li class="fragment">Can hold many different data types
-    <pre><code class="javascript" contenteditable data-trim>
+---
+## Try it
+
+<iframe height='300' scrolling='no' title='dVeyLW' src='//codepen.io/planetoftheweb/embed/dVeyLW/?height=300&theme-id=27192&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/dVeyLW/'>dVeyLW</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+---
+
+## JavaScript Objects
+
+- Complex data type
+- Holds any var type
+
+```
 var info = {
   "full_name" : "Ray Villalobos",
   "title" : "Staff Author",
@@ -147,89 +106,102 @@ var info = {
     "twitter"  : "http://twitter.com/planetoftheweb"
   }
 };
+```
+<!-- .element: class="fragment" -->
 
-console.log(info.links.blog);    </code></pre>
-    </li>
-    <li class="fragment">console.log() sends info to console</li>
-    <li class="fragment">Accessed through dot notation</li>
-    <li class="fragment"><a class="jsbin-embed" href="http://jsbin.com/sacow/1/embed?javascript,output">Try it</a> Print out some of the other values</li>
-  </ul>
-</section> <!-- slide -->
+---
 
+## Try it
 
-<section class="title">
-  <h1>The DOM</h1>
-</section>
+<iframe height='300' scrolling='no' title='rGvaxx' src='//codepen.io/planetoftheweb/embed/rGvaxx/?height=300&theme-id=27192&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/rGvaxx/'>rGvaxx</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
-<!-- ============================== slide -->
-<section>
-<h1>Document Object Model</h1>
-  <ul>
-    <li class="fragment">The underlying structure of your page</li>
-    <li class="fragment">Target elements with CSS/JS</li>
-    <li class="fragment">Add, delete &amp; Modify</li>
-    <li class="fragment">querySelector() and querySelectorAll()</li>
-    <li class="fragment">View object using console.dir()</li>
-    <li class="fragment"><a class="jsbin-embed" href="http://jsbin.com/bibin/11/embed?js,output">Try it!</a> Try selecting other elements</li>
-  </ul>
-</section> <!-- slide -->
+---
 
-<!-- ============================== slide -->
-<section>
-<h1>Event Model</h1>
-  <ul>
-    <li class="fragment">Things that happen in your App</li>
-    <li class="fragment">clicks, mouseOvers, media/page loading, etc.</li>
-    <li class="fragment">Do something when event takes place</li>
-    <li class="fragment"><a class="jsbin-embed" href="http://jsbin.com/bibin/12/embed?js,output">Try it</a></li>
-    <li class="fragment">Notice we target the click on the parent</li>
-  </ul>
-</section> <!-- slide -->
+## Document Object Model (DOM)
 
-<!-- ============================== slide -->
-<section>
-<h1>Conditional Statements</h1>
-  <ul>
-    <li class="fragment">Do something only when it meets a condition</li>
-    <li class="fragment"><a class="jsbin-embed" href="http://jsbin.com/bibin/27/edit?html,css,js,output">Try it</a> </li>
-  </ul>
+- Page structure
+- Add, delete &amp; modify
+- `querySelector()`
+- `querySelectorAll()`
 
-</section> <!-- slide -->
+---
+## Try it
 
-<!-- ============================== slide -->
-<section>
-<h1>Loops</h1>
-  <ul>
-    <li class="fragment">Repeat the execution of something</li>
-    <li class="fragment"><a class="jsbin-embed" href="http://jsbin.com/bibin/22/edit?html,css,js,output">Try it</a></li>
-  </ul>
+<iframe height='300' scrolling='no' title='dVePvJ' src='//codepen.io/planetoftheweb/embed/dVePvJ/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/dVePvJ/'>dVePvJ</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
-</section> <!-- slide -->
+---
 
-<!-- ============================== slide -->
-<section>
-<h1>Functions</h1>
-  <ul>
-    <li class="fragment">Like a macro</li>
-    <li class="fragment">Can have parameters</li>
-    <li class="fragment"><a class="jsbin-embed" href="http://jsbin.com/bibin/26/edit?html,css,js,output">Simple Example</a></li>
-  </ul>
+## Events
 
-</section> <!-- slide -->
+- Things that happen
+- Clicks, mouseOvers, etc.
 
-<!-- ============================== slide -->
-<section>
-<h1>About jQuery</h1>
-  <ul>
-    <li class="fragment">JavaScript Library</li>
-    <li class="fragment">Fixes incompatibilities</li>
-    <li class="fragment">Makes things more consistent</li>
-    <li class="fragment">Uses the $ variable</li>
-    <li class="fragment"><a class="jsbin-embed" href="http://jsbin.com/bibin/24/embed?html,css,live">Try it</a> </li>
-  </ul>
-</section> <!-- slide -->
+---
 
-<!-- ============================== slide -->
-<section class="title">
-  <h1>The end</h1>
-</section>
+## Try It
+
+<iframe height='300' scrolling='no' title='rGvaZy' src='//codepen.io/planetoftheweb/embed/rGvaZy/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/rGvaZy/'>rGvaZy</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+---
+
+## Conditional Statements
+
+- True or False
+- Execute when conditions met
+
+---
+
+## Try it
+
+<iframe height='300' scrolling='no' title='WZJbYb' src='//codepen.io/planetoftheweb/embed/WZJbYb/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/WZJbYb/'>WZJbYb</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+---
+
+## Loops
+
+- Repeat execution
+
+```
+for (var index = 0; index < array.length; index++) {
+  var element = array[index];
+  
+}
+```
+<!-- .element: class="fragment" -->
+
+---
+## Try it
+
+<iframe height='300' scrolling='no' title='LzmEMm' src='//codepen.io/planetoftheweb/embed/LzmEMm/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/LzmEMm/'>LzmEMm</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+---
+
+## Functions
+
+- Like a macro
+- Can have parameters
+
+---
+## Try it
+
+<iframe height='300' scrolling='no' title='MEGYdJ' src='//codepen.io/planetoftheweb/embed/MEGYdJ/?height=300&theme-id=27192&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/MEGYdJ/'>MEGYdJ</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+---
+
+## jQuery
+
+- JS Library
+- Fixes incompatibilities
+- Uses the $ variable
+
+---
+
+## Try it
+
+<iframe height='300' scrolling='no' title='pWVJgR' src='//codepen.io/planetoftheweb/embed/pWVJgR/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/pWVJgR/'>pWVJgR</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
