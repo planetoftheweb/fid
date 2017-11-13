@@ -1,4 +1,4 @@
-<!-- .slide: data-background="#ff0000" id="slide_home" -->
+<!-- .slide: data-state="title" -->
   #Social Media
   ## on the web
   by Ray Villalobos
@@ -10,310 +10,267 @@
   - YouTube
   - Facebook
   - How can I use these for business
----
-
-<!-- .slide: class="title" -->
-
-![OReilly](images/ifocusonmywork.png)<br>
-![twitter logo](images/twitterlogo.png)<!-- .element: style="height: 80px;"--><br>
-## Twitter &amp; Social Media
 
 ---
 
-![OReilly](images/donutsocialmed.jpg)<!-- .element: style="max-height: 100%;"-->
-### What is Twitter?
+<!-- .slide: data-state="title" -->
 
----
-![twitter logo](images/twitterlogo.png)<!-- .element: style="height: 80px;"-->
-## What is Twitter?
-
-- Micro Blogging platform<!-- .element: class="fragment"-->
-- Real Time Posts<!-- .element: class="fragment"-->
-- 140 characters or less<!-- .element: class="fragment"-->
-- VERY public<!-- .element: class="fragment"-->
+## Twitter
 
 ---
 
-![OReilly](images/social-media-overload-cartoon.jpg)<!-- .element: style="max-height: 100%;"-->
-### How is it useful to a company?
+- Micro Blogging platform
+- Real Time Posts
+- 140 characters or less
+- VERY public
 
 ---
-![twitter logo](images/twitterlogo.png)<!-- .element: style="height: 80px;"-->
-### How is it useful to a company?
+## How is it useful to a company?
 
-- Generate Leads<!-- .element: class="fragment"-->
-- Customer Relations<!-- .element: class="fragment"-->
-- Promote Content<!-- .element: class="fragment"-->
-- Listening to Conversations<!-- .element: class="fragment"-->
-- Monitoring the brand<!-- .element: class="fragment"-->
-
----
-
-![twitter logo](images/typingfunny.gif)<!-- .element: style="height: 300px;"-->
-### Why useful to you?
-
-- Monitor News<!-- .element: class="fragment"-->
-- Get a job<!-- .element: class="fragment"-->
-- Interact with others<!-- .element: class="fragment"-->
-- Meet influencers<!-- .element: class="fragment"-->
+- Generate Leads
+- Customer Relations
+- Promote Content
+- Listening to Conversations
+- Monitoring the brand
 
 ---
 
-![twitter logo](images/twitterlogo.png)<!-- .element: style="height: 80px;"-->
-## Twitter Stats
+## Why useful to you?
 
-- 255 Million Active Users<!-- .element: class="fragment"-->
-- 55% Mobile Users<!-- .element: class="fragment"-->
-- 500 Million tweets daily<!-- .element: class="fragment"-->
-- 78% mobile users<!-- .element: class="fragment"-->
+- Monitor News
+- Get a job
+- Interact with others
+- Meet influencers
 
 ---
 
-![twitter logo](images/twitterlogo.png)<!-- .element: style="height: 80px;"-->
+## Stats
+
+- 255 Million Active Users
+- 55% Mobile Users
+- 500 Million tweets daily
+- 78% mobile users
+
+---
+
 ## Who is on twitter?
 
-- NFL Teams/50% NFL players/75% NBA players<!-- .element: class="fragment"-->
-- 82% Congress, 85% senators<!-- .element: class="fragment"-->
-- 87% of Top 100 Musicians<!-- .element: class="fragment"-->
-- 100% top 50 TV shows<!-- .element: class="fragment"-->
-- 99% America’s top 200 non-profits<!-- .element: class="fragment"-->
+- NFL Teams/50% NFL players/75% NBA players
+- 82% Congress, 85% senators
+- 87% of Top 100 Musicians
+- 100% top 50 TV shows
+- 99% America’s top 200 non-profits
 
 ---
 
-![twitter logo](images/foxsnowfail.gif)<!-- .element: style="height: 180px;"-->
 ## Twitter Economy
 
-- Tweets<!-- .element: class="fragment"-->
-- @mentions<!-- .element: class="fragment"-->
-- \#hashtags (Tweetchats)<!-- .element: class="fragment"-->
-- Direct Messaging<!-- .element: class="fragment"-->
-- Lists<!-- .element: class="fragment"-->
-- Favorites<!-- .element: class="fragment"-->
-- Searches<!-- .element: class="fragment"-->
+- Tweets
+- @mentions
+- \#hashtags (Tweetchats)
 
 ---
 
-![twitter logo](images/grocerybags.gif)<!-- .element: style="height: 180px;"-->
+## Twitter Economy
+
+- Direct Messaging
+- Lists
+- Favorites
+- Searches
+
+---
+
 ## What to tweet
 
-- Be Interesting<!-- .element: class="fragment"-->
-- Target your own audience<!-- .element: class="fragment"-->
-- Add Value<!-- .element: class="fragment"-->
-- Engage with others<!-- .element: class="fragment"-->
-- Ask questions<!-- .element: class="fragment"-->
-- Stalk high profile individuals<!-- .element: class="fragment"-->
-- Add pictures<!-- .element: class="fragment"-->
+- Be Interesting
+- Target your own audience
+- Add Value
+- Engage with others
 
 ---
 
-![twitter logo](images/garniershampoocow.gif)<!-- .element: style="height: 180px;"-->
-## Who to follow
+## What to tweet
 
-- Retweeters<!-- .element: class="fragment"-->
-- Favoriters<!-- .element: class="fragment"-->
-- Frequent tweeters<!-- .element: class="fragment"-->
-- Interesting tweeters<!-- .element: class="fragment"-->
-- Influentials<!-- .element: class="fragment"-->
-- Good Tweet Volume<!-- .element: class="fragment"-->
+- Ask questions
+- Stalk high profile individuals
+- Add pictures
 
 ---
 
-![twitter logo](images/twitterlogo.png)<!-- .element: style="height: 80px;"-->
 ## Who to follow
 
-- Profile Picture<!-- .element: class="fragment"-->
-- People who are followed<!-- .element: class="fragment"-->
-- People who are listed<!-- .element: class="fragment"-->
-- People not companies<!-- .element: class="fragment"-->
-- Compatible profiles<!-- .element: class="fragment"-->
-- Non annoying<!-- .element: class="fragment"-->
+- Retweeters
+- Favoriters
+- Frequent tweeters
+
+---
+
+## Who to follow
+- Interesting tweeters
+- Influentials
+- Good Tweet Volume
+- People who are followed
+
+---
+
+## Who to follow
+
+- People who are listed
+- People not companies
+- Compatible profiles
+- Non annoying
 
 ---
 
 ## Twitter Tips
 
-- Tweet Breaking News<!-- .element: class="fragment"-->
-- Tutorials<!-- .element: class="fragment"-->
-- Free Stuff<!-- .element: class="fragment"-->
-- Hard to find resources<!-- .element: class="fragment"-->
-- Add Call to action<!-- .element: class="fragment"-->
-- Leave room for RT (120 chars)<!-- .element: class="fragment"-->
+- Tweet Breaking News
+- Tutorials
+- Free Stuff
 
 ---
 
-## Tools
-### Twitonomy
+## Twitter Tips
 
-- Visual analytics & insights<!-- .element: class="fragment"-->
-- People you do not follow back<!-- .element: class="fragment"-->
-- Who does not follow you?<!-- .element: class="fragment"-->
-- How often they tweet<!-- .element: class="fragment"-->
-- Follower growth<!-- .element: class="fragment"-->
+- Hard to find resources
+- Add Call to action
+- Leave room for RT (120 chars)
 
 ---
 
-![twitter logo](images/twitterlogo.png)<!-- .element: style="height: 80px;"-->
-## Tools
-### Klout.com
-- Effectiveness<!-- .element: class="fragment"-->
-- Rankings<!-- .element: class="fragment"-->
+## Twitonomy
+
+- Visual analytics & insights
+- People you do not follow back
+- Who does not follow you?
+- How often they tweet
+- Follower growth
 
 ---
 
-![twitter logo](images/twitterlogo.png)<!-- .element: style="height: 80px;"-->
-## Tools
-### Tweetbot & Others
+## Tweetbot & Others
 
-- iOS & Desktop App<!-- .element: class="fragment"-->
-- tapbots.com<!-- .element: class="fragment"-->
-- Side by Side Streams<!-- .element: class="fragment"-->
+- iOS & Desktop App
+- tapbots.com
+- Side by Side Streams
 
 ---
 
-![twitter logo](images/twitterlogo.png)<!-- .element: style="height: 80px;"-->
-## Tools
-### analytics.twitter.com
+## analytics.twitter.com
 
+- Engagements
+- Link clicks
+- Retweeters
 
-- Engagements<!-- .element: class="fragment"-->
-- Link clicks<!-- .element: class="fragment"-->
-- Retweeters<!-- .element: class="fragment"-->
-- Favorites<!-- .element: class="fragment"-->
-- Replies<!-- .element: class="fragment"-->
-- Stats<!-- .element: class="fragment"-->
+---
 
-</script>
-</section>
+## analytics.twitter.com
 
-        <section>
-          <iframe width="560" height="315" style="width: 100%; min-height: 500px; height: auto;" src="http://www.youtube.com/embed/OGNpmBhIOsM" frameborder="0" allowfullscreen></iframe>
-        </section>
+- Favorites
+- Replies
+- Stats
 
+---
 
-        <section>
-          <h1>YouTube</h1>
-          <div class="subhead"><a href="http://www.youtube.com/t/press_statistics">Stats</a></div>
-            <ul>
-              <li><div class="fragment">240,000 full length films every week</div></li>
-              <li><div class="fragment">3 billion videos viewed per day</div></li>
-              <li><div class="fragment">Over 800 million unique users visit YouTube each month</div></li>
-              <li><div class="fragment">Google Searchable, link to sites, FB pages, etc.</div></li>
-            </ul>
-        </section> <!-- slide -->
+<!-- .slide: data-state="title" -->
 
-        <section>
-          <h1>YouTube</h1>
-          <div class="subhead">What to do</div>
-            <ul>
-              <li><div class="fragment">Create a channel</div></li>
-              <li><div class="fragment">Publish your videos</div></li>
-              <li><div class="fragment">Tie them to other websites</div></li>
-              <li><div class="fragment">Get an audience/monetize</div></li>
-            </ul>
-        </section> <!-- slide -->
+## YouTube
 
+---
 
-        <section>
-          <h1>Facebook</h1>
-          <div class="subhead"><a href="http://www.scribd.com/doc/123034877/Facebook-Q4-2012-Investor-Slide-Deck">Stats</a></div>
-            <ul>
-              <li><div class="fragment">1.06 billion monthly active users</div></li>
-              <li><div class="fragment">618 million daily active users</div></li>
-              <li><div class="fragment">680 million mobile</div></li>
-              <li><div class="fragment">$1.58 billion in revenue for the last quarter</div></li>
-              <li><div class="fragment"><a href="http://www.socialbakers.com/facebook-statistics/united-states">163 Million US users</a> (53% of population)</div></li>
-            </ul>
-        </section> <!-- slide -->
+## <a href="http://www.youtube.com/t/press_statistics">Stats</a>
+- 240,000 full length films every week
+- 3 billion videos viewed per day
+- Over 800 million unique users visit YouTube each month
+- Google Searchable, link to sites, FB pages, etc.
 
+---
 
-        <section>
-          <h1>Facebook</h1>
-          <div class="subhead">What can I do?</div>
-            <ul>
-              <li><div class="fragment">Personal Profile</div></li>
-              <li><div class="fragment">Organize a Group</div></li>
-              <li><div class="fragment">Create a Business Page</div></li>
-              <li><div class="fragment">Place an ad</div></li>
-            </ul>
-        </section> <!-- slide -->
+## What to do
+- Create a channel
+- Publish your videos
+- Tie them to other websites
+- Get an audience/monetize
 
+---
 
-        <section>
-          <h1>Facebook</h1>
-          <div class="subhead">Being Effective</div>
-            <ul>
-              <li><div class="fragment">Add a video or photo</div></li>
-              <li><div class="fragment">Only business in search engines, not personal profiles</div></li>
-              <li><div class="fragment">Create events</div></li>
-              <li><div class="fragment">Tag people in photos</div></li>
-              <li><div class="fragment">Keep it personal</div></li>
-            </ul>
-        </section> <!-- slide -->
+## <a href="http://www.scribd.com/doc/123034877/Facebook-Q4-2012-Investor-Slide-Deck">Stats</a>
+- 1.06 billion monthly active users
+- 618 million daily active users
+- 680 million mobile
+- $1.58 billion in revenue for the last quarter
+- <a href="http://www.socialbakers.com/facebook-statistics/united-states">163 Million US users</a> (53% of population)
 
+---
 
-        <section>
-          <h1>Facebook Groups</h1>
-          <div class="subhead"><a href="https://www.facebook.com/groups">Create a group</a></div>
-            <ul>
-              <li><div class="fragment">Members can invite other members</div></li>
-              <li><div class="fragment">Groups can be open, closed or secret</div></li>
-              <li><div class="fragment">Multiple Admins</div></li>
-              <li><div class="fragment">People can talk to group friends</div></li>
-              <li><div class="fragment">Group Events</div></li>
-              <li><div class="fragment">Chat as group</div></li>
-              <li><div class="fragment">Photos, shared docs, email group, polls</div></li>
-            </ul>
-        </section> <!-- slide -->
+<!-- .slide: data-state="title" -->
 
+## Facebook
 
-        <section>
-          <h1>Facebook Groups</h1>
-          <div class="subhead">Group features</div>
-            <ul>
-              <li><div class="fragment">Multiple admins</div></li>
-              <li><div class="fragment">Spam/profanity Controls</div></li>
-              <li><div class="fragment">Custom username</div></li>
-              <li><div class="fragment">Social Plugins</div></li>
-              <li><div class="fragment">Link to twitter</div></li>
-              <li><div class="fragment">Facebook Insights</div></li>
-            </ul>
-        </section> <!-- slide -->
+---
 
+## What can I do?
+- Personal Profile
+- Organize a Group
+- Create a Business Page
+- Place an ad
 
-        <section>
-          <h1>Facebook Pages</h1>
-          <div class="subhead"><a href="https://www.facebook.com/pages/create.php">Create a business page</a></div>
-            <ul>
-              <li><div class="fragment">Multiple admins</div></li>
-              <li><div class="fragment">Spam/profanity Controls</div></li>
-              <li><div class="fragment">Custom username</div></li>
-              <li><div class="fragment">Social Plugins</div></li>
-              <li><div class="fragment">Link to twitter</div></li>
-              <li><div class="fragment">Facebook Insights</div></li>
-            </ul>
-        </section> <!-- slide -->
+---
 
+## Being Effective
+- Add a video or photo
+- Only business in search engines, not personal profiles
+- Create events
+- Tag people in photos
+- Keep it personal
 
-        <section>
-          <h1>Facebook Pages</h1>
-          <div class="subhead">What can I do as a business</div>
-            <ul>
-              <li><div class="fragment">Comment on walls as business</div></li>
-              <li><div class="fragment">Go to related pages and post</div></li>
-              <li><div class="fragment">Respond to concerns on other pages</div></li>
-              <li><div class="fragment">Like complementing businesses</div></li>
-            </ul>
-        </section> <!-- slide -->
+---
 
+## <a href="https://www.facebook.com/groups">Create a group</a>
+- Members can invite other members
+- Groups can be open, closed or secret
+- Multiple Admins
+- People can talk to group friends
+- Group Events
+- Chat as group
+- Photos, shared docs, email group, polls
 
-        <section>
-          <h1>Being Social</h1>
-          <div class="subhead">How to really be awesome</div>
-            <ul>
-              <li><div class="fragment">Be friendly</div></li>
-              <li><div class="fragment">Share what you know</div></li>
-              <li><div class="fragment">Volunteer with gusto</div></li>
-              <li><div class="fragment">It's better to give than to receive</div></li>
-              <li><div class="fragment">Yes, it's tough and hard work</div></li>
-            </ul>
-        </section> <!-- slide -->
+---
+
+## Group features
+- Multiple admins
+- Spam/profanity Controls
+- Custom username
+- Social Plugins
+- Link to twitter
+- Facebook Insights
+
+---
+
+## Facebook Pages
+## <a href="https://www.facebook.com/pages/create.php">Create a business page</a>
+- Multiple admins
+- Spam/profanity Controls
+- Custom username
+- Social Plugins
+- Link to twitter
+- Facebook Insights
+
+---
+
+## Facebook Pages
+## What can I do as a business
+- Comment on walls as business
+- Go to related pages and post
+- Respond to concerns on other pages
+- Like complementing businesses
+
+---
+
+## Being Social
+- Be friendly
+- Share what you know
+- Volunteer with gusto
+- It's better to give than to receive
+- Yes, it's tough and hard work
+
