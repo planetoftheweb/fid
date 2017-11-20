@@ -1,160 +1,120 @@
-
-<!-- .slide: class="title" -->
+<!-- .slide: data-state="title" -->
 
 # Search Engine Optimization
 
 ---
 
 # What does it mean?
-- Better exposure in Search Results<!-- .element: class="fragment"-->
-- Improving your authority on a topic<!-- .element: class="fragment"-->
+- Better exposure in Search Results
+- Improving your authority on a topic
 
 ---
 
 # What does Google want?
-- Find relevant results<!-- .element: class="fragment"-->
-- Rank results based on authority<!-- .element: class="fragment"-->
-- Sell ads<!-- .element: class="fragment"-->
+- Find relevant results
+- Rank results based on authority
+- Sell ads
 
 ---
 
 # What people want
-- Information<!-- .element: class="fragment"-->
-- Socialize<!-- .element: class="fragment"-->
-- Purchasing<!-- .element: class="fragment"-->
-- Kill some time<!-- .element: class="fragment"-->
+- Information
+- Socialize
+- Purchasing
+- Kill some time
 
 ---
 
 # How people search
-- Keyword phrases not words<!-- .element: class="fragment"-->
-- Video or Photo<!-- .element: class="fragment"-->
-- Look at the title, description and URL<!-- .element: class="fragment"-->
-- Decide based on intent<!-- .element: class="fragment"-->
+- Keyword phrases not words
+- Video or Photo
+- Look at the title, description and URL
+- Decide based on intent
 
 ---
 
 # What they get
 
-- Blended results: Local, Maps, etc.<!-- .element: class="fragment"-->
-- Organic--naturally showing up in results<!-- .element: class="fragment"-->
-- Paid--What you do outside your page<!-- .element: class="fragment"-->
+- Blended results: Local, Maps, etc.
+- Organic--naturally showing up in results
+- Paid--What you do outside your page
 
 ---
 
 # Authority determination
-- How many site link to your site<!-- .element: class="fragment"-->
-- Content related to keyword phrase<!-- .element: class="fragment"-->
+- How many sites link to your site
+- Content related to keyword phrase
+- How current your content is
+- What is your inventory on this topic
 
 ---
 
-<!-- .slide: class="title" -->
+<!-- .slide: data-state="title" -->
 
 # Keyword Research
 
 ---
 
 # Keyword Research
-- Phrases<!-- .element: class="fragment"-->
-- Volume, Relevance and Competition<!-- .element: class="fragment"-->
-- Put yourselves in THEIR shoes<!-- .element: class="fragment"-->
-- Make list of services<!-- .element: class="fragment"-->
-- Rank them according to above<!-- .element: class="fragment"-->
-
+- Focus on Phrases
+- Volume, Relevance and Competition
 
 ---
 
 # [Google Keyword Tool](http://adwords.google.com)
-- Part of AdWords<!-- .element: class="fragment"-->
-- Shows how people are searching<!-- .element: class="fragment"-->
-- Free Keyword Research<!-- .element: class="fragment"-->
-- Keyword phrases are the key<!-- .element: class="fragment"-->
-
----
-
-# Google Keyword Tool
-- Type in keyword phrases<!-- .element: class="fragment"-->
-- Type in a URL for crawl<!-- .element: class="fragment"-->
-- Choose colums of data<!-- .element: class="fragment"-->
-
----
-
-# Advanced Options
-- Choose Location<!-- .element: class="fragment"-->
-- Device Options<!-- .element: class="fragment"-->
-- Level of Competition<!-- .element: class="fragment"-->
-- Global vs Local Monthly<!-- .element: class="fragment"-->
-- Exact vs Broad vs Phrase<!-- .element: class="fragment"-->
+- Part of AdWords
+- Shows how people are searching
+- Free Keyword Research
 
 ---
 
 # [Google Insights for search](http://google.com/insights/search)
-- History<!-- .element: class="fragment"-->
-- Geography<!-- .element: class="fragment"-->
-- Related keywords<!-- .element: class="fragment"-->
-
----
-
-# To do
-- Analyze your competition<!-- .element: class="fragment"-->
-- Establish your author rank<!-- .element: class="fragment"-->
-- Learn about Analytics<!-- .element: class="fragment"-->
+- History
+- Geography
+- Related keywords
 
 ---
 
 # Planning Content
-- Post unique and fresh content regularly<!-- .element: class="fragment"-->
-- Optimize your titles and content<!-- .element: class="fragment"-->
-- Use keyword phrase driven text<!-- .element: class="fragment"-->
-- Use social networks<!-- .element: class="fragment"-->
+- Post unique and fresh content regularly
+- Optimize your titles and content
+- Use keyword phrase driven text
+- Use social networks
 
 ---
 
 # Off Page
-- Quality inbound links<!-- .element: class="fragment"-->
-- Do not be part of a lot of links<!-- .element: class="fragment"-->
-- Links from higher PageRank sites are better<!-- .element: class="fragment"-->
-- Organic links in body text are better<!-- .element: class="fragment"-->
-- Vary your inbound link destinations<!-- .element: class="fragment"-->
-
----
-
-# On/Off Page
-- Links from relevant pages are better<!-- .element: class="fragment"-->
-- Surrounding relevant text is better<!-- .element: class="fragment"-->
-- Anchor label is critical<!-- .element: class="fragment"-->
-- Commenting is good...sort of<!-- .element: class="fragment"-->
+- Quality inbound links
+- Do not be part of a lot of links
+- Links from higher PageRank sites are better
+- Organic links in body text are better
+- Vary your inbound link destinations
 
 ---
 
 # URLs
-- Most important<!-- .element: class="fragment"-->
-- Domain name is more critical than page titles<!-- .element: class="fragment"-->
-- Have keywords in the URL<!-- .element: class="fragment"-->
-- Make them easy to read: not ?id=456<!-- .element: class="fragment"-->
-- Easy to crawl<!-- .element: class="fragment"-->
+- Most important
+- Domain name is more critical than page titles
+- Have keywords in the URL
+- Make them easy to read: not ?id=456
 
 ---
 
 # Page Titles
-- Very important<!-- .element: class="fragment"-->
-- Unique, descriptive and keyword driven<!-- .element: class="fragment"-->
-- Use the description meta tag<!-- .element: class="fragment"-->
+- Very important
+- Unique, descriptive and keyword driven
+- Use the description meta tag
 
 ---
 
 # Heading Tags
-- Pretend writing an outline<!-- .element: class="fragment"-->
-- Use headings sparingly<!-- .element: class="fragment"-->
-- Add keywords to your heading naturally<!-- .element: class="fragment"-->
+- Pretend writing an outline
+- Use headings sparingly
+- Add keywords to your heading naturally
 
 ---
 
 # Promoting Site
-- Blog and tweet often<!-- .element: class="fragment"-->
-- Use URLs on print, QR codes<!-- .element: class="fragment"-->
-- Use Google places<!-- .element: class="fragment"-->
-
-
-</script>
-</section>
+- Blog and tweet often
+- Use URLs on print, QR codes
+- Use Google places
