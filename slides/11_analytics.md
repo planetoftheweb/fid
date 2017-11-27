@@ -4,7 +4,7 @@
 
 ---
 
-# What are Analytic?
+# What are Analytics?
 - How Traffic works on your site
 - Effectiveness of your efforts
 - Determine value of the visitors
@@ -16,14 +16,6 @@
 # What Analytics will not do
 - Diagnose issues
 - Fix problems for you
-
----
-
-# Create an Account
-- Visit Analytics Website
-- Google Account or Login
-- Gmail, Adwords, Plus, Etc.
-- Sign up with your [own email](accounts.google.com/signupwithoutgmail) (private browsing)
 
 ---
 
@@ -43,23 +35,6 @@
 - GA Premium (>200k visits)
     - Large Site (<4 hours - minutes)
     - Small Site (Usually minutes)
-
----
-
-![Admin Options](images/adminoptions.png)
-# Admin Options
-- Modify Account Settings
-- Modify/Create new properties
-- Control Views
-
----
-
-# Reporting Tabs
-- Tabs at the top
-- Home -- Choose Accounts
-- Reporting -- View Current Report
-- Custom -- For special reports
-- Views -- Creating different data views
 
 ---
 
