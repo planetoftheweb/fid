@@ -1,101 +1,87 @@
-<!-- .slide: class="title" -->
+<!-- .slide: data-state="title" -->
 
 # Using Analytics
 
 ---
 
 # What are Analytic?
-- How Traffic works on your site<!-- .element: class="fragment"-->
-- Effectiveness of your efforts<!-- .element: class="fragment"-->
-- Determine value of the visitors<!-- .element: class="fragment"-->
-- Interactions with your content<!-- .element: class="fragment"-->
-- Identify performance issues<!-- .element: class="fragment"-->
+- How Traffic works on your site
+- Effectiveness of your efforts
+- Determine value of the visitors
+- Interactions with your content
+- Identify performance issues
 
 ---
 
 # What Analytics will not do
-- Diagnose issues<!-- .element: class="fragment"-->
-- Fix problems for you<!-- .element: class="fragment"-->
+- Diagnose issues
+- Fix problems for you
 
 ---
 
 # Create an Account
-- Visit Analytics Website<!-- .element: class="fragment"-->
-- Google Account or Login<!-- .element: class="fragment"-->
-- Gmail, Adwords, Plus, Etc.<!-- .element: class="fragment"-->
-- Sign up with your [own email](accounts.google.com/signupwithoutgmail)<!-- .element: class="fragment"--> (private browsing)<!-- .element: class="fragment"-->
+- Visit Analytics Website
+- Google Account or Login
+- Gmail, Adwords, Plus, Etc.
+- Sign up with your [own email](accounts.google.com/signupwithoutgmail) (private browsing)
 
 ---
 
 # How Analytics work
-- Create accounts for sites<!-- .element: class="fragment"-->
-- Insert a JS file on your pages<!-- .element: class="fragment"-->
-- Keeps track of user navigation<!-- .element: class="fragment"-->
-- Stores it as data<!-- .element: class="fragment"-->
-- Creates reports<!-- .element: class="fragment"-->
+- Create accounts for sites
+- Insert a JS file on your pages
+- Keeps track of user navigation
+- Stores it as data
+- Creates reports
 
 ---
 
 # GA Tiers
-- GA Standard (<200k visits)<!-- .element: class="fragment"-->
-    - Large Site (24 hours or more)<!-- .element: class="fragment"-->
-    - Small Site (3-4 hours or more)<!-- .element: class="fragment"-->
-- GA Premium (>200k visits)<!-- .element: class="fragment"-->
-    - Large Site (<4 hours - minutes)<!-- .element: class="fragment"-->
-    - Small Site (Usually minutes)<!-- .element: class="fragment"-->
+- GA Standard (<200k visits)
+    - Large Site (24 hours or more)
+    - Small Site (3-4 hours or more)
+- GA Premium (>200k visits)
+    - Large Site (<4 hours - minutes)
+    - Small Site (Usually minutes)
 
 ---
 
 ![Admin Options](images/adminoptions.png)
 # Admin Options
-- Modify Account Settings<!-- .element: class="fragment"-->
-- Modify/Create new properties<!-- .element: class="fragment"-->
-- Control Views<!-- .element: class="fragment"-->
+- Modify Account Settings
+- Modify/Create new properties
+- Control Views
 
 ---
 
 # Reporting Tabs
-- Tabs at the top<!-- .element: class="fragment"-->
-- Home -- Choose Accounts<!-- .element: class="fragment"-->
-- Reporting -- View Current Report<!-- .element: class="fragment"-->
-- Custom -- For special reports<!-- .element: class="fragment"-->
-- Views -- Creating different data views<!-- .element: class="fragment"-->
+- Tabs at the top
+- Home -- Choose Accounts
+- Reporting -- View Current Report
+- Custom -- For special reports
+- Views -- Creating different data views
 
 ---
 
 # Basic Metrics
-- Sessions<!-- .element: class="fragment"-->
-- Users<!-- .element: class="fragment"-->
-- PageViews<!-- .element: class="fragment"-->
-- Pages/Sessions<!-- .element: class="fragment"-->
-- Avg Duration<!-- .element: class="fragment"-->
-- Bounce Rate<!-- .element: class="fragment"-->
-- % New Sesssions<!-- .element: class="fragment"-->
+- Sessions
+- Users
+- PageViews
+- Pages/Sessions
+- Avg Duration
+- Bounce Rate
+- % New Sesssions
 
 ---
 
 # Data Over Time
-- Default last 30 days<!-- .element: class="fragment"-->
-- Data can be adjusted by date<!-- .element: class="fragment"-->
-- View my Hourly, Day, Week, Month<!-- .element: class="fragment"-->
-- Multiple Date Ranges<!-- .element: class="fragment"-->
+- Default last 30 days
+- Data can be adjusted by date
+- View my Hourly, Day, Week, Month
+- Multiple Date Ranges
 
 ---
 
-# Annotations
-- Powerful way of explaining things<!-- .element: class="fragment"-->
-- You can add notes to your graphs<!-- .element: class="fragment"-->
-- Click on bottom of graph<!-- .element: class="fragment"-->
+<!-- .slide: data-state="title" -->
 
----
-
-# Acquisition
-- Another great way to analyze data<!-- .element: class="fragment"-->
-- Channels - Where your traffic came from<!-- .element: class="fragment"-->
-
----
-
-# Behavior
-- Flow
-- Site Content
-- Speed
+## Demo
