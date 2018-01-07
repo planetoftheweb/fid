@@ -97,10 +97,17 @@ code {
 }
 
 .sidebar-module-list {
-  padding-left: 0;
-  list-style: none;
+  padding-left: 1em;
+  line-height: 105%;
+  list-style: circle;
 }
+
+.sidebar-module-list li {
+  margin-bottom: .5em;
+}
+
 .sidebar-module-list-child {
+  margin-top: 1em;
   padding-left: 25px;
 }
 
