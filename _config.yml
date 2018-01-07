@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Fundamentals of Interactive Design
-subtitle: Seminole State College
+title: 
+subtitle: 
 description: This is a website for my class Fundamentals of Interactive Design at Seminole State College.
 author: Ray Villalobos
-language:
+language: en
 timezone:
 
 # URL
