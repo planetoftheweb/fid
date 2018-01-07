@@ -74,6 +74,11 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: bootstrap4
 
+# Plugin hexo-generator-search 
+search:
+  path: search.json
+  field: post
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
