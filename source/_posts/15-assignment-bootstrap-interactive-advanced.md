@@ -1,7 +1,7 @@
 ---
-title: Bootstrap Advanced Interactive Components
+title: Bootstrap Advanced Interactive
 date: 2018-04-17 00:00:00
-permalink: bootstrap-advanced-interactive-components
+permalink: bootstrap-advanced-interactive
 tags:
 - bootstrap
 - javascript

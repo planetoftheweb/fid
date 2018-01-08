@@ -1,7 +1,7 @@
 ---
-title: Bootstrap Advanced Layout Components
+title: Bootstrap Advanced Components
 date: 2018-04-03 00:00:00
-permalink: bootstrap-layout-components-advanced
+permalink: bootstrap-components-advanced
 tags:
 - bootstrap
 - layout

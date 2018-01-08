@@ -1,7 +1,7 @@
 ---
-title: Bootstrap Layouts
+title: Bootstrap Components
 date: 2018-03-27 00:00:00
-permalink: bootstrap-layout-components
+permalink: bootstrap-components
 tags:
 - bootstrap
 - layout
