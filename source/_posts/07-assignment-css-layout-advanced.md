@@ -1,5 +1,5 @@
 ---
-title: Create a Page Using CSS Layout
+title: Advanced CSS Layouts
 date: 2018-02-13 00:00:00
 permalink: css-layout-advanced
 tags:

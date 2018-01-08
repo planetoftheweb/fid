@@ -489,7 +489,7 @@
 /* Globals */
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Merriweather", serif;
   color: #555;
 }
 
@@ -499,41 +499,14 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  margin-top: 1em;
-  margin-bottom: 15px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans",sans-serif;
   font-weight: normal;
-  color: #333;
-}
-
-p {
-  margin: 0 0 15px;
+  color: #555;
 }
 
 code {
   background-color: #eeeeee;
   font-size: 80%;
-}
-
-.fa { margin-right: 0.25em; }
-
-/* Buttons */
-.btn {
-  border-radius: 30px;
-}
-.btn-primary {
-  background-color: #428bca;
-  border-color: #337ab7;
-}
-.nav-pills>li>a {
-  border-radius: 30px;
-}
-
-/* Override Bootstrap's default container width */
-@media (min-width: 1200px) {
-  .container {
-    width: 970px;
-  }
 }
 
 /*
@@ -542,70 +515,13 @@ code {
 
 .navbar {
   background-color: #428bca;
-  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
-          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+}
+.navbar-brand {
+  font-size: 1.2em;
 }
 
-.navbar-inverse { border: 0; }
-
-.navbar-inverse .navbar-toggle {
-  border-color: #cdddeb;
-}
-.navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #cdddeb;
-}
-
-.navbar-inverse .navbar-toggle:focus,
-.navbar-inverse .navbar-toggle:hover {
-  background-color: #65A2D6;
-}
-
-.navbar-inverse .navbar-brand,
-.navbar-inverse .navbar-nav>li>a {
-  color: #cdddeb;
-  font-weight: 500;
-}
-
-.navbar-inverse .navbar-collapse,
-.navbar-inverse .navbar-form {
-  border-color: #cdddeb;
-}
-
-.navbar-inverse .navbar-nav>li>a.active {
-  color: #fff;
-}
-
-@media (min-width: 768px) {
-  .navbar {
-    border-radius: 0;
-    min-height: 40px;
-  }
-
-  /** The following may need modification depending on
-      the size of your `navbar-brand` (if enabled) */
-  #main-menu-navbar {
-    margin-left: -30px;
-  }
-  .navbar-nav>li>a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  /** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-
-  .navbar-inverse .navbar-nav>li>a.active:after {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 0;
-    height: 0;
-    margin-left: -5px;
-    vertical-align: middle;
-    content: " ";
-    border-right: 5px solid transparent;
-    border-bottom: 5px solid;
-    border-left: 5px solid transparent;
-  }
-}
 
 /*
  * Blog header and description
@@ -639,6 +555,7 @@ code {
 
 /* Sidebar modules for boxing content */
 .sidebar-module {
+  font-family: "Open Sans", sans-serif;
   padding: 15px;
   margin: 0 -15px 15px;
 }
@@ -658,10 +575,17 @@ code {
 }
 
 .sidebar-module-list {
-  padding-left: 0;
-  list-style: none;
+  padding-left: 1em;
+  line-height: 105%;
+  list-style: circle;
 }
+
+.sidebar-module-list li {
+  margin-bottom: .5em;
+}
+
 .sidebar-module-list-child {
+  margin-top: 1em;
   padding-left: 25px;
 }
 
@@ -671,7 +595,7 @@ code {
  */
 
 .article {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 .article-header h1 {
@@ -712,8 +636,8 @@ code {
 /* article footer content */
 .article-footer {
   font-size: 0.85em;
-  border-top: 1px solid #eee;
-  padding-top: 15px;
+  border: none;
+  padding-top: 0;
 }
 .article-footer:after { /* clearfix */
   content: " ";

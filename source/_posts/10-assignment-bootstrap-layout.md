@@ -1,6 +1,6 @@
 ---
 title: Bootstrap Layouts
-date: 2018-02-27 00:00:00
+date: 2018-03-13 00:00:00
 permalink: bootstrap-layout
 tags:
 - bootstrap
