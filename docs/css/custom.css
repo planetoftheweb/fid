@@ -26,6 +26,10 @@ h6, .h6 {
   color: #555;
 }
 
+a {
+  color: #306492;
+}
+
 code {
   background-color: #eeeeee;
   font-size: 80%;
@@ -36,7 +40,7 @@ code {
  */
 
 .navbar {
-  background-color: #428bca;
+  background-color: #306492;
   font-family: "Open Sans", sans-serif;
   font-size: 1.2rem;
 }
@@ -49,9 +53,22 @@ code {
  * Blog header and description
  */
 
+.site-header {
+  height: 45vh;
+  background: url(../images/siteillustration.png) no-repeat center center;
+  background-size: cover;
+} 
+@media (min-width: 0) and (max-width: 700px) { 
+  .site-header {
+    height: 30vh;
+  } 
+}
+
+
 .blog-header {
   padding-bottom: 20px;
 }
+
 .blog-title {
   margin-top: 30px;
   margin-bottom: 0;
@@ -118,11 +135,15 @@ code {
 
 .article {
   margin-bottom: 20px;
+  font-size: 1.5 rem; 
 }
 
-.article-header h1 {
+.article-header .article-title {
   margin-top: 0;
   margin-bottom: 5px;
+  font-size: 2.7rem;
+  font-weight: 300;
+  color: #23527c;
 }
 .article-header h1 a {
   color: #333;
@@ -143,6 +164,35 @@ code {
 }
 .article-meta a {
   color: inherit;
+}
+
+.article-entry {
+  font-size: 1.1em;
+  line-height: 180%;
+}
+
+.article-entry h2 {
+  margin-bottom: 1rem;
+  color: #23527c;
+}
+
+.article-entry h3 {
+  color: #c95a26;
+}
+
+.article-entry a {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(60, 80, 92);
+  text-decoration: underline;   
+}
+
+.article-entry p {
+  margin-bottom: 2rem;
+}
+
+.article-entry li {
+  line-height: 140%;
+  padding-bottom: .5em;
 }
 
 .article-entry .article-more-link {
@@ -224,12 +274,19 @@ code {
  */
 
 .blog-footer {
-  padding: 40px 0;
+  padding: 30px 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
   color: #999;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color:  rgb(231, 240, 243);
   border-top: 1px solid #e5e5e5;
 }
+
+.blog-footer .icon {
+ font-size: 1.4em;  
+}
+
 .blog-footer p:last-child {
   margin-bottom: 0;
 }

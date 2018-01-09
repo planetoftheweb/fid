@@ -37,7 +37,7 @@ A short paragraph with a welcome message plus 4-6 sentences that include a short
 
 ### Skills
 
-An unordered list of your skills. These would be something other than software skills. In LinkedIn, they appear in the Featured Skills and endorsements. For example the top skills (https://www.linkedin.com/in/planetoftheweb/)[on my LinkedIn profile] are listed as: User Interface Design, User Experience, Web Development, CSS, JavaScript, etc. Please list **at least ten skills**...think of the skills you'll be learning in this or other classes this semester.
+An unordered list of your skills. These would be something other than software skills. In LinkedIn, they appear in the Featured Skills and endorsements. For example the top skills [on my LinkedIn profile](https://www.linkedin.com/in/planetoftheweb/) are listed as: User Interface Design, User Experience, Web Development, CSS, JavaScript, etc. Please list **at least ten skills**...think of the skills you'll be learning in this or other classes this semester.
 
 ### Software/Hardware
 
@@ -58,7 +58,7 @@ These will be images to samples of previous work. If you've done some work for o
 - Convert text links to URLs using the [anchor](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) tag
 - Convert links to work samples to images using the [img](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Img) tag.
 - Use [ordered](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol) and [unordered](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul) lists where necessary.
-- [strong tag]Use the (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong) to give strong importance to text.
+- Use the [strong tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong) to give strong importance to text.
 - **DO NOT** use any tags not mentioned in this list.
 - **DO NOT** use anything that will format or style the document in any way.
 </ul>
