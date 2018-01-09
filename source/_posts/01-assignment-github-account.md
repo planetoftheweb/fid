@@ -32,7 +32,7 @@ In the issue you will include the following:
 
 ## Submitting the Issue
 
-Create a README.md file on your site (help with [markdown syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/). You're welcome to use the same info in the issues or keep it simpler.
+Create a README.md file on your site (help with [markdown syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)). You're welcome to use the same info in the issues or keep it simpler.
 
 Remember that Github as well as this class repo is a public website, so the issues will be public. You don't have to put your name on these.
 
