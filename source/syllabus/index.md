@@ -53,30 +53,8 @@ It's not realistic for me to be answering questions about the assignments hours 
 
 I am an adjunct, which means that I have no office hours or an office at the college. I can answer questions through github issues and will be happy to do so or help you during class. If you need additional assistance, there are a number of labs available throughout the campus. Make sure you[check the schedules](http://www.seminolestate.edu/computers/labhours/) for when the labs are available.
 
-## Important Links
+## Learn more
 
-- [Github](https://github.com/)
-- [Lynda.com](http://lynda.com/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Atom](https://atom.io/)
-- [Slides](https://raybo.org/FID)
-- [Github Issues](https://github.com/planetoftheweb/FID/issues)
-- [Lab Schedules](http://www.seminolestate.edu/computers/labhours/)
-- [Academic Calendars](https://www.seminolestate.edu/catalog/#calendar)
-- [How to use Lynda.com](https://www.lynda.com/NA-tutorials/How-use-Lynda-com/77683-2.html)
-- [Visual Studio Code](https://www.lynda.com/Visual-Studio-tutorials/Visual-Studio-Code-Web-Developers/588785-2.html)
-- [Atom](https://www.lynda.com/Web-Development-tutorials/Learn-Atom-Basics/468147-2.html)
 - [Github for Web Designers](https://www.lynda.com/GitHub-tutorials/GitHub-Web-Designers/162276-2.html)
-- [HTML Essential Training](https://www.lynda.com/Web-Development-tutorials/HTML-Essential-Training/170427-2.html)
-- [CSS Essential Training 1](https://www.lynda.com/CSS-tutorials/CSS-Essential-Training-1/569190-2.html)
-- [CSS Essential Training 2](https://www.lynda.com/CSS-tutorials/CSS-Essential-Training-2/569189-2.html)
-- [CSS Essential Training 3](https://www.lynda.com/CSS-tutorials/CSS-Essential-Training-3/609030-2.html)
-- [Bootstrap 4 Essential Training](https://www.lynda.com/Bootstrap-tutorials/Bootstrap-4-Essential-Training/372545-2.html)
-
-
-## Useful Resources
-
-- [Codepen](https://codepen.io/)
-- [Mozilla Developer Network](https://developer.mozilla.org/)
-- [Bootstrap](http://getbootstrap.com/)
-- [JSBin](http://jsbin.com/)
+- [Learn Git and Github](https://www.lynda.com/Git-tutorials/Up-Running-Git-GitHub/409275-2.html)
+- [Git Essential Training](https://www.lynda.com/Git-tutorials/Git-Essential-Training/100222-2.html)

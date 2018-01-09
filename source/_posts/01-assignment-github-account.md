@@ -27,7 +27,7 @@ In the issue you will include the following:
 - A one or two sentence answer to each of the following questions (pretend you're interviewing for a job in my company)
 - What experience do you have building websites?
 - What software experience do you currently have?
-- What are some of your strongest soft skills (read this)?
+- What are some of your strongest soft skills ([read this](https://www.linkedin.com/pulse/skills-companies-need-most-2018-courses-get-them-paul-petrone))?
 - Where do you see yourself working after you complete your studies?
 
 ## Submitting the Issue
