@@ -8,7 +8,7 @@ tags:
 categories:
 - assignments
 ---
-For this assignment you will create an account for [lynda.com](http://lynda.com/). It's not a free account, but you can find it at most public libraries for free. Go to your public library and ask for a special code to receive a lynda.com account. They will give you further instructions to set this up.
+For this assignment you will create an account for [lynda.com](http://lynda.com/). It's not a free account, but you can find it at some public libraries for free. Go to your public library and ask for a special code to receive a lynda.com account. They will give you further instructions to set this up.
 
 <!-- more -->
 
