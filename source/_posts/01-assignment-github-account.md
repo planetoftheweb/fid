@@ -12,11 +12,16 @@ For this assignment, you'll simply create a [Github Account](http://github.com) 
 
 <!-- more -->
 
-## Read these first
+## Class Resources
+- [Slides](http://www.raybo.org/fid-slides/?d=01b_hosting_on_github&)
+- [Notes](https://github.com/planetoftheweb/fid-slides/blob/master/slides/01b_hosting_on_github.md)
+
+## Online Resources
 
 - [Creating a new Repository](https://help.github.com/articles/creating-a-new-repository) 
 - [Creating an Issue in Github](https://help.github.com/articles/creating-an-issue/)
 - [Configuring Github Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
+- [markdown syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 ## Information for Github Issue
 

@@ -12,7 +12,7 @@ Create a single page document for your website with basic information for your p
 <!-- more -->
 
 ## Watch these
-- [The importance of HTML](http://https://www.lynda.com/Web-Development-tutorials/importance-HTML/170427/196129-4.html)
+- [The importance of HTML](https://www.lynda.com/Web-Development-tutorials/importance-HTML/170427/196129-4.html)
 - [Basic HTML Syntax](https://www.lynda.com/Web-Development-tutorials/Basic-HTML-syntax/170427/196130-4.html)
 - [Exploring an HTML document structure](https://www.lynda.com/Web-Development-tutorials/Exploring-HTML-document/170427/196135-4.html)
 - [Formatting content with HTML](https://www.lynda.com/Web-Development-tutorials/Formatting-content-HTML/170427/196141-4.html)
