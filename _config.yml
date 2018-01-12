@@ -79,6 +79,10 @@ search:
   path: search.json
   field: post
 
+#Plugin hexo-processor-copy
+copy_src: "slides"
+copy_dst: "slides/markdown"
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
