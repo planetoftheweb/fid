@@ -292,3 +292,14 @@ code {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+.slide-list ul {
+   padding-left: .5em;
+   list-style: none;
+}
+.slide-list ul li{
+  list-style-position: inside;
+  list-style: none;
+  text-indent: -1em;
+  padding-left: 1em;
+}
