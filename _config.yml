@@ -86,4 +86,6 @@ copy_dst: "slides/markdown"
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/planetoftheweb/fid
+  branch: gh-pages
