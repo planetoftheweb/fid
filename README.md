@@ -7,8 +7,8 @@ The purpose of Fundamentals of Interactive Design is to give the students an ove
 - [Github](https://github.com/)
 - [lynda.com](http://lynda.com)
 - An HTML editor: [Visual Studio Code](https://code.visualstudio.com/) or [Atom](https://atom.io/)
-- [Slides](https://raybo.org/FID)
-- [Github Issues](https://github.com/planetoftheweb/FID/issues) for the
+- [Slides](https://raybo.org/fid-slides)
+- [Github Issues](https://github.com/planetoftheweb/fid/issues) for the
 - [Lab Schedules](http://www.seminolestate.edu/computers/labhours/)
 - [Seminole State Canvas](https://online.seminolestate.edu/)
 - [Academic Calendars](https://www.seminolestate.edu/catalog/#calendar)

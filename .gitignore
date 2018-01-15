@@ -1,7 +1,6 @@
 .DS_Store
 node_modules/
-dist/
 npm-debug.log
 yarn-error.log
 app/builds/
-.Ulysses*
+themes/bootstrap4

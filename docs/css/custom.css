@@ -40,7 +40,7 @@ code {
  */
 
 .navbar {
-  background-color: #306492;
+  background-color: #094772;
   font-family: "Open Sans", sans-serif;
   font-size: 1.2rem;
 }
@@ -48,15 +48,17 @@ code {
   font-size: 1.2em;
 }
 
-
 /*
  * Blog header and description
  */
 
 .site-header {
-  height: 45vh;
-  background: url(../images/siteillustration.png) no-repeat center center;
-  background-size: cover;
+  height: 35vh;
+  background-color: #023852;
+  background-image: url(../images/siteillustration.svg), radial-gradient(#094772 0%, #023852 70%);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100vh 100vh;
 } 
 @media (min-width: 0) and (max-width: 700px) { 
   .site-header {
@@ -289,4 +291,15 @@ code {
 
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+
+.slide-list ul {
+   padding-left: .5em;
+   list-style: none;
+}
+.slide-list ul li{
+  list-style-position: inside;
+  list-style: none;
+  text-indent: -1em;
+  padding-left: 1em;
 }
