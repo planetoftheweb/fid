@@ -40,7 +40,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
 
 # Home page setting
@@ -50,7 +50,7 @@ highlight:
 index_generator:
   path: ''
   per_page: 50
-  order_by: date
+  order_by: -date
 
 # Category & Tag
 default_category: uncategorized
