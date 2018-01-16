@@ -1,6 +1,7 @@
----
-title: "Reveal.js"
+
 <!-- .slide: data-state="title" -->
+# Reveal.js
+
 ---
 
 ## Installing

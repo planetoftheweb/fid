@@ -9,6 +9,8 @@ categories:
 - assignments
 ---
 Create a single page document for your website with basic information for your portfolio.
+<i class="fab fa-slideshare"></i> [Launch Presentation](/fid/slides/slides.html?d=02_learning_html) | <i class="fas fa-file-alt"></i> [Slide Notes](/fid/slides/02_learning_html.html)
+
 <!-- more -->
 
 ## Watch these
