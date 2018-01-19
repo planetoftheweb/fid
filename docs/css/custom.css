@@ -52,8 +52,8 @@ strong {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 1.2rem;
-  padding: .2rem 0;
 }
+
 .navbar-brand {
   font-size: 1.2em;
 }
@@ -119,11 +119,9 @@ strong {
   padding: 15px;
   background-color: #fff2c6;
   border-radius: 4px;
+  line-height: 110%;
 }
 
-.sidebar-module-inset.slide-list{
-  background-color: #c5eed9;
-}
 
 .sidebar-module-inset p:last-child,
 .sidebar-module-inset ul:last-child,
@@ -133,13 +131,31 @@ strong {
 
 .sidebar-module-list {
   padding-left: 1em;
-  line-height: 105%;
+  line-height: 120%;
   list-style: circle;
 }
 
 .sidebar-module-list li {
   margin-bottom: .5em;
 }
+
+.sidebar-module-inset.slide-list{
+  background-color: #d1ebdd;
+}
+
+.sidebar-module-inset.assignment-list{
+  background-color: #c5e8ee;
+}
+
+.sidebar-module-inset ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.sidebar-module-inset li {
+  margin-bottom: .5em;
+}
+
 
 .sidebar-module-list-child {
   margin-top: 1em;
@@ -328,6 +344,9 @@ strong {
 .slide-list ul li{
   list-style-position: inside;
   list-style: none;
-  text-indent: -1em;
-  padding-left: 1em;
+}
+
+.sidebar-module-inset li {
+  text-indent: -1.3em;
+  padding-left: 1.5em;
 }
