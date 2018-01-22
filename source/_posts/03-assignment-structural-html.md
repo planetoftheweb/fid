@@ -1,5 +1,5 @@
 ---
-title: Create a Valid HTML Page with Structural Tags
+title: HTML Page with Structural Tags
 date: 2018-01-23 00:00:00
 permalink: structural-html
 tags:
@@ -14,7 +14,7 @@ Create a valid page with structural HTML tags.
 
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure
 
-https://www.lynda.com/Web-Development-tutorials/Controlling-document-outlines/170427/196153-4.html?srchtrk=index%3a1%0alinktypeid%3a2%0aq%3ahtml+essential+training%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2
+https://www.lynda.com/Web-Development-tutorials/Controlling-document-outlines/170427/196153-4.html
 
 https://www.lynda.com/Web-Development-tutorials/nav-element/170427/196154-4.html
 
@@ -26,13 +26,13 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section
 
-https://www.lynda.com/Web-Development-tutorials/section-element/170427/196156-4.html?srchtrk=index%3a1%0alinktypeid%3a2%0aq%3ahtml+essential+training%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2
+https://www.lynda.com/Web-Development-tutorials/section-element/170427/196156-4.html
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
 
-https://www.lynda.com/Web-Development-tutorials/div-element/170427/196158-4.html?srchtrk=index%3a1%0alinktypeid%3a2%0aq%3ahtml+essential+training%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2
+https://www.lynda.com/Web-Development-tutorials/div-element/170427/196158-4.html
 
-https://www.lynda.com/Web-Development-tutorials/Other-semantic-elements/170427/196159-4.html?srchtrk=index%3a1%0alinktypeid%3a2%0aq%3ahtml+essential+training%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2
+https://www.lynda.com/Web-Development-tutorials/Other-semantic-elements/170427/196159-4.html
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main
 
@@ -40,7 +40,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
 
-https://www.lynda.com/Web-Development-tutorials/Linking-page-regions/170427/196168-4.html?srchtrk=index%3a1%0alinktypeid%3a2%0aq%3ahtml+essential+training%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2
+https://www.lynda.com/Web-Development-tutorials/Linking-page-regions/170427/196168-4.html
 
 http://csslint.net/
 

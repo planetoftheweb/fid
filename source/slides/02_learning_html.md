@@ -10,7 +10,7 @@
 - Hypertext
 - Markup
 
-> > Author Notes:
+### Author Notes
 
 HTML stands for HyperText Markup Language and is the language that powers the web. You can break what HTML means into two parts. First is HyperText and then the markup language. Let's talk about those two things.
 
@@ -26,7 +26,7 @@ HTML is called the Markup Language. Markup is special syntax for annotating a do
 - Never include layout
 - HTML critical
 
-> > Author Notes:
+### Author Notes
 
 HTML is one of the big three core languages needed to build ANY web page. They are HTML, CSS and JavaScript. HTML is easily the most important of the three and is in chrage of defining the structure of a page. CSS controls how a page looks and JavaScript controls how users can interact with a website. Without proper HTML, the other two languages won't work.
 
@@ -51,7 +51,7 @@ HTML is the most critical of the three components. If you mess up the structure 
 - 0-&infin; attributes
 - No order in attributes
 
-> > Author Notes:
+### Author Notes
 
 You start HTML tags using the less than and greater than signs with an element name inside. You can use a number of elements inside the greater and less than signs. There are hundredths of elements and the best place to find them is to look online on this MDN website.
 
@@ -67,7 +67,7 @@ Inside the first part of the element you can add none or an infinite number of a
 
 - Inserts vs wraps
 
-> > Author Notes:
+### Author Notes
 
 Standalone tags like the `<img>` tag are simply there to insert some element like an image into your page.
 
@@ -114,7 +114,7 @@ In the case of lists an OL means that the order of the list items denotes some s
 
 [Major Sections](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements): [`<h1>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements), [`<p>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
 
-> > Author Notes:
+### Author Notes
 
 A block-level element occupies the entire space of its parent element (container), thereby creating a "block."
 
@@ -131,7 +131,7 @@ Think of it as a stack of boxes or big containers.
 
 [Inline Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente): [`<a>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a), [`<em>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
 
-> > Author Notes:
+### Author Notes
 
 Inline elements occupy the space that are bound by the parent or container tag, they don't break the flow of content. They are often placed inside block level elements.
 
@@ -160,7 +160,7 @@ Inline elements occupy the space that are bound by the parent or container tag, 
 
 - [`<DOCTYPE>`](https://developer.mozilla.org/en-US/docs/Glossary/Doctype), [`<html>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html), [`<head>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head), [`<meta>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta), [`<title>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title), [`<body>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body)
 
-> > Author Notes:
+### Author Notes
 
 Every page needs to have a basic page structure using these elements.
 
@@ -178,28 +178,6 @@ The [`<body>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body) e
 
 ---
 
-## Whitespace, Comments, Entity
-
-<iframe height='500' scrolling='no' title='mMzpjY' src='//codepen.io/planetoftheweb/embed/mMzpjY/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/mMzpjY/'>mMzpjY</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-
-- Whitespace, [Comments](https://developer.mozilla.org/en-US/docs/Web/API/Comment), [Entity](https://developer.mozilla.org/en-US/docs/Glossary/Entity)
-
-> > Author Notes:
-
-Whitespace in HTML has little effect on the actual display of your content. Tabs, carriage returns and extra spaces are often converted to single spaces. Whitespace is useful to help you format the document and make it easier to read.
-
-Some editors can also use Whitespace to help you collapse related content.
-
-You can use comments anywhere in the browser, they will not show to users, but they can be useful for identifying different parts of your document.
-
-Some special characters need encoding in order to show up in the browser, these begin with an ampersand & and end with a semicolon. Here's the [official list](https://dev.w3.org/html5/html-author/charref) of entities.
-
-Watch out for curly quotes when pasting, curly quotes need to be encoded or converted to straight quotes. Curly quotes are often automatically set when you're using an editor like Microsoft Word.
-
----
-
 ## Resources
 
 - **Saving**: `index.html`
@@ -207,7 +185,7 @@ Watch out for curly quotes when pasting, curly quotes need to be encoded or conv
 - **Atom Packages:** emmet, linter, atom-live-server, linter-htmlhint, html-entities, linter-csslint, emmets-snippets-compatibility
 - [Sample Resume](https://gist.github.com/planetoftheweb/2ee375e7ddb8034f8169ab9a44e77dd0)
 
-> > Author Notes:
+### Author Notes
 
 When saving HTML documents you need to use the `.html` or `.htm` exension. You can save yourself and your visitors some time by using a special name for your main html document. If a document is named index.html, then the browser will assume it's the default document for that folder.
 
