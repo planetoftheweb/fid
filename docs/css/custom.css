@@ -371,7 +371,7 @@ strong {
   text-rendering: auto;
 }
 
-.icon-lynda {
+.icon-lynda { 
   background: url('../images/icon-lynda.svg') no-repeat center center;
   background-size: contain;
 }
