@@ -1,5 +1,5 @@
 ---
-title: HTML Page with Structural Tags
+title: HTML Pages with Structural Tags
 date: 2018-01-23 00:00:00
 permalink: structural-html
 tags:
@@ -9,65 +9,23 @@ categories:
 - assignments
 ---
 
-Create a valid page with structural HTML tags.
+Create a project with at least two web pages that link to one another and contain HTML structural tags. For this project, you should start thinking about what your final site will be like. Because this is a new version of this class, I will not accept portfolio projects for the final project. You should try to build a robust website...like the clas website, and it would be a good idea to start working towards that.
+
+<small><i class="fab fa-slideshare"></i> [Launch Presentation](/fid/slides/slides.html?d=03_structural-html&) | <i class="fas fa-file-alt"></i> [Slide Notes](/fid/slides/03_structural-html.html)</small>
+
 <!-- more -->
 
-https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure
+## Read These
+[Header](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header), [Footer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer), [Nav](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav), [Article](https://www.lynda.com/Web-Development-tutorials/article-element/170427/196155-4.html), [Section](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section), [Main](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main), [Aside](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside), [Div](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div), [a](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a), [img](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
 
-https://www.lynda.com/Web-Development-tutorials/Controlling-document-outlines/170427/196153-4.html
+## Watch These
+[The Value of Structure](https://www.lynda.com/Web-Development-tutorials/value-structure/170427/196152-4.html), [Controlling Document Outlines](https://www.lynda.com/Web-Development-tutorials/Controlling-document-outlines/170427/196153-4.html) , [Nav](https://www.lynda.com/Web-Development-tutorials/nav-element/170427/196154-4.html), [Article](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article), [Section](https://www.lynda.com/Web-Development-tutorials/section-element/170427/196156-4.html), [Other semantic elements](https://www.lynda.com/Web-Development-tutorials/Other-semantic-elements/170427/196159-4.html), [Aside](https://www.lynda.com/Web-Development-tutorials/aside-element/170427/196157-4.html), [Div](https://www.lynda.com/Web-Development-tutorials/div-element/170427/196158-4.html), [Anchor](https://www.linkedin.com/learning/html-essential-training/exploring-the-anchor-element) 
 
-https://www.lynda.com/Web-Development-tutorials/nav-element/170427/196154-4.html
-
-https://www.lynda.com/Web-Development-tutorials/article-element/170427/196155-4.html
-
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav
-
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
-
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section
-
-https://www.lynda.com/Web-Development-tutorials/section-element/170427/196156-4.html
-
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
-
-https://www.lynda.com/Web-Development-tutorials/div-element/170427/196158-4.html
-
-https://www.lynda.com/Web-Development-tutorials/Other-semantic-elements/170427/196159-4.html
-
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main
-
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header
-
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
-
-https://www.lynda.com/Web-Development-tutorials/Linking-page-regions/170427/196168-4.html
-
-http://csslint.net/
-
-https://www.lynda.com/CSS-tutorials/Default-browser-styles/578096/625175-4.html
-
-https://www.lynda.com/CSS-tutorials/Inline-internal-external-CSS/569190/601576-4.html
-
-https://www.lynda.com/CSS-tutorials/Naming-conventions/569190/601578-4.html
-
-Create a single page document for your website with basic information for your portfolio.
-
-Watch/read these
-Default Browser Styles
-Inline, Internal and external CSS
-Naming Conventions
-Type, Class and ID selectors
-Pseudo Class Selectors
-RGB, Hex and Keyword Color Values
-Cascading Inheritance and Specificity
-Turning in your project
-Inside that folder, create a subfolder called cssbasics
-Inside that folder, create a file called style.css
-Copy the index.html file from the previous project
-Upload the folder to your github repo (drag and drop it onto your repository)
-Use the w3c validator and make sure your the URL to your project validates
-Use csslint to validate and verify your css
-
-Expectations
-Us
-
+## Expectations
+1. Use a Github repo and place this inside a projects folder under it's own folder
+1. Create at least two pages
+1. Include at least two images in your project
+1. Links to your pages and images must work in all pages and sub-pages
+1. Use each of the structural tags at least once: [`<Header>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header), [`<Footer>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer), [`<Nav>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav), [`<Article>`](https://www.lynda.com/Web-Development-tutorials/article-element/170427/196155-4.html), [`<Section>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section), [`<Main>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main), [`<Aside>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside), [`<Div>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div), [`<a>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a), [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img) in a meaningful and significant way.
+1. Does this project reflect the topic of your final project?
+1. Use the [w3c validator](https://validator.w3.org/) and make sure your the URL to your Github Pages validate

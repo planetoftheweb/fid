@@ -9,19 +9,13 @@ categories:
 - assignments
 ---
 Create a single page document for your website with basic information for your portfolio.
-<i class="fab fa-slideshare"></i> [Launch Presentation](/fid/slides/slides.html?d=02_learning_html) | <i class="fas fa-file-alt"></i> [Slide Notes](/fid/slides/02_learning_html.html)
+
+<small><i class="fab fa-slideshare"></i> [Launch Presentation](/fid/slides/slides.html?d=02_learning_html&) | <i class="fas fa-file-alt"></i> [Slide Notes](/fid/slides/02_learning_html.html)</small>
 
 <!-- more -->
 
 ## Watch these
-- [The importance of HTML](https://www.lynda.com/Web-Development-tutorials/importance-HTML/170427/196129-4.html)
-- [Basic HTML Syntax](https://www.lynda.com/Web-Development-tutorials/Basic-HTML-syntax/170427/196130-4.html)
-- [Exploring an HTML document structure](https://www.lynda.com/Web-Development-tutorials/Exploring-HTML-document/170427/196135-4.html)
-- [Formatting content with HTML](https://www.lynda.com/Web-Development-tutorials/Formatting-content-HTML/170427/196141-4.html)
-- [The Value of Structure](https://www.lynda.com/Web-Development-tutorials/value-structure/170427/196152-4.html)
-- [Creating links](https://www.lynda.com/Web-Development-tutorials/Exploring-anchor-element/170427/196164-4.html)
-- [Inserting images](https://www.lynda.com/Web-Development-tutorials/Displaying-images/170427/196148-4.html)
-- [Unordered lists](https://www.lynda.com/Web-Development-tutorials/Unordered-lists/170427/196172-4.html)
+[The importance of HTML](https://www.lynda.com/Web-Development-tutorials/importance-HTML/170427/196129-4.html), [Basic HTML Syntax](https://www.lynda.com/Web-Development-tutorials/Basic-HTML-syntax/170427/196130-4.html), [Exploring an HTML document structure](https://www.lynda.com/Web-Development-tutorials/Exploring-HTML-document/170427/196135-4.html), [Formatting content with HTML](https://www.lynda.com/Web-Development-tutorials/Formatting-content-HTML/170427/196141-4.html), [The Value of Structure](https://www.lynda.com/Web-Development-tutorials/value-structure/170427/196152-4.html), [Creating links](https://www.lynda.com/Web-Development-tutorials/Exploring-anchor-element/170427/196164-4.html), [Inserting images](https://www.lynda.com/Web-Development-tutorials/Displaying-images/170427/196148-4.html), [Unordered lists](https://www.lynda.com/Web-Development-tutorials/Unordered-lists/170427/196172-4.html)
 
 ### Turning in your project
 
@@ -31,7 +25,7 @@ Create a single page document for your website with basic information for your p
 1. Use this [basic html](http://jsbin.com/sakiwigafo/edit?html,output) template to get your page started
 1. Inside the [body](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body) section of the document write some text with a basic portfolio
 1. Upload the folder to your github repo (drag and drop it onto your repository)
-1. Use the [w3c validator](https://validator.w3.org/) and make sure your the URL to your project validates
+1. Use the [w3c validator](https://validator.w3.org/) and make sure your the URL to your project's Github pages validate.
 
 ## Sections for resume
 
@@ -63,4 +57,3 @@ These will be images to samples of previous work. If you've done some work for o
 - Use the [strong tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong) to give strong importance to text.
 - **DO NOT** use any tags not mentioned in this list.
 - **DO NOT** use anything that will format or style the document in any way.
-</ul>

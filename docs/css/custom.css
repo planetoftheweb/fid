@@ -147,6 +147,11 @@ strong {
   background-color: #c5e8ee;
 }
 
+.sidebar-module-list-child {
+  margin-top: 1em;
+  padding-left: 25px;
+}
+
 .sidebar-module-inset ul {
   padding-left: 0;
   list-style: none;
@@ -155,13 +160,6 @@ strong {
 .sidebar-module-inset li {
   margin-bottom: .5em;
 }
-
-
-.sidebar-module-list-child {
-  margin-top: 1em;
-  padding-left: 25px;
-}
-
 
 /*
  * Blog posts
