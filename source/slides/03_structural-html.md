@@ -24,9 +24,7 @@ Your editor can also do that, but only if you're using whitespace to intent code
 
 ---
 
-## Structural Elements
-
-https://www.lynda.com/Web-Development-tutorials/value-structure/170427/196152-4.html
+## Structural Elements [<i class="icon icon-lynda"></i>](https://www.lynda.com/Web-Development-tutorials/value-structure/170427/196152-4.html) 
 
 - Block level
 - Define Areas
@@ -62,103 +60,149 @@ However, a header can also be used inside other elements, so for example you can
 
 ## Footer [<i class="icon icon-lynda"></i>](https://www.lynda.com/Web-Development-tutorials/Other-semantic-elements/170427/196159-4.html) [<i class="icon icon-mdn"></i>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
 
-- Introductory content
-- Inside other elements
+- Ending of content
+- Often at bottom
 
-<iframe height='400' scrolling='no' title='Header Sample' src='//codepen.io/planetoftheweb/embed/GyegZO/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 40vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/GyegZO/'>Header Sample</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='400' scrolling='no' title='Footer Sample' src='//codepen.io/planetoftheweb/embed/goyYQN/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 40vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/goyYQN/'>Footer Sample</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 </iframe>
 
 ### Author Notes
+A footer element represents is a special section that represents the footer or the end of some level of content.
+
+It's often used at least at the bottom of a website to represent things like copyright information, information about the author of the website, copyright information and links to related documents.
+
+However, just like with the header, it can also be used to define the beginning part of an element like a card, a sidebar, and article or others.
 
 ---
 
-## Nav Element
+## Nav Element [<i class="icon icon-lynda"></i>](https://www.lynda.com/Web-Development-tutorials/Other-semantic-elements/170427/196159-4.html) [<i class="icon icon-mdn"></i>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
 
-- [nav](http://mdn.beonex.com/en/HTML/Element/nav.html)
-- Major Navigation Blocks
+- Major Blocks
+- Screen Readers &amp; Search Engines
+- `UL` or `A`
 
 <iframe class="fragment" height='500' scrolling='no' title='ZXoMmO' src='//codepen.io/planetoftheweb/embed/ZXoMmO/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/ZXoMmO/'>ZXoMmO</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 ### Author Notes
 
-The role of the nav element is to identify major blocks of navigation.
+The role of the nav element is to identify major blocks of navigation. This is an important distinction because it means that smaller grouping of links should not necessarily receive nav elements. It's up to you to determine when a grouping of links should be identified as a nav. Generally it's meant for links that are internal to the website.
 
-Not everything that is a list of links should be a nav on the page but most pages have at least some navigation at the top of the page as well as some secondary bottom navigation or maybe some sidebar navigation.
+Most pages have at least some navigation at the top of the page as well as some secondary bottom navigation or maybe some sidebar navigation.
 
-Identifying navs in your document can help screen readers as well as search engines understand the role of these set of links better. So, for example screen readers might omit the rendering of this section.
+Identifying navs in your document can help screen readers as well as search engines understand the role of these set of links better. So, for example screen readers might omit the rendering of this section and search engines might be able to use these to navigate through an entire website.
 
-This is a compound tag and inside these people usually have either a list element `UL` or just a set of links `A`.
+This is a compound tag and inside these people usually have either a list element `UL` or just a set of links `A`. Technically,  a list element is considered more appropriate for a navigation, but a series of links isn't uncommon.
 
 ---
 
-## Article
+## Article [<i class="icon icon-lynda"></i>](https://www.lynda.com/Web-Development-tutorials/article-element/170427/196155-4.html) [<i class="icon icon-mdn"></i>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
 
-- [article](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
-- Self contained composition
+- Can stand alone
+- Should have headings
+- Can be nested
 
-
-<iframe height='500' scrolling='no' title='Simple Navs' src='//codepen.io/planetoftheweb/embed/BJMXdO/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%; height: 50vh;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/BJMXdO/'>Simple Navs</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='300' scrolling='no' title='Article Example' src='//codepen.io/planetoftheweb/embed/NXmqaK/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/NXmqaK/'>Article Example</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 ### Author Notes
 
-The `article` element is one of those weird and hard to explain elements. The description in the documentation is quite scary, but I tend to think of the article element as one of two things, like a literal article that someone writes or as an article of clothing. So if you're looking at a list of shoes on nike.com, each of the pieces of code describing the shoes could be thought of as an article.
+The `article` element is one of those hard to explain elements. It represents a complete, self-contained composition in a document, page, application or site. These could be things like forum posts, magazine or newspaper articles, blog entries, user-submitted comments, interactive widgets, etc. It should be something that can stand alone on a page.
 
-The rules are pretty simple. Articles should include a heading `h1-h6` inside the article tag. You can also nest articles inside other articles (say a list of the types of shoelaces options you can get for the shoes). 
+I tend to think of the article element as one of two things, like a literal article that someone writes or as an article of clothing. So if you're looking at a list of shoes on nike.com, each of the pieces of code describing the shoes could be thought of as an article.
 
+Articles should include a heading `h1-h6` inside the article tag. You can also nest articles inside other articles (say a list of the types of shoelaces options you can get for the shoes). 
 
----
-
-## Main
-
-### Author Notes
+In the example above, I could have tagged each 'article' as an artile, but because it is a grouping of articles and I have a headline that identifies the grouping, it's fine to use the article tag for the entire grouping.
 
 
 ---
 
-## Aside
+## Section [<i class="icon icon-lynda"></i>](https://www.lynda.com/Web-Development-tutorials/section-element/170427/196156-4.html) [<i class="icon icon-mdn"></i>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section)
+
+- Thematic grouping
+- Should have headings
+- Can be nested
+
+<iframe height='400' scrolling='no' title='Section Example' src='//codepen.io/planetoftheweb/embed/xpeGNz/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 40vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/xpeGNz/'>Section Example</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 ### Author Notes
 
+The `section` element can be as confusing as the `article` element and it's description is somewhat generic by nature. It represents a thematic grouping of content. That means that sections are part of a bigger grouping of elements. A page could be split into sections for things like introduction, news items, contact information, etc.
+
+If it can stand alone, it should probably be an article, if it a piece that is part of another element, then it can be a section.
 
 ---
 
-## Div & Span
+## Main[<i class="icon icon-lynda"></i>](https://www.lynda.com/Web-Development-tutorials/Other-semantic-elements/170427/196159-4.html) [<i class="icon icon-mdn"></i>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main)
+
+- The main thing
+- Nested intelligently
+
+
+<iframe height='400' scrolling='no' title='Main Example' src='//codepen.io/planetoftheweb/embed/ZvZbzX/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 40vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/ZvZbzX/'>Main Example</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 ### Author Notes
+Thankfully, the main element is really easy to figure out. It represents the main content of the body of a document or portion of the document. It consists of content that is directly related to the central topic of, a document or the central functionality of an application. It can be really useful to screen readers and search engines so that they can immediately identify the most important content in your document.
+
+You can use multiple <main> elements within the same page when it makes sense to do so, for example if you have another section like a card that has it's own header and a footer where the main content of the card needs to be identified as the main content of the card.
 
 ---
 
-## Files &amp; Folders
+## Aside [<i class="icon icon-lynda"></i>](https://www.lynda.com/Web-Development-tutorials/aside-element/170427/196157-4.html) [<i class="icon icon-mdn"></i>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside)
+
+- Related Content
+- Can appear many times
+- Do not use for pullquotes
+
+<iframe height='400' scrolling='no' title='Aside Example' src='//codepen.io/planetoftheweb/embed/opObbb/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 40vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/opObbb/'>Aside Example</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 ### Author Notes
 
 
+The HTML `aside` element represents a portion of a document whose content is indirectly related to the document's or other element's main content. 
+
+They can appear many times within a document whenever there is some related content in an article or section, but it's also often used for a sidebar on a website.
+
+The specifications say that asides shouldn't be used for things like pullquotes because they are considered to be part of the current element, so use it only for related elements.
+
+---
+
+## Div [<i class="icon icon-lynda"></i>](https://www.lynda.com/Web-Development-tutorials/div-element/170427/196158-4.html) [<i class="icon icon-mdn"></i>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
+
+- Generic Grouping
+- No meaning
+- Class or IDs
+
+<iframe height='400' scrolling='no' title='DIV Example' src='//codepen.io/planetoftheweb/embed/zpXrQq/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height; 40vh;width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/zpXrQq/'>DIV Example</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
 ### Author Notes
 
+The DIV tag is what we call a generic block level tag because it's used to group content, but not pass any sort of meaning to the content. Before things like the article, nav and footer tags existed, the div tag was used to create those elements.
 
-[<i class="icon icon-mdn"></i>](https://www.lynda.com/Web-Development-tutorials/Controlling-document-outlines/170427/196153-4.html)
+Because they have no meaning, it means that it's often used for layout purposes or when a grouping needs to be made for which there is no existing tag. It's sort of a measure of last resort.
 
-https://www.lynda.com/Web-Development-tutorials/nav-element/170427/196154-4.html
+You can add meaning to a div using the class or id attributes. As a matter of fact before the modern semantic tags existed, you assigne the meaning to divs using these. So for example would would create div with a class of nav 
 
-https://www.lynda.com/Web-Development-tutorials/article-element/170427/196155-4.html
+```
+<div class="nav">
+</div>
+```
 
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav
+The problem with this approach is that humans weren't always consistent with their naming conventions, so some people would use a class of nav and others a class of navigation or topnav, etc. Because things got messy, HTML5 introduced consistent elements for commonly used segments of code (nav, aside, header, footer).
 
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
+If you do create groupings using div, you can use the id or class attributes as I mentioned. The main difference between these is that an ID shoud be unique on the page. So if you create an element with an ID of topnav.
 
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section
+```
+<div id="topnav">
+</div>
+```
 
-https://www.lynda.com/Web-Development-tutorials/section-element/170427/196156-4.html
+Then that element shouldn't exist anywhere else on the current page. Scripts and styles may not work properly when there is more than one element with the same ID. ID's have one more superpower, you can link to them using anchor tags `a`.
 
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
-
-https://www.lynda.com/Web-Development-tutorials/div-element/170427/196158-4.html
-
-https://www.lynda.com/Web-Development-tutorials/Other-semantic-elements/170427/196159-4.html
-
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main
-
-
-https://www.lynda.com/Web-Development-tutorials/Linking-page-regions/170427/196168-4.html
+If you need to use the same attribute name, then use a class attribute. Elements can have one or more classnames and more than one element on the page can have the same class name.
