@@ -6,7 +6,7 @@ tags:
 - github
 - week 01
 categories:
-- bob
+- assignments
 ---
 For this assignment, you'll simply create a [Github Account](http://github.com) and create your first [Github issue in the class repo](https://github.com/planetoftheweb/fid/issues)
 
