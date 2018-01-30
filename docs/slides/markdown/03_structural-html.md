@@ -27,8 +27,8 @@ Your editor can also do that, but only if you're using whitespace to intent code
 ## Structural Elements [<i class="icon icon-lynda"></i>](https://www.lynda.com/Web-Development-tutorials/value-structure/170427/196152-4.html) 
 
 - Block level
-- Define Areas
-- Common and Generic
+- Define areas
+- Common and generic
 
 ### Author Notes
 
@@ -45,7 +45,7 @@ They are usually fairly common areas that people have on websites like headers, 
 - Introductory content
 - Inside other elements
 
-<iframe height='400' scrolling='no' title='Header Sample' src='//codepen.io/planetoftheweb/embed/GyegZO/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 40vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/GyegZO/'>Header Sample</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe class="fragment" height='400' scrolling='no' title='Header Sample' src='//codepen.io/planetoftheweb/embed/GyegZO/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 40vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/GyegZO/'>Header Sample</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 ### Author Notes
@@ -63,8 +63,7 @@ However, a header can also be used inside other elements, so for example you can
 - Ending of content
 - Often at bottom
 
-<iframe height='400' scrolling='no' title='Footer Sample' src='//codepen.io/planetoftheweb/embed/goyYQN/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 40vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/goyYQN/'>Footer Sample</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+<iframe class="fragment" height='300' scrolling='no' title='Footer Sample' src='//codepen.io/planetoftheweb/embed/goyYQN/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/goyYQN/'>Footer Sample</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 ### Author Notes
@@ -78,11 +77,11 @@ However, just like with the header, it can also be used to define the beginning 
 
 ## Nav Element [<i class="icon icon-lynda"></i>](https://www.lynda.com/Web-Development-tutorials/Other-semantic-elements/170427/196159-4.html) [<i class="icon icon-mdn"></i>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
 
-- Major Blocks
-- Screen Readers &amp; Search Engines
+- Major blocks
+- Screen readers &amp; search engines
 - `UL` or `A`
 
-<iframe class="fragment" height='500' scrolling='no' title='ZXoMmO' src='//codepen.io/planetoftheweb/embed/ZXoMmO/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/ZXoMmO/'>ZXoMmO</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe class="fragment" class="fragment" height='500' scrolling='no' title='ZXoMmO' src='//codepen.io/planetoftheweb/embed/ZXoMmO/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/ZXoMmO/'>ZXoMmO</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 ### Author Notes
@@ -103,7 +102,7 @@ This is a compound tag and inside these people usually have either a list elemen
 - Should have headings
 - Can be nested
 
-<iframe height='300' scrolling='no' title='Article Example' src='//codepen.io/planetoftheweb/embed/NXmqaK/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/NXmqaK/'>Article Example</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe class="fragment" height='400' scrolling='no' title='Article Example' src='//codepen.io/planetoftheweb/embed/NXmqaK/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 40vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/NXmqaK/'>Article Example</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 ### Author Notes
@@ -125,7 +124,7 @@ In the example above, I could have tagged each 'article' as an artile, but becau
 - Should have headings
 - Can be nested
 
-<iframe height='400' scrolling='no' title='Section Example' src='//codepen.io/planetoftheweb/embed/xpeGNz/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 40vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/xpeGNz/'>Section Example</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe class="fragment" height='400' scrolling='no' title='Section Example' src='//codepen.io/planetoftheweb/embed/xpeGNz/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 40vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/xpeGNz/'>Section Example</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 ### Author Notes
@@ -136,13 +135,13 @@ If it can stand alone, it should probably be an article, if it a piece that is p
 
 ---
 
-## Main[<i class="icon icon-lynda"></i>](https://www.lynda.com/Web-Development-tutorials/Other-semantic-elements/170427/196159-4.html) [<i class="icon icon-mdn"></i>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main)
+## Main [<i class="icon icon-lynda"></i>](https://www.lynda.com/Web-Development-tutorials/Other-semantic-elements/170427/196159-4.html) [<i class="icon icon-mdn"></i>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main)
 
 - The main thing
 - Nested intelligently
 
 
-<iframe height='400' scrolling='no' title='Main Example' src='//codepen.io/planetoftheweb/embed/ZvZbzX/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 40vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/ZvZbzX/'>Main Example</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe class="fragment" height='400' scrolling='no' title='Main Example' src='//codepen.io/planetoftheweb/embed/ZvZbzX/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 40vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/ZvZbzX/'>Main Example</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 ### Author Notes
@@ -154,11 +153,11 @@ You can use multiple <main> elements within the same page when it makes sense to
 
 ## Aside [<i class="icon icon-lynda"></i>](https://www.lynda.com/Web-Development-tutorials/aside-element/170427/196157-4.html) [<i class="icon icon-mdn"></i>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside)
 
-- Related Content
+- Related content
 - Can appear many times
 - Do not use for pullquotes
 
-<iframe height='400' scrolling='no' title='Aside Example' src='//codepen.io/planetoftheweb/embed/opObbb/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 40vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/opObbb/'>Aside Example</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe class="fragment" height='400' scrolling='no' title='Aside Example' src='//codepen.io/planetoftheweb/embed/opObbb/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 40vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/opObbb/'>Aside Example</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 ### Author Notes
@@ -174,11 +173,11 @@ The specifications say that asides shouldn't be used for things like pullquotes 
 
 ## Div [<i class="icon icon-lynda"></i>](https://www.lynda.com/Web-Development-tutorials/div-element/170427/196158-4.html) [<i class="icon icon-mdn"></i>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
 
-- Generic Grouping
+- Generic grouping
 - No meaning
 - Class or IDs
 
-<iframe height='400' scrolling='no' title='DIV Example' src='//codepen.io/planetoftheweb/embed/zpXrQq/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height; 40vh;width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/zpXrQq/'>DIV Example</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe class="fragment" height='400' scrolling='no' title='DIV Example' src='//codepen.io/planetoftheweb/embed/zpXrQq/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height:40vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/zpXrQq/'>DIV Example</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 ### Author Notes
@@ -206,3 +205,88 @@ If you do create groupings using div, you can use the id or class attributes as 
 Then that element shouldn't exist anywhere else on the current page. Scripts and styles may not work properly when there is more than one element with the same ID. ID's have one more superpower, you can link to them using anchor tags `a`.
 
 If you need to use the same attribute name, then use a class attribute. Elements can have one or more classnames and more than one element on the page can have the same class name.
+
+---
+
+<!-- .slide: data-state="title" -->
+
+# Links and References
+
+---
+
+## Links and References  [<i class="icon icon-lynda"></i>](https://www.linkedin.com/learning/html-essential-training/exploring-the-anchor-element) 
+
+- [a](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a), [img](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
+
+- `href` or `src`
+- relative, absolute, domain root
+- Web URL
+
+### Author Notes
+
+The web would not ne possible without links, the entire internet was started because it allowed you create documents that related to each other and the way we do that in HTML is by linking these documents. Web documents allow different types of links and the two most common are anchor links and image links. Each of those have two different attributes to refer to the links.
+
+The anchor tag has the href, which means hyperlink reference, whilst the img tag has the src attribute, which stands for source. What's really important is that you understand the different ways you can refer to an element using links.
+
+The href as well as the src attributes allow you to link to documents and images in different ways. It's useful to think of your website as a folder in a hard drive somewhere. A lot of times, that's exactly where your files exist.
+
+![File Structure](../images/filestructure.svg)<!-- .element: style="height: 40vh" -->
+
+
+### Relative Links
+
+Links can point to those files relative to the location of your current document. We call that `relative` links because they are relative to the location of the current file. So, for example, you wnat to create a link to a document called sample01.html in the same folder as the current index.html file you can do it like this.
+
+```
+<a href="sample01.html">Sample 01</a>
+```
+
+Let's say though that you are referring to a document that in a folder that is one level up from the current folder. So, from our portfolio folder, we want to link to an aboutme.html file in a folder above. You can use `../` to back up a folder level.
+
+```
+<a href="../aboutme.html">Sample 01</a>
+```
+
+### Root Relative Links
+
+There is another shortcut you can use to refer to a document relative to the domain root by using a `/` at the beginning of the name. This is useful because sometimes we want to access the same item but it would require different references depending on where we are referencing them from. Let's say for example that we want to access be able to place our `logo.png` file on our `aboutme.html` as well as in our `sample01.html` page. If we were linking to it from our logo aboutme.html, the reference would be.
+
+```
+<img src="images/logo.png">
+```
+
+But if we were to link it from our `sample01.html` file, that file is inside a folder called `portfolio` and the `images` folder is one level above that folder. We could refer to it like this.
+
+```
+<img src="../images/logo.png">
+```
+
+
+But on a large website, that could be problematic because if we had several subfolder, each subfolder would require a different reference. We could simply refer to it using a `root relative` reference.
+
+```
+<img src="/finalproject/projects/filestructure/images/logo.png">
+```
+
+The slash right after the quotation means that we want to create this link from the domain root (in this example case planetoftheweb.github.io). Then would come our repo name (finalproject), then the 
+
+This one is a little bit dangerous because the `domain root` means different things to different machines. Most computers have their own document root, so when you use a reference like the one above on your laptop, it assumes you mean that you are looking for a folder from it's own root folder.
+
+We often work on a copy of what's on our server on our personal machines, so just understand that if you use this type of reference you won't be able to preview it on your local machine properly.
+
+### Web URLs
+
+Anytime you place documents on the web, they also get an automatic web URL. It begins with your domain URL and in our case involves a series of folders. Because we're using github pages, our URL will also have our repo name. Assuming our domain is http://planetoftheweb.github.io and you have a repo there called filestructure and inside that you have the folder structure illustrated above, then we could link to our aboutus.html page like this.
+
+```
+<a href="http://planetoftheweb.github.io/filestructure/projects/finalproject/aboutme.html">About Me</a>
+```
+
+### Default Document
+
+If you name a page `index.html`, then it becomes the folder default for that folder. That means that if you're referring to that file, you can omit the index.html part in the link. So if we wanted to just link to our finalproject/index.html file with a web URL, we could do that like this:
+
+```
+<a href="http://planetoftheweb.github.io/filestructure/projects/finalproject">Final Project</a>
+```
+
