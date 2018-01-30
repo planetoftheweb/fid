@@ -63,8 +63,7 @@ However, a header can also be used inside other elements, so for example you can
 - Ending of content
 - Often at bottom
 
-<iframe class="fragment" height='400' scrolling='no' title='Footer Sample' src='//codepen.io/planetoftheweb/embed/goyYQN/?height=300&theme-id=27192&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 40vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/goyYQN/'>Footer Sample</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+<iframe class="fragment" height='300' scrolling='no' title='Footer Sample' src='//codepen.io/planetoftheweb/embed/goyYQN/?height=300&theme-id=27192&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/goyYQN/'>Footer Sample</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 ### Author Notes
