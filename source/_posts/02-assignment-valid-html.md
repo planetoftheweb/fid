@@ -48,12 +48,12 @@ A list of links to your public social media profiles or other websites where peo
 These will be images to samples of previous work. If you've done some work for other classes, these will be a great place for them. If you don't already have them online, upload them to your server like you did the photos and create links for them. **At least 5 images.**
 
 ## Expectations
-- Use [headlines](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements) (H1-H6) for headings
-- Use [paragraph](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p) tags for paragraphs
-- Use [br tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br), but ONLY for breaking up single lines of text. **DO NOT** use this for formatting your document or adding extra vertical spacing.
-- Convert text links to URLs using the [anchor](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) tag
-- Convert links to work samples to images using the [img](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Img) tag.
-- Use [ordered](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol) and [unordered](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul) lists where necessary.
-- Use the [strong tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong) to give strong importance to text.
-- **DO NOT** use any tags not mentioned in this list.
-- **DO NOT** use anything that will format or style the document in any way.
+- [ ] Use [headlines](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements) (H1-H6) for headings
+- [ ] Use [paragraph](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p) tags for paragraphs
+- [ ] Use [br tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br), but ONLY for breaking up single lines of text. **DO NOT** use this for formatting your document or adding extra vertical spacing.
+- [ ] Convert text links to URLs using the [anchor](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) tag
+- [ ] Convert links to work samples to images using the [img](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Img) tag.
+- [ ] Use [ordered](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol) and [unordered](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul) lists where necessary.
+- [ ] Use the [strong tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong) to give strong importance to text.
+- [ ] **DO NOT** use any tags not mentioned in this list.
+- [ ] **DO NOT** use anything that will format or style the document in any way.

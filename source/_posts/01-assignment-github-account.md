@@ -27,13 +27,13 @@ For this assignment, you'll simply create a [Github Account](http://github.com) 
 
 In the issue you will include the following:
 
-- A link to your public class Github Repository
-- A link to your Github Pages site.
-- A one or two sentence answer to each of the following questions (pretend you're interviewing for a job in my company)
-- What experience do you have building websites?
-- What software experience do you currently have?
-- What are some of your strongest soft skills ([read this](https://www.linkedin.com/pulse/skills-companies-need-most-2018-courses-get-them-paul-petrone))?
-- Where do you see yourself working after you complete your studies?
+- [ ] A link to your public class Github Repository
+- [ ] A link to your Github Pages site.
+- [ ] A one or two sentence answer to each of the following questions (pretend you're interviewing for a job in my company)
+- [ ] What experience do you have building websites?
+- [ ] What software experience do you currently have?
+- [ ] What are some of your strongest soft skills ([read this](https://www.linkedin.com/pulse/skills-companies-need-most-2018-courses-get-them-paul-petrone))?
+- [ ] Where do you see yourself working after you complete your studies?
 
 ## Submitting the Issue
 
