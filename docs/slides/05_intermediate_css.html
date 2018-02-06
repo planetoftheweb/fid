@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Author Notes By default, the width and height you assign to an element is applied only to the element’s content. Border and Padding are added to this, therefore if you specify that an element needs t">
+<meta property="og:type" content="website">
+<meta property="og:title">
+<meta property="og:url" content="http://yoursite.com/fid/slides/05_intermediate_css.html">
+<meta property="og:site_name">
+<meta property="og:description" content="Author Notes By default, the width and height you assign to an element is applied only to the element’s content. Border and Padding are added to this, therefore if you specify that an element needs t">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="http://planetoftheweb.com/i/css-boxmodel.svg">
+<meta property="og:updated_time" content="2018-02-06T21:20:44.747Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title">
+<meta name="twitter:description" content="Author Notes By default, the width and height you assign to an element is applied only to the element’s content. Border and Padding are added to this, therefore if you specify that an element needs t">
+<meta name="twitter:image" content="http://planetoftheweb.com/i/css-boxmodel.svg">
+<meta name="twitter:creator" content="@planetoftheweb">
+
+  
+    <link rel="alternate" href="/fid/atom.xml" title="" type="application/atom+xml">
+  
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
+  
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,700|Nunito:300,600" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/fid/css/styles.css">
+  
+
+  
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-58547762-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+
+</head>
+
+<body>
+
+  
+
+    <header class="site-header"></header>
+
+<nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+  <div class="container">
+  
+    <a class="navbar-brand d-none d-lg-block" href="/fid/">Fundamentals of Interactive Design</a>
+    <a class="navbar-brand d-lg-none" href="/fid/">FID</a>
+  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+      <div class="navbar-nav ml-auto">
+        
+          <a class="nav-item nav-link "
+                href="/fid/index.html">Home</a>
+        
+          <a class="nav-item nav-link "
+                href="/fid/categories/assignments/">Assignments</a>
+        
+          <a class="nav-item nav-link active"
+                href="/fid/slides/">Slides</a>
+        
+          <a class="nav-item nav-link "
+                href="/fid/syllabus/">Syllabus</a>
+        
+      </div><!-- navbar-nav -->
+    </div><!-- collapse -->
+  </div><!-- container -->
+</nav><!-- nav -->
+
+    <div class="container">
+      <header class="blog-header">
+  <h1 class="blog-title"></h1>
+  
+</header>
+
+      <div class="row">
+          <main class="col-md-9 blog-main">
+            <article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
+
+  
+
+  
+    <div class="article-meta">
+    <div class="article-datetime">
+  <a href="/fid/slides/05_intermediate_css.html" class="article-date"><time datetime="2018-02-06T21:20:44.747Z" itemprop="datePublished">2018-02-06</time></a>
+</div>
+
+    
+    
+
+  </div>
+  
+
+  <div class="article-inner">
+
+    <div class="article-entry" itemprop="articleBody">
+      
+
+      
+        <!-- .slide: data-state="textonimage" data-background-image="http://planetoftheweb.com/i/css-boxmodel.svg" -->
+<h3 id="Author-Notes"><a href="#Author-Notes" class="headerlink" title="Author Notes"></a>Author Notes</h3><p><img src="http://planetoftheweb.com/i/css-boxmodel.svg" alt="Web Page"></p>
+<p>By default, the width and height you assign to an element is applied only to the element’s content. Border and Padding are added to this, therefore if you specify that an element needs to be 300 pixels wide, but then you add 10 pixel padding all around, the box ends up being 320 pixels.</p>
+<p>That’s not really great for layout and it’s not the way you think about sizes, so CSS has a propety called <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing" target="_blank" rel="noopener">box-sizing</a> that lets you redefine the way this works.</p>
+<hr>
+<h2 id="Box-Sizing"><a href="#Box-Sizing" class="headerlink" title="Box Sizing"></a>Box Sizing</h2><ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing" target="_blank" rel="noopener"><code>box sizing</code></a> info</li>
+<li><code>content-box</code> default</li>
+<li><code>border-box</code> more natural</li>
+</ul>
+<iframe class="fragment" height="400" scrolling="no" title="Box Model Sample" src="//codepen.io/planetoftheweb/embed/OQXage/?height=400&theme-id=27192&default-tab=css,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="height: 50vh;width: 100%;">See the Pen <a href="https://codepen.io/planetoftheweb/pen/OQXage/" target="_blank" rel="noopener">Box Model Sample</a> by Ray Villalobos (<a href="https://codepen.io/planetoftheweb" target="_blank" rel="noopener">@planetoftheweb</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe>
+
+
+<h3 id="Author-Notes-1"><a href="#Author-Notes-1" class="headerlink" title="Author Notes"></a>Author Notes</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">html</span> &#123;</span><br><span class="line">  <span class="attribute">box-sizing</span>: border-box;</span><br><span class="line">&#125;</span><br><span class="line">*, *<span class="selector-pseudo">:before</span>, *<span class="selector-pseudo">:after</span> &#123;</span><br><span class="line">  <span class="attribute">box-sizing</span>: inherit;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>A good way to combat against this is to use the code above, it establishes the box model as border-box in the topmost element (html) and then asks every other element on the page to inherit that value.</p>
+<hr>
+<h2 id="Inline-Block-Issues"><a href="#Inline-Block-Issues" class="headerlink" title="Inline Block Issues"></a>Inline Block Issues</h2><ul>
+<li><code>inline</code> vs <code>block</code> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display" target="_blank" rel="noopener">properties</a></li>
+<li><code>inline-block</code> measurements</li>
+<li>Spaces matter</li>
+</ul>
+<iframe class="fragment" height="300" scrolling="no" title="Inline Block Spaces" src="//codepen.io/planetoftheweb/embed/rJLQGm/?height=300&theme-id=27192&default-tab=css,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="height: 40vh; width: 100%;">See the Pen <a href="https://codepen.io/planetoftheweb/pen/rJLQGm/" target="_blank" rel="noopener">Inline Block Spaces</a> by Ray Villalobos (<a href="https://codepen.io/planetoftheweb" target="_blank" rel="noopener">@planetoftheweb</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe>
+
+<h3 id="Author-Notes-2"><a href="#Author-Notes-2" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>The two main display value are inline elements and block elements. The main difference between these elements is that block elements have spacing before and after them and that you can specify an elements width and height on block elements, but not on inline elements.</p>
+<p>The inline-block element was designed so that is displays inline, but you can specify the width and the height, so it’s a pretty useful element, but there is one problem.</p>
+<p>When you add a carriage return in between inline-block elements, it displays a space in between these elements, so in some instances, you may want to make sure that there is no carriage return or spaces between these elements so they display properly.</p>
+<p>Although inline-block can be a quick solution to create certain layouts, it’s not the best way to lay elements out on a page, there are much better ways to do things, but it’s important that you undertand this particular issue with inline-block because it can cause headaches.</p>
+<hr>
+<h2 id="Resetting-Font-Sizes-Trick"><a href="#Resetting-Font-Sizes-Trick" class="headerlink" title="Resetting Font Sizes Trick"></a>Resetting Font Sizes Trick</h2><ul>
+<li><code>ems</code> vs <code>rems</code></li>
+<li>Compounding issue</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html" target="_blank" rel="noopener">root html size</a> font size</li>
+</ul>
+<iframe class="fragment" height="300" scrolling="no" title="Relative Font Sizes" src="//codepen.io/planetoftheweb/embed/yvJQRM/?height=300&theme-id=27192&default-tab=css,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="height: 40vh; width: 100%;">See the Pen <a href="https://codepen.io/planetoftheweb/pen/yvJQRM/" target="_blank" rel="noopener">Relative Font Sizes</a> by Ray Villalobos (<a href="https://codepen.io/planetoftheweb" target="_blank" rel="noopener">@planetoftheweb</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe>
+
+<h3 id="Author-Notes-3"><a href="#Author-Notes-3" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>Let’s review the two major relative typography measurements again. ems are relative to a parent element. The problem with this is that it can cause a compounding issue. So if you have an element where you set the font size to 2 ems and then have another element inside that and set the size to 2ems, that inside element will now be four ems. If you’re doing that a lot it can be confusing to size things.</p>
+<p>Rems, on the other hand are always relative to the root font size, which is usually in the body. The root font size is usually set to 16px in all browsers. Using rems, you can always base the size of any element on that size. So if you want to set the size of an element to 32px, you can use 2rem as the value.</p>
+<p>The root font size of 16px doesn’t always lend itself to easy mathematical calculations, so one technique is to set the root font size to 62.5% in the body. That means that the root font size will now be 10 pixels. That makes it easier to visualize your sizes, because if you want to make something 28 pixels, you can set that to 2.8rem anywhere on the page.</p>
+<p><a href="https://snook.ca/archives/html_and_css/font-size-with-rem" target="_blank" rel="noopener">https://snook.ca/archives/html_and_css/font-size-with-rem</a></p>
+<hr>
+<!-- .slide: data-state="textonvideo" -->
+<h2 id=""><a href="#" class="headerlink" title=""></a><iframe width="560" height="315" style="width: 100vw; height: 100vh;" src="https://www.youtube.com/embed/qkM6RJf15cg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></h2><h2 id="Vendor-Prefixes"><a href="#Vendor-Prefixes" class="headerlink" title="Vendor Prefixes"></a>Vendor Prefixes</h2><ul>
+<li>Browser Support</li>
+<li><a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank" rel="noopener">World Wide Web Consortium (W3C)</a></li>
+<li>Vendor Prefixes</li>
+<li><a href="http://doiuse.herokuapp.com/" target="_blank" rel="noopener">Do I use</a></li>
+</ul>
+<iframe class="fragment" height="300" scrolling="no" title="Compatible gradient" src="//codepen.io/planetoftheweb/embed/wyzJyg/?height=300&theme-id=27192&default-tab=css,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="height: 40vh; width: 100%;">See the Pen <a href="https://codepen.io/planetoftheweb/pen/wyzJyg/" target="_blank" rel="noopener">Compatible gradient</a> by Ray Villalobos (<a href="https://codepen.io/planetoftheweb" target="_blank" rel="noopener">@planetoftheweb</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe>
+
+<h3 id="Author-Notes-4"><a href="#Author-Notes-4" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>CSS is a living language, therefore not all versions of browsers support all features. For the most part everything we’ve covered so far has excellent support even in pretty old browsers. However, some of the techniques we’ll be learning about soon are not always supported in older browsers.</p>
+<p>Different companies establish a baseline of support for which browsers and versions they want to support. So, for example, older government entities might require that you run your site so that it’s compatible with an older version of Internet Explorer.</p>
+<p>As you’ll see as new features are proposed, they go through a rigorous testing and approval procedure by the W3C. However, this process can take years. Some browsers may start to support features even before they are officially approved. Because the definitions of how things work may change, the implementation by some browsers will change over time.</p>
+<p>A good example of this is the definition for <a href="https://caniuse.com/#feat=notifications" target="_blank" rel="noopener">notifications</a> in CSS. It’s an attempt to be able to define notification messages outside of a web page. Current brower support is very sketchy right now. No versions of Internet explorer support that, so that is a feature you shouldn’t depend on for your sites if IE support is required at your company.</p>
+<p>A great place to check for browser support is the <a href="https://caniuse.com/#feat=notifications" target="_blank" rel="noopener">caniuse</a> website. It not only shows you which browsers support, but also usage information (percentage of the web that uses this browser version) so that you can make a decision on wether your company should support this feature. These usage tables are guidelines, however, and your company will make those decisions on usage.</p>
+<p>As features are being developed, browsers will often release an early implementation of those features under their own browser prefixes. The <a href="https://caniuse.com/#search=flexbox" target="_blank" rel="noopener">flexbox feature</a> is a great example of this. When that happen, the browsers will use something called a browser prefix like -moz (firefox), -webkit (safari, chrome), -ms (internet explorer), -o (opera) so that when the feature is released their own versions won’t compete with the final version of the feature.</p>
+<p>When browsers implement their own versions of experimental features, it can sometimes create issues because in order to support both old and new browsers, you end up with multiple ways of writing the same feature. Take <a href="https://caniuse.com/#search=gradient" target="_blank" rel="noopener">gradients</a>, an example we’ll be looking at this week.</p>
+<p>They are not supported in IE until version 10, however in version 5 of safari, they were implemented, but with a different nomenclature. So in order to support gradients in as many older browsers as possible we would need to write something like the example above.</p>
+<p>Clearly, it’s not fun to write css that is backwards compatible with older browsers. There’s a couple of ways around that. One is to use a processor for your CSS that takes care of writing the vendor prefix code for you. That is an advanced feature that we won’t be covering in this class. Another is to use a javascript library like <a href="https://leaverou.github.io/prefixfree/" target="_blank" rel="noopener">prefix-free</a> that will automatically add the prefixes to your code at runtime. This ends up slowing your site slightly and it’s not optimal, but it’s easy to do.</p>
+<p>If you want to use prefix-free from a CDN, you can add this to your code before the closing body tag (<code>&lt;/body&gt;</code>)</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/prefixfree/prefixfree.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>In this class, you can assume that I’ll be using the latest version of Google Chrome, so you won’t need to worry about prefixes unless you want to use a bleeding edge feature of CSS.</p>
+<hr>
+<!-- .slide: data-state="textonvideo" -->
+<iframe width="560" height="315" style="width: 100vw; height: 100vh;" src="https://www.youtube.com/embed/lD9FAOPBiDk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<hr>
+<h2 id="Gradients"><a href="#Gradients" class="headerlink" title="Gradients"></a>Gradients</h2><ul>
+<li>on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background" target="_blank" rel="noopener"><code>background</code></a> or <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-image" target="_blank" rel="noopener"><code>background-image</code></a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient" target="_blank" rel="noopener"><code>linear-gradient</code></a> or <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/radial-gradient" target="_blank" rel="noopener"><code>radial-gradient</code></a></li>
+<li>Gradients and readability</li>
+</ul>
+<iframe class="fragment" height="300" scrolling="no" title="Sample Gradients" src="//codepen.io/planetoftheweb/embed/gvwmJg/?height=300&theme-id=27192&default-tab=css,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="height: 40vh; width: 100%;">See the Pen <a href="https://codepen.io/planetoftheweb/pen/gvwmJg/" target="_blank" rel="noopener">Sample Gradients</a> by Ray Villalobos (<a href="https://codepen.io/planetoftheweb" target="_blank" rel="noopener">@planetoftheweb</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe>
+
+<h3 id="Author-Notes-5"><a href="#Author-Notes-5" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>CSS allows you to define gradients with a powerful set of declarations. These declarations can be insered into the background or the background image attributes. Generally, the background property is more flexible and allows you to create more flexible gradients.</p>
+<p>There are two main options for creating gradients…linear or radial gradients. They are pretty self explanatory, so check out the code above for examples of how to build gradients. You can also check out this <a href="http://lea.verou.me/css3patterns/" target="_blank" rel="noopener">CSS3 Patterns Gallery</a> to see some advanced examples.</p>
+<p>Gradients as a design element have fallen out of favor in recent years with the rise of flat design on the web, so make sure you use gradients sparsely and that you never sacrifice legibility over gradient or background use. One real valid use of gradients is to create an image overlay (see sample code) that can help you create text overlays when you place text on top of an image by darkening or changing the color of an image.</p>
+<hr>
+<h2 id="Advanced-Backgrounds"><a href="#Advanced-Backgrounds" class="headerlink" title="Advanced Backgrounds"></a>Advanced Backgrounds</h2><ul>
+<li>Rich <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background" target="_blank" rel="noopener"><code>background</code></a> property</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-image" target="_blank" rel="noopener"><code>background-image</code></a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat" target="_blank" rel="noopener"><code>background-repeat</code></a>, <a href="`background-position`"><code>background-position</code></a>, <a href="background-attachment"><code>background-attachment</code></a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-size" target="_blank" rel="noopener"><code>background-size</code></a></li>
+<li>Compatibility concerns</li>
+</ul>
+<iframe class="fragment" height="300" scrolling="no" title="Full Screen Background Image" src="//codepen.io/planetoftheweb/embed/LQRyMW/?height=300&theme-id=27192&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="height: 40vh; width: 100%;">See the Pen <a href="https://codepen.io/planetoftheweb/pen/LQRyMW/" target="_blank" rel="noopener">Full Screen Background Image</a> by Ray Villalobos (<a href="https://codepen.io/planetoftheweb" target="_blank" rel="noopener">@planetoftheweb</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe>
+
+<h3 id="Author-Notes-6"><a href="#Author-Notes-6" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>The background property is a super rich property full of features. In addition to being used for gradients, it can also be used to place an image as the background of an element. That’s pretty useful in CSS and there are a lot of controls over how the image is placed and behaves inside that element.</p>
+<p>You can see an example of each of the properties above. You can control the position of the background, so that you can make the image align to the center, top or bottom. This can also be specified in percentages.</p>
+<p>Small backgrounds repeat by default, so you can control how this repetition happens with CSS and ask for either horizontal, vertical repetition or no repetition.</p>
+<p>Another common property is the background attachment property, which lets you control how the background moves in relationship to the scroll. Although fixed is a popular property, this doesn’t translate well to mobile devices, so be careful when relying on this and test on your target platforms.</p>
+<p>You can also control a property called background-size, which lets you define a background that proportionally resizes to the dimensions of the viewport.</p>
+<p>Be careful when placing text on top of an image because sometimes the image can fight with the readability of the text. In those instances, it’s useful to put a mild gradient on top of the image to perhaps darken the image and make the text easier to read.</p>
+<p>This is a great place to use sizes like vw and vh and the weird, but useful v-min font sizes, which give you proportional font sizes related to the viewports.</p>
+<hr>
+<h2 id="Rounded-Edges"><a href="#Rounded-Edges" class="headerlink" title="Rounded Edges"></a>Rounded Edges</h2><ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius" target="_blank" rel="noopener"><code>border-radius</code></a></li>
+<li>px/percentages x/y trbl</li>
+<li>Don’t overuse</li>
+</ul>
+<iframe class="fragment" height="300" scrolling="no" title="border-radius" src="//codepen.io/planetoftheweb/embed/aqmyEP/?height=300&theme-id=27192&default-tab=css,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="height: 40vh; width: 100%;">See the Pen <a href="https://codepen.io/planetoftheweb/pen/aqmyEP/" target="_blank" rel="noopener">border-radius</a> by Ray Villalobos (<a href="https://codepen.io/planetoftheweb" target="_blank" rel="noopener">@planetoftheweb</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe>
+
+<h3 id="Author-Notes-7"><a href="#Author-Notes-7" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>The rounded edges properties allows you to modify the edges of elements so that they have a round edge. There’s a lot of interesting effects that you can achieve with this.</p>
+<p>You can control the overall size of the radius with either pixel units or percentages and invididually control which edges are rounded.</p>
+<hr>
+<h2 id="Shadows"><a href="#Shadows" class="headerlink" title="Shadows"></a>Shadows</h2><ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow" target="_blank" rel="noopener"><code>box-shadow</code></a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow" target="_blank" rel="noopener"><code>text-shadow</code></a></li>
+<li>Don’t overuse</li>
+</ul>
+<iframe class="fragment" height="300" scrolling="no" title="shadows" src="//codepen.io/planetoftheweb/embed/rJMYBx/?height=300&theme-id=27192&default-tab=css,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="height: 40vh; width: 100%;">See the Pen <a href="https://codepen.io/planetoftheweb/pen/rJMYBx/" target="_blank" rel="noopener">shadows</a> by Ray Villalobos (<a href="https://codepen.io/planetoftheweb" target="_blank" rel="noopener">@planetoftheweb</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe>
+
+<h3 id="Author-Notes-8"><a href="#Author-Notes-8" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>Shadows can be an effective way to separate an element from their background. There are two types.</p>
+<p>The primary way of working with shadows is to use the box shadow property which lets you specify the distance of the shadow from an element in x and y positions as well as the softness of the shadow.</p>
+<p>If you want to add shadows to text, you can use the text-shadow property instead. It works pretty much the same way as the box-shadow.</p>
+<p>Just like with rounded edges please don’t overuse these features. Use these for clarity and avoid using them when it makes your/ design look too busy.</p>
+<hr>
+<h2 id="Icons"><a href="#Icons" class="headerlink" title="Icons"></a>Icons</h2><ul>
+<li>Easy to add</li>
+<li><a href="https://fontawesome.com/" target="_blank" rel="noopener">Font Awesome</a></li>
+<li>Add your own icon</li>
+</ul>
+<iframe class="fragment" height="300" scrolling="no" title="icons" src="//codepen.io/planetoftheweb/embed/GQjyqR/?height=300&theme-id=27192&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="height: 40vh; width: 100%;">See the Pen <a href="https://codepen.io/planetoftheweb/pen/GQjyqR/" target="_blank" rel="noopener">icons</a> by Ray Villalobos (<a href="https://codepen.io/planetoftheweb" target="_blank" rel="noopener">@planetoftheweb</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe>
+
+<h3 id="Author-Notes-9"><a href="#Author-Notes-9" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>Icons are a great way to spice up your designs and are very popular on the web. You can use an existing library or create your own.</p>
+<p>One of the most popular icon libraries is called font awesome. You can use a version which includes 929 free icons and there are lots of other libraries you can use on the web.</p>
+<p>You can add your own icons with some simple code (see example). SVGs are always better because they are clearer. Make sure that the icons are visible and simple. Not everything works as an icon.</p>
+<hr>
+<h2 id="Debugging-CSS"><a href="#Debugging-CSS" class="headerlink" title="Debugging CSS"></a>Debugging CSS</h2><ul>
+<li>Inpect/Elements</li>
+<li>Styles/Computed/Console</li>
+<li>Copying code</li>
+</ul>
+<h3 id="Author-Notes-10"><a href="#Author-Notes-10" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>Icons are a great way to spice up your designs and are very popular on the web. You can use an existing library or create your own.</p>
+<p>In addition to using a good linter like <a href="http://csslint.net/" target="_blank" rel="noopener">csslint.net</a>, you need to learn how to debug CSS using your browser. Although most browsers have their own ways of doing this, Google Chrome is the most popular tool that developers use to debug code. In there you have the option of analyzing not just your HTML, but also your CSS. To get to it, <strong>right click</strong> on any element and then choose <strong>inspect</strong> from the popup. Make sure you’re in the <code>elements tab</code> to see the HTML next to the CSS that is in use to display this page.</p>
+<p>Your three most powerful tools for debugging are the <code>styles</code> tab, which shows you the styles that are applied to your page in the order they are applied. The <code>computed</code> tab, which shows you the final state of the elements after all of the styles have been applied and the <code>console</code> tab, which shows you any errors on the page.</p>
+<p>You can override or test styles by using the element.style section. This is the same as using the style attribute in HTML, so it is the most specific.</p>
+<h2 id="If-you-pull-up-your-page-and-you-see-a-red-checkbox-on-the-right-the-page-has-errors-by-using-the-console-tab-you-can-see-if-there-are-any-missing-documents-or-files-that-are-not-loaded-correctly"><a href="#If-you-pull-up-your-page-and-you-see-a-red-checkbox-on-the-right-the-page-has-errors-by-using-the-console-tab-you-can-see-if-there-are-any-missing-documents-or-files-that-are-not-loaded-correctly" class="headerlink" title="If you pull up your page and you see a red checkbox on the right, the page has errors, by using the console tab, you can see if there are any missing documents or files that are not loaded correctly."></a>If you pull up your page and you see a red checkbox on the right, the page has errors, by using the <code>console</code> tab, you can see if there are any missing documents or files that are not loaded correctly.</h2><!-- .slide: data-state="title" -->
+<h1 id="Exercise"><a href="#Exercise" class="headerlink" title="Exercise"></a>Exercise</h1><p>Practice Debugging You CSS</p>
+<hr>
+<h2 id="Graphic-Formats"><a href="#Graphic-Formats" class="headerlink" title="Graphic Formats"></a>Graphic Formats</h2><table>
+<thead>
+<tr>
+<th style="text-align:right">Feature</th>
+<th style="text-align:center">GIF</th>
+<th style="text-align:center">JPG</th>
+<th style="text-align:center">PNG</th>
+<th style="text-align:center">SVG</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right"><strong>Type</strong></td>
+<td style="text-align:center">bitmap</td>
+<td style="text-align:center">bitmap</td>
+<td style="text-align:center">bitmap</td>
+<td style="text-align:center">vector container</td>
+</tr>
+<tr>
+<td style="text-align:right"><strong>Animation</strong></td>
+<td style="text-align:center">yes</td>
+<td style="text-align:center">none</td>
+<td style="text-align:center">none</td>
+<td style="text-align:center">programatic</td>
+</tr>
+<tr>
+<td style="text-align:right"><strong>Max Colors</strong></td>
+<td style="text-align:center">256</td>
+<td style="text-align:center">16-bit</td>
+<td style="text-align:center">32-bit</td>
+<td style="text-align:center">n/a</td>
+</tr>
+<tr>
+<td style="text-align:right"><strong>Transparency</strong></td>
+<td style="text-align:center">1-bit</td>
+<td style="text-align:center">none</td>
+<td style="text-align:center">8-bit</td>
+<td style="text-align:center">programatic</td>
+</tr>
+<tr>
+<td style="text-align:right"><strong>Compression</strong></td>
+<td style="text-align:center">none</td>
+<td style="text-align:center">lossy</td>
+<td style="text-align:center">lossless</td>
+<td style="text-align:center">n/a</td>
+</tr>
+<tr>
+<td style="text-align:right"><strong>Use</strong></td>
+<td style="text-align:center">animated GIF</td>
+<td style="text-align:center">Photos</td>
+<td style="text-align:center">Rich Lossless Transparency</td>
+<td style="text-align:center">Programmable Vectors</td>
+</tr>
+</tbody>
+</table>
+<h3 id="Author-Notes-11"><a href="#Author-Notes-11" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>On the web, there are four graphics formats you should use: GIF, JPG, PNG and SVG. Which one you use depends on what you’re trying to do. </p>
+<h4 id="GIF"><a href="#GIF" class="headerlink" title="GIF"></a>GIF</h4><p>GIF is by far the oldest of the formats and should rarely be used on web projects because of it’s many limitations. First, it can only store a maximum of 256 colors, so it’s not very good for images. Although it does allow you to use transparency, it’s not the best format for that since it only allows 1 of the colors to be transparent. It is not a compressed format, although you can make a GIF file smaller by limiting the amount of colors to an even shorter palette. The only thing this format has going for it is that it is the only bitmap format that allows for animations. This is why it’s still popular today, but it’s hardly something you should be doing on websites.</p>
+<h4 id="JPG"><a href="#JPG" class="headerlink" title="JPG"></a>JPG</h4><p>Next is JPG or JPEG. It’s a format designed for photographic images. JPG is smart about the information it stores because it understands how people see color. </p>
+<p>Most people have four types of sensors that allow them to see images. Rod shaped sensors, which allow you to detect grayscale values in light are the most common and appear at a 50-1 ratio compare to the rest. Cone shaped sensors appear in three different colors: red, green and blue. Because of this, humans are much more sensitive to grayscale information than they are to color information. </p>
+<p>The JPG format understands this and therefore it separates the color information from the grayscale information and uses different compression methods to make the images much smaller applying more compression in the color and less in the grayscale. Because JPG changes the original pixels in the image to do this, it’s called a lossy compression format, which means that you lose quality when you use this method of compression.</p>
+<p>Photos look pretty good with JPG compression and they are significantly smaller than with other formats.</p>
+<h4 id="PNG"><a href="#PNG" class="headerlink" title="PNG"></a>PNG</h4><p>This format was designed after it was discovered that the GIF format was proprietary and belonged to certain companies. It offers a lot more detail and can store much more color information than JPG. So it’s capable of storing a lot more fidelity than the JPG format. In addition, it’s compression is not lossy, so you will not lose quality when saving in the PNG format. Alas, the compression doesn’t produce images which are as small as JPEG so JPG is still the best option for photos. PNG is really good for bitmaps and has one feature that makes it ideal for certain tasks and that’s it’s ability to have soft trasnparency.</p>
+<h4 id="SVG"><a href="#SVG" class="headerlink" title="SVG"></a>SVG</h4><p>Scalable Vector Graphics are the only format that store information as vectors. It is technically a container format, so you can store files in other formats inside an SVG file. Vectors allow you to store mathematical shapes instead of pixels. One huge advantage with SVG is that you can program those shapes using JavaScript and also style them with CSS. The CSS you use for styling SVGs is slightly different than traditional CSS, so it’s easy to learn. You should use SVGs whenever possible if you have vector data.</p>
+<p>You can use Photoshop to export in any format except for SVGs. You can use Illustrator to export vectors as SVGs.</p>
+<hr>
+<h2 id="Sizing-Images"><a href="#Sizing-Images" class="headerlink" title="Sizing Images"></a>Sizing Images</h2><ul>
+<li>Resize to &lt;1500px</li>
+<li>Horizontal Orientation</li>
+<li>Create thumbnails</li>
+</ul>
+<h3 id="Author-Notes-12"><a href="#Author-Notes-12" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>Any image you take with a camera or your phone usually has way more information than you need for a website. Professional cameras can easily be in the 20 megapixel range, but even a 2 megapixel photo at 1920 pixels in width is a lot more than what you’ll need for a website. So it’s important that you crop and resize your images to make them fit into a website. For most photos you don’t really need anything bigger than maybe 1500 pixels wide and maybe 1000 pixels tall, anything more than that is overkill.</p>
+<p>Because most monitors display horizontal aspect ratios, sites are designed with those proportions in mind, so you should, for the most part shoot your images in landscape mode.</p>
+<p>It’s important that for larger images, you provide a thumbnail image that points to a higher resolution version of the image. I would suggest that you try to crop thumbnails to the same size (it’s common to have large wide thumbnails these days) and that you crop them to show a piece of the image, not the entire image.</p>
+<hr>
+<!-- .slide: data-state="title" -->
+<h1 id="Exercise-1"><a href="#Exercise-1" class="headerlink" title="Exercise"></a>Exercise</h1><p>Create thumbnails</p>
+
+      
+    </div>
+
+    
+      
+
+    
+
+    <footer class="article-footer">
+      
+      
+
+    </footer>
+  </div>
+  
+    
+
+  
+</article>
+
+
+
+
+          </main>
+          <sidebar class="col-md-3 blog-sidebar">
+            
+  
+
+  <div class="sidebar-module sidebar-module-inset slide-list">
+    <h4>Slide Pages</h4>
+    <ul class="sidebar-module-list">
+      
+
+        
+        <li>
+          <a href="/fid/slides/05_intermediate_css.html"><i class="fas fa-file-alt"></i>  Intermediate Css</a> <a href="/fid/slides/slides.html?d=05_intermediate_css&amp;"><i class="fab fa-slideshare"></i></a>
+        </li>
+        
+      
+
+        
+        <li>
+          <a href="/fid/slides/04_basic_css.html"><i class="fas fa-file-alt"></i>  Basic Css</a> <a href="/fid/slides/slides.html?d=04_basic_css&amp;"><i class="fab fa-slideshare"></i></a>
+        </li>
+        
+      
+
+        
+        <li>
+          <a href="/fid/slides/03_structural-html.html"><i class="fas fa-file-alt"></i>  Structural-html</a> <a href="/fid/slides/slides.html?d=03_structural-html&amp;"><i class="fab fa-slideshare"></i></a>
+        </li>
+        
+      
+
+        
+        <li>
+          <a href="/fid/slides/01a_the_internet_and_urls.html"><i class="fas fa-file-alt"></i>  The Internet And Urls</a> <a href="/fid/slides/slides.html?d=01a_the_internet_and_urls&amp;"><i class="fab fa-slideshare"></i></a>
+        </li>
+        
+      
+
+        
+        <li>
+          <a href="/fid/slides/01b_hosting_on_github.html"><i class="fas fa-file-alt"></i>  Hosting On Github</a> <a href="/fid/slides/slides.html?d=01b_hosting_on_github&amp;"><i class="fab fa-slideshare"></i></a>
+        </li>
+        
+      
+
+        
+        <li>
+          <a href="/fid/slides/02_learning_html.html"><i class="fas fa-file-alt"></i>  Learning Html</a> <a href="/fid/slides/slides.html?d=02_learning_html&amp;"><i class="fab fa-slideshare"></i></a>
+        </li>
+        
+      
+
+        
+        <li>
+          <a href="/fid/slides/demo.html"><i class="fas fa-file-alt"></i> Demo</a> <a href="/fid/slides/slides.html?d=demo&amp;"><i class="fab fa-slideshare"></i></a>
+        </li>
+        
+      
+
+        
+      
+
+        
+      
+
+        
+      
+    </ul>
+  </div>
+
+
+        <div class="sidebar-module sidebar-module-inset assignment-list">      
+      <h4>Assignments</h4>
+      <ul class="sidebar-module-list">
+        
+          <li><a href="/fid/assignments/intermediate-css/"><i class="fas fa-briefcase"></i> Create a Page Using Intermediate CSS</a></li>
+        
+          <li><a href="/fid/assignments/basic-css/"><i class="fas fa-briefcase"></i> Create a Page Using Basic CSS</a></li>
+        
+          <li><a href="/fid/assignments/structural-html/"><i class="fas fa-briefcase"></i> HTML Pages with Structural Tags</a></li>
+        
+          <li><a href="/fid/assignments/valid-html/"><i class="fas fa-briefcase"></i> Create a Valid HTML Page</a></li>
+        
+          <li><a href="/fid/assignments/github-site/"><i class="fas fa-briefcase"></i> Create a Github Repository and Site</a></li>
+        
+          <li><a href="/fid/assignments/lynda-com/"><i class="fas fa-briefcase"></i> Create a Lynda.com Account</a></li>
+        
+        </ul>
+    </div>
+
+  <div class="sidebar-module sidebar-module-inset">
+  <h4>Class Links</h4>
+  <ul>
+      <li><a href="http://github.com/planetoftheweb/fid"><i class="fas fa-external-link-square-alt"></i> Github Repo</a></li>
+      <li><a href="http://github.com/planetoftheweb/slides/slides.html"><i class="fas fa-external-link-square-alt"></i> Slides</a></li>
+      <li><a href="https://github.com/planetoftheweb/FID/issues"><i class="fas fa-external-link-square-alt"></i> Submit an issue</a></li>
+      <li><a href="http://www.seminolestate.edu/computers/labhours"><i class="fas fa-external-link-square-alt"></i> Lab Hours</a></li>
+      <li><a href="https://www.seminolestate.edu/catalog/#calendar"><i class="fas fa-external-link-square-alt"></i> Academic Calendars</a></li>
+  </ul>
+</div>
+<div class="sidebar-module sidebar-module-inset">
+    <h4>Code Editors</h4>
+        <ul>
+      <li><a href="https://code.visualstudio.com"><i class="fas fa-code"></i> Visual Studio Code</a></li>
+      <li><a href="https://atom.io"><i class="fas fa-code"></i> Atom</a></li>
+  </ul>
+</div>
+<div class="sidebar-module sidebar-module-inset">
+    <h4>Online Resources</h4>
+  <ul>
+      <li><a href="https://developer.mozilla.org"><i class="fas fa-globe"></i> MDN</a></li>
+      <li><a href="https://css-tricks.com"><i class="fas fa-globe"></i> CSS Tricks</a></li>
+      <li><a href="https://codepen.io"><i class="fas fa-globe"></i> Codepen</a></li>
+      <li><a href="http://jsbin.com"><i class="fas fa-globe"></i> JS Bin</a></li>      
+  </ul>
+</div>
+<div class="sidebar-module sidebar-module-inset">
+    <h4>Lynda.com Tutorials</h4>
+  <ul>
+      <li><a href="https://www.lynda.com/NA-tutorials/How-use-Lynda-com/77683-2.html"><i class="icon icon-lynda"></i> Using Lynda</a></li>
+      <li><a href="https://www.lynda.com/Visual-Studio-tutorials/Visual-Studio-Code-Web-Developers/588785-2.html"><i class="icon icon-lynda"></i> VS Code</a></li>
+      <li><a href="https://www.lynda.com/Web-Development-tutorials/Learn-Atom-Basics/468147-2.html"><i class="icon icon-lynda"></i> Atom</a></li>
+      <li><a href="https://www.lynda.com/Web-Development-tutorials/HTML-Essential-Training/170427-2.html"><i class="icon icon-lynda"></i> HTML</a></li>
+      <li><a href="https://www.lynda.com/CSS-tutorials/CSS-Essential-Training-1/569190-2.html"><i class="icon icon-lynda"></i> CSS 1</a></li>
+      <li><a href="https://www.lynda.com/CSS-tutorials/CSS-Essential-Training-2/569189-2.html"><i class="icon icon-lynda"></i> CSS 2</a></li>
+      <li><a href="https://www.lynda.com/CSS-tutorials/CSS-Essential-Training-3/609030-2.html"><i class="icon icon-lynda"></i> CSS 3</a></li>
+      <li><a href="https://www.lynda.com/Bootstrap-tutorials/Bootstrap-4-Essential-Training/372545-2.html"><i class="icon icon-lynda"></i> Bootstrap 4</a></li>
+  </ul>
+</div>
+
+
+
+          </sidebar>
+      </div><!-- row -->
+    </div><!-- container -->
+    <footer class="blog-footer">
+  <div class="container">
+    <div id="footer-info" class="inner container">
+      <div class="row links custom-links justify-content-center mt-3">
+          <a class="col col-sm-1 icon icon-twitter" href="https://twitter.com/planetoftheweb"><i class="fab fa-twitter"></i></a>
+          <a class="col col-sm-1 icon icon-facebook" href="https://facebook.com/viewsource"><i class="fab fa-facebook"></i></a>
+          <a class="col col-sm-1 icon icon-linkedin" href="https://linkedin.com/in/planetoftheweb"><i class="fab fa-linkedin"></i></a>
+          <a class="col col-sm-1 icon icon-github" href="https://github.com/planetoftheweb"><i class="fab fa-github"></i></a>
+          <a class="col col-sm-1 icon icon-google-plus" href="https://plus.google.com/+RayVillalobos0"><i class="fab fa-google-plus"></i></a>
+          <a class="col col-sm-1 icon icon-dribbble" href="https://dribbble.com/planetoftheweb"><i class="fab fa-dribbble"></i></a>
+          <a class="col col-sm-1 icon icon-flickr" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/"><i class="fab fa-flickr"></i></a>
+          <a class="col col-sm-1 icon icon-youtube" href="https://www.youtube.com/user/planetoftheweb"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+  </div>
+</footer>
+
+  
+
+  
+
+
+
+  
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+<script src="/fid/js/script.js"></script>
+
+</body>
+</html>
