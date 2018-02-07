@@ -88,4 +88,5 @@ copy_dst: "slides/markdown"
 deploy:
   type: git
   repo: https://github.com/planetoftheweb/fid
-  branch: gh-pages
+  branch: master
+  message: "Updates to Class Repository"
