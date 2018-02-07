@@ -9,7 +9,7 @@
 - The server routes the request to a service
 - Server sends data back to client
 
-> > Teacher's Notes:
+### Teacher's Notes
 
 Before we get started, let's talk a bit about how the internet works. You probably already know generally speaking how it works, but I think it would help to cover more specifically what it's doing in the background
 
@@ -27,7 +27,7 @@ Finally, once the server finishes requesting the information, it's sent back to 
 - Various server apps handle different [protocols](http://en.wikipedia.org/wiki/Internet_Protocol)
 - http, pop, smtp, ftp, https
 
-> > Author's Notes
+### Author's Notes
 
 On the internet, communication happens through protocols. If you've seen Star Wars you might remember that C3-PO is a protocol droid and that he got hired by Luke's uncle because he spoke the language of moisture vaporators.
 
@@ -43,7 +43,7 @@ By far, the most common protocol is http. You usually see it typed at the beginn
 
 - The initial request/command
 
-> > Author's Notes:
+### Author's Notes
 
 You might be asking how the server knows what to do. The key to that magic is the URL or Uniform Resource Locator. You're probably used to seeing URLs on the web. They have all the information the server needs to do it's job.
 
@@ -60,7 +60,7 @@ Note: Sometimes the server will have a shortened version of this without all of 
 - Language of the request
 - http vs https
 
-> > Author's Notes
+### Author's Notes
 
 The first piece of the request is the protocol. This is the main thing the server needs to know, so that it can send the request to the proper service or application. Here, it's https, because it's an http request that's a bit more secure.
 
@@ -76,7 +76,7 @@ Most modern sites today use https instead of http because it's a more secure ver
 - Domain inside domain
 - Helps you divide requests
 
-> > Author's Notes
+### Author's Notes
 
 Servers have a lot of ways to divide requests and one of the ways you can do that is by using a sub-domain. A sub-domain allows the same domain to do multiple jobs. It's like having a website inside another website.
 
@@ -93,7 +93,7 @@ You've probably noticed that most websites have a www. subdomain, but there can 
 - IP addresses = Zip Codes
 - DNS Servers = Post Office
 
-> > Author's Notes
+### Author's Notes
 
 The next part of the URL is what most people associate with a website and it's called the domain name. Have you ever asked yourself how your browser knows where to find a website? It happens because of the domain name.
 
@@ -115,7 +115,7 @@ Think of DNS servers as the Post Office, by reading the zip code, they know the 
 - Country specific [Monopo.ly](http://Monopo.ly)   [Instagr.am](http://instagr.am)
 - Very flexible today
 
-> > Author's Notes
+### Author's Notes
 
 The next part is the TLD or Top Level Domain. It represents the domain type and is supposed to identify the type of domain that you're using.
 
@@ -133,7 +133,7 @@ In recent years, the amount of TLDs has exploded into many other categories, whi
 - A way to divide app requests
 - Request sent through ports
 
-> > Author's Notes
+### Author's Notes
 
 Another thing you might see on a URL as a way to further divide app requests is something called a [port number](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers) It follows the TLD and starts with a colon and has a number.
 
@@ -148,7 +148,7 @@ Think of this as channels on radio or TV. They allow you to send different types
 - Often a folder/file structure
 - Can be data passed
 
-> > Author's Notes
+### Author's Notes
 
 Next is the path of the request. This is separated by slashes `/` and let the server know the location of the service you're requesting. They can be setup in a couple of ways.
 
@@ -168,7 +168,7 @@ This isn't the way YouTube or some other service works though, they use the PATH
 - Information to pass
 - Name/Value Pairs
 
-> > Author's Notes
+### Author's Notes
 
 The next part of the URL are called query/parameters. You can use the URL to pass detailed information to the server. Sometimes this data is passed in different ways and query parameters is a common way to do this.
 
@@ -184,7 +184,7 @@ The query starts with a question mark and you can then add a series of variables
 - ID inside page
 - query/parameters
 
-> > Author's Notes
+### Author's Notes
 
 A fragment is another way to pass information through a URL. It refers to a resource that is inside another resource. It' used in a couple of ways on pages.
 

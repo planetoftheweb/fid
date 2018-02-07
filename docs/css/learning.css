@@ -681,3 +681,48 @@ footer.fadeout {
 
 .circles li.current-fragment {
   opacity: 1 !important; }
+
+
+/*********************************************
+ * Icons
+ *********************************************/
+
+  .icon {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    width: 1em;
+    overflow: visible;
+    vertical-align: -.125em;  
+    text-rendering: auto;
+  }
+  
+  .icon-lynda {
+    background: url('../images/icon-lynda.svg') no-repeat center center;
+    background-size: contain;
+  }
+  
+  .icon-lil {
+    background: url('../images/icon-lil.png') no-repeat center center;
+    background-size: contain;
+  }
+  
+  .icon-mdn {
+    background: url('../images/icon-mdn.svg') no-repeat center center;
+    background-size: contain;
+  }
+  
+  .icon-app {
+    background: url('../images/icon-app.svg') no-repeat center center;
+    background-size: contain;
+  }
+  
+  .icon-pow {
+    background: url('../images/icon-pow.svg') no-repeat center center;
+    background-size: contain;
+  }
+  
+  .icon-lil {
+    background: url('../images/icon-lil.svg') no-repeat center center;
+    background-size: contain;
+  }

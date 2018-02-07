@@ -8,7 +8,7 @@
 - Servers have needs
 - Own/Rent/Services
 
-> > Author Notes:
+### Author Notes
 
 Although every computer on the internet can be a server, not all of them should be. A laptop would be a horrible server because any site hosted in it would go down every time you closed it. So a server needs to have:
 
@@ -27,7 +27,7 @@ Most companies do not own their own servers because it takes a lot of very speci
 - Distributed
 - Flat file hosting
 
-> > Author Notes:
+### Author Notes
 
 Github is a website created to help developers use and work with others to manage code. It's based on a techology called Git, so it provides a number of features that visualize the way that Git works and makes it easier to manage online
 
@@ -51,7 +51,7 @@ One of the features that Github provides is the ability to host simple flat-file
 - Pull Request/Merge
 - Issues
 
-> > Author Notes:
+### Author Notes
 
 In this class, we're going to be working exclusively with Github. Git is an avanced topic outside of the scope of this class, but since Github is based on git, let's talk about the language you use when working with Git and Github.
 
@@ -79,7 +79,7 @@ Better yet, you can fork the project, fix the typo and then issue a pull request
 - `README.md` file
 - Hosting strategy
 
-> > Author Notes:
+### Author Notes
 
 Github offers unlimited free hosting for public projects. You can also host private projects in some of the paid plans. A lot of the web's most important projects are hosted on Github.
 
