@@ -11,30 +11,37 @@
 - Markup
 
 > > Author Notes:
-- HTML stands for HyperText Markup Language and you can break that into two parts. First is HyperText and then the markup language. Let's talk about those two things.
+- HTML stands for HyperText Markup Language and is the language that powers the web. You can break what HTML means into two parts. First is HyperText and then the markup language. Let's talk about those two things.
 
 - HyperText is a document that can be linked to other related documents. Since documents are linked to each other, it creates a web of links that we know as the world wide web.
 
-- Markup is special syntax for annotating a document. Think of markup as what your english teacher would do to a document when they correct it. They would 'mark it up' with corrections that need to be done.
+- HTML is called the Markup Language. Markup is special syntax for annotating a document. Think of markup as what your english teacher would do to a document when they correct it. They would 'mark it up' with corrections that need to be done.
 
 ---
 
 ## Semantic HTML
+- One of three
 - [Defines structure](https://www.lynda.com/HTML-tutorials/What-web-semantics/182177/370807-4.html)
 - Never include layout
 - HTML critical
 
 > > Author Notes:
+
+HTML is one of the big three core languages needed to build ANY web page. They are HTML, CSS and JavaScript. HTML is easily the most important of the three and is in chrage of defining the structure of a page. CSS controls how a page looks and JavaScript controls how users can interact with a website. Without proper HTML, the other two languages won't work.
+
 One of the most important jobs for HTML is to focus on the semantics of your document. Semantic means adding meaning to the content of your page.
-- Every HTML page has three different parts to it. First, is the structure of the document, which is defined by the markup that you use to add meaning to your page. That's what we're talking about today. The second is the styles or CSS that can add the look and feel of the document and the last is the JavaScript that adds interactivity to your pages.
-- It's critical that you let each component or part handle the job it's designed for. So it's crucial that you NOT add anything that is not markup to HTML. Certain html markup will make certain things look at certain way, but what's really important is that you focus on adding meaning, not looks to your document using HTML.
-- HTML is the most critical of the three components. If you mess up the structure of the HTML, then neither the styles will work or the interactivity.
+
+Every HTML page has three different parts to it. First, is the structure of the document, which is defined by the markup that you use to add meaning to your page. That's what we're talking about today. The second is the styles or CSS that can add the look and feel of the document and the last is the JavaScript that adds interactivity to your pages.
+
+It's critical that you let each component or part handle the job it's designed for. So it's crucial that you NOT add anything that is not markup to HTML. Certain html markup will make certain things look at certain way, but what's really important is that you focus on adding meaning, not looks to your document using HTML.
+
+HTML is the most critical of the three components. If you mess up the structure of the HTML, then neither the styles will work or the interactivity.
 
 ---
 
 ## Tag Structure
 
-```
+```html
 <element [attribute[='value']...>content[</element>]
 ```
 <!-- .element: style="width:70%" -->
