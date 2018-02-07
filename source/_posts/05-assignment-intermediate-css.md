@@ -35,21 +35,19 @@ Create a project that uses intermediate CSS features.
 - [ ] Use a Github repo and place this inside a projects folder under it's own folder
 - [ ] Use any of the styles on [this page](/fid/slides/05_intermediate_css.html) and any previous styles, but  no others
 - [ ] You may use a copy of the previous HTML project
-- [ ] You must use external style sheets ONLY
+- [ ] You must use `external style sheets ONLY`
 - [ ] All HTML must validate using the [w3c validator](https://validator.w3.org) (-50 points)
 - [ ] All CSS must validate using the [csslint](http://csslint.net/) (-30 points)
 - [ ] Links to your project must work (-50 points)
 
 ## Lesson Expectations
-- [ ] You must use a background image using the vh measurement
-- [ ] You must use some thumbnails on a page
-- [ ] Images must be resized and compressed
-- [ ] You must use the inline-block parameter in a meaningful way
-- [ ] You must use border-radius somewhere
-- [ ] You must use border-box sizing
-- [ ] You must use a drop shadow tastefully
-- [ ] You must use rems to size your typography
-- [ ] You must resize your root font size to 10 pixels
-- [ ] You must use use a gradient tastefully
-- [ ] You must use rounded edges somewhere on your stylesheet
+- [ ] You must use a `background image` using the `vh` measurement
+- [ ] You must use the` inline-block` parameter in a meaningful way
+- [ ] You must use `border-radius` somewhere
+- [ ] You must use `border-box` sizing
+- [ ] You must use a `drop shadow` tastefully
+- [ ] You must use `rems` to size your typography
+- [ ] You must resize your `root font` size to 10 pixels
+- [ ] You must use use a `gradient` tastefully
+- [ ] You must use `rounded edges` somewhere on your stylesheet
 - [ ] You must use icons
