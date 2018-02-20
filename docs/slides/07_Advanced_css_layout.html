@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Media Queries Layouts depending on properties media attribute 1&amp;lt;link rel=&apos;stylesheet&apos; media=&apos;screen and (min-width: 701px)&apos; href=&apos;css/mediumsize.css&apos; /&amp;gt;  @media selector   See the Pen media quer">
+<meta property="og:type" content="website">
+<meta property="og:title">
+<meta property="og:url" content="http://yoursite.com/fid/slides/07_Advanced_css_layout.html">
+<meta property="og:site_name">
+<meta property="og:description" content="Media Queries Layouts depending on properties media attribute 1&amp;lt;link rel=&apos;stylesheet&apos; media=&apos;screen and (min-width: 701px)&apos; href=&apos;css/mediumsize.css&apos; /&amp;gt;  @media selector   See the Pen media quer">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2018-02-20T21:27:26.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title">
+<meta name="twitter:description" content="Media Queries Layouts depending on properties media attribute 1&amp;lt;link rel=&apos;stylesheet&apos; media=&apos;screen and (min-width: 701px)&apos; href=&apos;css/mediumsize.css&apos; /&amp;gt;  @media selector   See the Pen media quer">
+<meta name="twitter:creator" content="@planetoftheweb">
+
+  
+    <link rel="alternate" href="/fid/atom.xml" title="" type="application/atom+xml">
+  
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
+  
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,700|Nunito:300,600" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/fid/css/styles.css">
+  
+
+  
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-58547762-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+
+</head>
+
+<body>
+
+  
+
+    <header class="site-header"></header>
+
+<nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+  <div class="container">
+  
+    <a class="navbar-brand d-none d-lg-block" href="/fid/">Fundamentals of Interactive Design</a>
+    <a class="navbar-brand d-lg-none" href="/fid/">FID</a>
+  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+      <div class="navbar-nav ml-auto">
+        
+          <a class="nav-item nav-link "
+                href="/fid/index.html">Home</a>
+        
+          <a class="nav-item nav-link "
+                href="/fid/categories/assignments/">Assignments</a>
+        
+          <a class="nav-item nav-link active"
+                href="/fid/slides/">Slides</a>
+        
+          <a class="nav-item nav-link "
+                href="/fid/syllabus/">Syllabus</a>
+        
+      </div><!-- navbar-nav -->
+    </div><!-- collapse -->
+  </div><!-- container -->
+</nav><!-- nav -->
+
+    <div class="container">
+      <header class="blog-header">
+  <h1 class="blog-title"></h1>
+  
+</header>
+
+      <div class="row">
+          <main class="col-md-9 blog-main">
+            <article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
+
+  
+
+  
+    <div class="article-meta">
+    <div class="article-datetime">
+  <a href="/fid/slides/07_Advanced_css_layout.html" class="article-date"><time datetime="2018-02-20T21:27:26.639Z" itemprop="datePublished">2018-02-20</time></a>
+</div>
+
+    
+    
+
+  </div>
+  
+
+  <div class="article-inner">
+
+    <div class="article-entry" itemprop="articleBody">
+      
+
+      
+        <h2 id="Media-Queries"><a href="#Media-Queries" class="headerlink" title="Media Queries"></a>Media Queries</h2><ul>
+<li>Layouts depending on properties</li>
+<li><p><code>media</code> attribute</p>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;link <span class="attribute">rel</span>=<span class="string">'stylesheet'</span> <span class="attribute">media</span>=<span class="string">'screen and (min-width: 701px)'</span> <span class="attribute">href</span>=<span class="string">'css/mediumsize.css'</span> /&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media" target="_blank" rel="noopener"><code>@media</code></a> selector</p>
+</li>
+</ul>
+<iframe class="fragment" height="400" scrolling="no" title="media queries" src="//codepen.io/planetoftheweb/embed/WMzPLM/?height=400&theme-id=27192&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="height: 40vh; width: 100%;">See the Pen <a href="https://codepen.io/planetoftheweb/pen/WMzPLM/" target="_blank" rel="noopener">media queries</a> by Ray Villalobos (<a href="https://codepen.io/planetoftheweb" target="_blank" rel="noopener">@planetoftheweb</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe>
+
+<h3 id="Author-Notes"><a href="#Author-Notes" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>Media queries allow you to use certain styles depending on certain device properties. There are two ways to control this. First, you can add a media property that will load depending on, for example, the size of the device.</p>
+<p>You can also use a @media selector in your CSS to control an individual element or a group of elements.</p>
+<iframe class="fragment" height="400" scrolling="no" title="media queries" src="//codepen.io/planetoftheweb/embed/WMzPLM/?height=400&theme-id=27192&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="height: 40vh; width: 100%;">See the Pen <a href="https://codepen.io/planetoftheweb/pen/WMzPLM/" target="_blank" rel="noopener">media queries</a> by Ray Villalobos (<a href="https://codepen.io/planetoftheweb" target="_blank" rel="noopener">@planetoftheweb</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe>
+
+<hr>
+<h2 id="Media-Types-Features"><a href="#Media-Types-Features" class="headerlink" title="Media Types/Features"></a>Media Types/Features</h2><ul>
+<li><code>all</code>, <code>screen</code>, <code>print</code>, <code>speech</code></li>
+<li>features: <code>width</code>, <code>height</code> <br><code>orientation</code>, <code>resolution</code>, etc. </li>
+<li>operators: <code>and</code>, <code>not</code></li>
+</ul>
+<iframe class="fragment" height="400" scrolling="no" title="media queries-types features" src="//codepen.io/planetoftheweb/embed/zRWbNx/?height=400&theme-id=27192&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="height: 40vh; width: 100%;">See the Pen <a href="https://codepen.io/planetoftheweb/pen/zRWbNx/" target="_blank" rel="noopener">media queries-types features</a> by Ray Villalobos (<a href="https://codepen.io/planetoftheweb" target="_blank" rel="noopener">@planetoftheweb</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe>
+
+<h3 id="Author-Notes-1"><a href="#Author-Notes-1" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>You can control where these features apply. For example, you can control wether stylesheets apply only when printing or to screens.</p>
+<p>There are a number of features that you can check for, but the most common are width or height, which are almost always expressed with minimum or maximum parameters.</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">body</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: red;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">@<span class="keyword">media</span> all and (min-width: <span class="number">701px</span>) &#123;</span><br><span class="line">  <span class="selector-tag">body</span> &#123;</span><br><span class="line">    <span class="attribute">background</span>: yellow;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<hr>
+<!-- .slide: data-state="title" -->
+<h1 id="Flexbox"><a href="#Flexbox" class="headerlink" title="Flexbox"></a>Flexbox</h1><hr>
+<h2 id="Introducing-Flexbox"><a href="#Introducing-Flexbox" class="headerlink" title="Introducing Flexbox"></a>Introducing Flexbox</h2><ul>
+<li>One  of many <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout" target="_blank" rel="noopener"><code>display</code></a> properties</li>
+<li>One dimensional layouts</li>
+<li><a href="https://caniuse.com/#feat=flexbox" target="_blank" rel="noopener">Backwards compatible</a></li>
+</ul>
+<h3 id="Author-Notes-2"><a href="#Author-Notes-2" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>Flexbox, of course, is one of the many display properties. There are so many available that it’s hard to go over all of them. </p>
+<p>Flexbox is perfect for handling simpler, two dimensional layouts. There is anoteher property for more complex two dimensional layouts called <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Grid" target="_blank" rel="noopener">grid</a>, but it doesn’t have very good <a href="https://caniuse.com/#search=grid" target="_blank" rel="noopener">browser support</a>, so we won’t be covering it in this class yet.</p>
+<p>Flexbox has great compatibility with older browsers, although some older browsers require that you write flexbox in multiple ways, which is usually handled with processors that can take care of the conversion.</p>
+<hr>
+<h2 id="Container-vs-Items"><a href="#Container-vs-Items" class="headerlink" title="Container vs Items"></a>Container vs Items</h2><ul>
+<li>Control <code>containers</code></li>
+<li>Customize <code>items</code></li>
+<li>Direction agnostic</li>
+</ul>
+<iframe class="fragment" height="400" scrolling="no" title="Display Flex" src="//codepen.io/planetoftheweb/embed/BYrvWg/?height=400&theme-id=27192&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="height: 40vh; width: 100%;">See the Pen <a href="https://codepen.io/planetoftheweb/pen/BYrvWg/" target="_blank" rel="noopener">Display Flex</a> by Ray Villalobos (<a href="https://codepen.io/planetoftheweb" target="_blank" rel="noopener">@planetoftheweb</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe>
+
+
+<h3 id="Author-Notes-3"><a href="#Author-Notes-3" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>The main power that flexbox gives you is the ability of a container to modify the width and height of it’s items to fit the available space.</p>
+<p>You can then customize the placement of individual items if you wnat to. However, most of the time, the main container will be the target that will take care of what you need.</p>
+<p>Flexbox is direction agnostic. Whereas block is vertically based and inline horizontally based, flexbox can be rearranged to display elements horizontally or vertically as needed with just a few simple classes.</p>
+<hr>
+<h2 id="Container-vs-Items-1"><a href="#Container-vs-Items-1" class="headerlink" title="Container vs Items"></a>Container vs Items</h2><ul>
+<li>Control <code>containers</code></li>
+<li>Customize <code>items</code></li>
+<li>Direction agnostic</li>
+</ul>
+<iframe class="fragment" height="400" scrolling="no" title="Display Flex" src="//codepen.io/planetoftheweb/embed/BYrvWg/?height=400&theme-id=27192&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="height: 40vh; width: 100%;">See the Pen <a href="https://codepen.io/planetoftheweb/pen/BYrvWg/" target="_blank" rel="noopener">Display Flex</a> by Ray Villalobos (<a href="https://codepen.io/planetoftheweb" target="_blank" rel="noopener">@planetoftheweb</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe>
+
+
+<h3 id="Author-Notes-4"><a href="#Author-Notes-4" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>The main power that flexbox gives you is the ability of a container to modify the width and height of it’s items to fit the available space.</p>
+<p>You can then customize the placement of individual items if you wnat to. However, most of the time, the main container will be the target that will take care of what you need.</p>
+<p>Flexbox is direction agnostic. Whereas block is vertically based and inline horizontally based, flexbox can be rearranged to display elements horizontally or vertically as needed with just a few simple classes.</p>
+<hr>
+<h2 id="Controlling-Direction"><a href="#Controlling-Direction" class="headerlink" title="Controlling Direction"></a>Controlling Direction</h2><ul>
+<li><code>flex-direction</code> property</li>
+<li><p>Values: <code>row</code><br> <code>row-reverse</code><br> <code>column</code><br> <code>column-reverse</code></p>
+</li>
+<li><p>Great with <code>@media</code> rules</p>
+</li>
+</ul>
+<iframe class="fragment" height="400" scrolling="no" title="flex controlling direction" src="//codepen.io/planetoftheweb/embed/MQVLQB/?height=400&theme-id=27192&default-tab=css,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="height: 40vh; width: 100%;">See the Pen <a href="https://codepen.io/planetoftheweb/pen/MQVLQB/" target="_blank" rel="noopener">flex controlling direction</a> by Ray Villalobos (<a href="https://codepen.io/planetoftheweb" target="_blank" rel="noopener">@planetoftheweb</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe>
+
+<h3 id="Author-Notes-5"><a href="#Author-Notes-5" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>You can easily control wether elements inside the container display as rows or columns with this property. The default is row. It works super well with media queries to allow you to do this conditionally.</p>
+<hr>
+<h2 id="Wrapping"><a href="#Wrapping" class="headerlink" title="Wrapping"></a>Wrapping</h2><ul>
+<li><code>flex-wrap</code> property</li>
+<li>Values: <code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code></li>
+<li><code>flex-flow: row nowrap;</code> combo</li>
+</ul>
+<iframe class="fragment" height="400" scrolling="no" title="flex Controlling Wrapping" src="//codepen.io/planetoftheweb/embed/ZrxPgQ/?height=400&theme-id=27192&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="height: 40vh; width: 100%;">See the Pen <a href="https://codepen.io/planetoftheweb/pen/ZrxPgQ/" target="_blank" rel="noopener">flex Controlling Wrapping</a> by Ray Villalobos (<a href="https://codepen.io/planetoftheweb" target="_blank" rel="noopener">@planetoftheweb</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe>
+
+<h3 id="Author-Notes-6"><a href="#Author-Notes-6" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>Flexbox by default will try to fit the items in the container, even if the items get big. You can change this behavior by using the <code>flex-wrap</code> property. This will make items continue on a separate line once they fill up the horizontal space.</p>
+<hr>
+<h2 id="Justification"><a href="#Justification" class="headerlink" title="Justification"></a>Justification</h2><ul>
+<li><code>justify-content</code> property</li>
+<li>Values:   <code>flex-start</code> <code>flex-end</code> <code>center</code><br><code>space-between</code> <code>space-around</code> <code>space-evenly</code></li>
+</ul>
+<iframe class="fragment" height="400" scrolling="no" title="Flexbox Justify" src="//codepen.io/planetoftheweb/embed/eVMozB/?height=400&theme-id=27192&default-tab=css,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="height: 40vh; width: 100%;">See the Pen <a href="https://codepen.io/planetoftheweb/pen/eVMozB/" target="_blank" rel="noopener">Flexbox Justify</a> by Ray Villalobos (<a href="https://codepen.io/planetoftheweb" target="_blank" rel="noopener">@planetoftheweb</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe>
+
+<h3 id="Author-Notes-7"><a href="#Author-Notes-7" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>Justify content lets you lets you control the horizontal alignment or justification of elements inside the container. It makes it incredibly simple to center or spread out elements inside a container.</p>
+<hr>
+<h2 id="Justify-Content-Vertically"><a href="#Justify-Content-Vertically" class="headerlink" title="Justify Content Vertically"></a>Justify Content Vertically</h2><ul>
+<li><code>align-items</code> property</li>
+<li>Values: <code>flex-start</code> <code>flex-end</code> <code>center</code><br><code>baseline</code> <code>stretch</code></li>
+</ul>
+<iframe class="fragment" height="400" scrolling="no" title="Flexbox Vertical Alignment" src="//codepen.io/planetoftheweb/embed/XZEQRR/?height=400&theme-id=27192&default-tab=css,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="height: 40vh; width: 100%;">See the Pen <a href="https://codepen.io/planetoftheweb/pen/XZEQRR/" target="_blank" rel="noopener">Flexbox Vertical Alignment</a> by Ray Villalobos (<a href="https://codepen.io/planetoftheweb" target="_blank" rel="noopener">@planetoftheweb</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe>
+
+<h3 id="Author-Notes-8"><a href="#Author-Notes-8" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>Although this property is called align elements, it’s easier if you think about it as vertical justification. A lot of the same properties as horizontal justification. This makes flexbox the easiest way to center something vertically.</p>
+<hr>
+<h2 id="Aligning-Content-Vertically"><a href="#Aligning-Content-Vertically" class="headerlink" title="Aligning Content Vertically"></a>Aligning Content Vertically</h2><ul>
+<li><code>align-content</code> property</li>
+<li><code>flex-start</code> <code>flex-end</code> <code>center</code><br><code>space-between</code> <code>space-around</code> <code>stretch</code></li>
+<li>More than one line</li>
+</ul>
+<iframe class="fragment" height="400" scrolling="no" title="Aligning Content Vertically" src="//codepen.io/planetoftheweb/embed/OQvGQK/?height=400&theme-id=27192&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="height: 40vh; width: 100%;">See the Pen <a href="https://codepen.io/planetoftheweb/pen/OQvGQK/" target="_blank" rel="noopener">Aligning Content Vertically</a> by Ray Villalobos (<a href="https://codepen.io/planetoftheweb" target="_blank" rel="noopener">@planetoftheweb</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe>
+
+<h3 id="Author-Notes-9"><a href="#Author-Notes-9" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>Whenever you have more than one line worth of elements and a big vertical area to fill, this will help you position those elements vertically.  This makes flexbox the easiest way to align multiple elements.</p>
+<hr>
+<!-- .slide: data-state="title" -->
+<h1 id="Flexbox-Individual-Items"><a href="#Flexbox-Individual-Items" class="headerlink" title="Flexbox: Individual Items"></a>Flexbox: Individual Items</h1><hr>
+<h2 id="Order"><a href="#Order" class="headerlink" title="Order"></a>Order</h2><ul>
+<li><code>order</code> property</li>
+<li>Numbers <code>grouped</code> together</li>
+</ul>
+<iframe class="fragment" height="400" scrolling="no" title="Individual Order" src="//codepen.io/planetoftheweb/embed/MQVdbQ/?height=400&theme-id=27192&default-tab=css,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="height: 40vh; width: 100%;">See the Pen <a href="https://codepen.io/planetoftheweb/pen/MQVdbQ/" target="_blank" rel="noopener">Individual Order</a> by Ray Villalobos (<a href="https://codepen.io/planetoftheweb" target="_blank" rel="noopener">@planetoftheweb</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe>
+
+
+<h3 id="Author-Notes-10"><a href="#Author-Notes-10" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>You can order elements individually. The order is a number you can assign that allows you to group elements within that order. Think of it as layers. Any group you assign as group 5 will be grouped together.</p>
+<hr>
+<h2 id="Grow-Proportionally"><a href="#Grow-Proportionally" class="headerlink" title="Grow Proportionally"></a>Grow Proportionally</h2><ul>
+<li><code>flex-grow</code>, <code>flex-shrink</code>, <code>flex-basis</code></li>
+<li>Set up proportions</li>
+</ul>
+<iframe class="fragment" height="400" scrolling="no" title="Individual Order" src="//codepen.io/planetoftheweb/embed/oEqRBr/?height=400&theme-id=27192&default-tab=css,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="height: 40vh; width: 100%;">See the Pen <a href="https://codepen.io/planetoftheweb/pen/oEqRBr/" target="_blank" rel="noopener">Individual Order</a> by Ray Villalobos (<a href="https://codepen.io/planetoftheweb" target="_blank" rel="noopener">@planetoftheweb</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe>
+
+<h3 id="Author-Notes-11"><a href="#Author-Notes-11" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>When you need to control how an element grows in relationship with other elements you can use these different properties.</p>
+<hr>
+<h2 id="Individual-Vertical-Position"><a href="#Individual-Vertical-Position" class="headerlink" title="Individual Vertical Position"></a>Individual Vertical Position</h2><ul>
+<li><code>align-self</code> property</li>
+<li><code>auto</code> <code>flex-start</code> <code>flex-end</code><br><code>center</code> <code>baseline</code> <code>stretch</code></li>
+<li>Assign to individual items.</li>
+</ul>
+<iframe class="fragment" height="400" scrolling="no" title="Flexbox: Individual Vertical Position" src="//codepen.io/planetoftheweb/embed/NyYVYv/?height=400&theme-id=27192&default-tab=css,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="height: 40vh; width: 100%;">See the Pen <a href="https://codepen.io/planetoftheweb/pen/NyYVYv/" target="_blank" rel="noopener">Flexbox: Individual Vertical Position</a> by Ray Villalobos (<a href="https://codepen.io/planetoftheweb" target="_blank" rel="noopener">@planetoftheweb</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe>
+
+<h3 id="Author-Notes-12"><a href="#Author-Notes-12" class="headerlink" title="Author Notes"></a>Author Notes</h3><p>Use these if you want to align something vertically separately from the rest of the group.</p>
+
+      
+    </div>
+
+    
+      
+
+    
+
+    <footer class="article-footer">
+      
+      
+
+    </footer>
+  </div>
+  
+    
+
+  
+</article>
+
+
+
+
+          </main>
+          <sidebar class="col-md-3 blog-sidebar">
+            
+  
+
+  <div class="sidebar-module sidebar-module-inset slide-list">
+    <h4>Slide Pages</h4>
+    <ul class="sidebar-module-list">
+      
+
+        
+        <li>
+          <a href="/fid/slides/07_Advanced_css_layout.html"><i class="fas fa-file-alt"></i>  Advanced Css Layout</a> <a href="/fid/slides/slides.html?d=07_Advanced_css_layout&amp;"><i class="fab fa-slideshare"></i></a>
+        </li>
+        
+      
+
+        
+        <li>
+          <a href="/fid/slides/06_basic_css_layout.html"><i class="fas fa-file-alt"></i>  Basic Css Layout</a> <a href="/fid/slides/slides.html?d=06_basic_css_layout&amp;"><i class="fab fa-slideshare"></i></a>
+        </li>
+        
+      
+
+        
+        <li>
+          <a href="/fid/slides/05_intermediate_css.html"><i class="fas fa-file-alt"></i>  Intermediate Css</a> <a href="/fid/slides/slides.html?d=05_intermediate_css&amp;"><i class="fab fa-slideshare"></i></a>
+        </li>
+        
+      
+
+        
+        <li>
+          <a href="/fid/slides/04_basic_css.html"><i class="fas fa-file-alt"></i>  Basic Css</a> <a href="/fid/slides/slides.html?d=04_basic_css&amp;"><i class="fab fa-slideshare"></i></a>
+        </li>
+        
+      
+
+        
+        <li>
+          <a href="/fid/slides/03_structural-html.html"><i class="fas fa-file-alt"></i>  Structural-html</a> <a href="/fid/slides/slides.html?d=03_structural-html&amp;"><i class="fab fa-slideshare"></i></a>
+        </li>
+        
+      
+
+        
+        <li>
+          <a href="/fid/slides/01a_the_internet_and_urls.html"><i class="fas fa-file-alt"></i>  The Internet And Urls</a> <a href="/fid/slides/slides.html?d=01a_the_internet_and_urls&amp;"><i class="fab fa-slideshare"></i></a>
+        </li>
+        
+      
+
+        
+        <li>
+          <a href="/fid/slides/01b_hosting_on_github.html"><i class="fas fa-file-alt"></i>  Hosting On Github</a> <a href="/fid/slides/slides.html?d=01b_hosting_on_github&amp;"><i class="fab fa-slideshare"></i></a>
+        </li>
+        
+      
+
+        
+        <li>
+          <a href="/fid/slides/02_learning_html.html"><i class="fas fa-file-alt"></i>  Learning Html</a> <a href="/fid/slides/slides.html?d=02_learning_html&amp;"><i class="fab fa-slideshare"></i></a>
+        </li>
+        
+      
+
+        
+        <li>
+          <a href="/fid/slides/demo.html"><i class="fas fa-file-alt"></i> Demo</a> <a href="/fid/slides/slides.html?d=demo&amp;"><i class="fab fa-slideshare"></i></a>
+        </li>
+        
+      
+
+        
+      
+
+        
+      
+
+        
+      
+    </ul>
+  </div>
+
+
+        <div class="sidebar-module sidebar-module-inset assignment-list">      
+      <h4>Assignments</h4>
+      <ul class="sidebar-module-list">
+        
+          <li><a href="/fid/assignments/css-layout/"><i class="fas fa-briefcase"></i> Create a Page Using CSS Layout</a></li>
+        
+          <li><a href="/fid/assignments/css-layout-advanced/"><i class="fas fa-briefcase"></i> Advanced CSS Layouts</a></li>
+        
+          <li><a href="/fid/assignments/intermediate-css/"><i class="fas fa-briefcase"></i> Create a Page Using Intermediate CSS</a></li>
+        
+          <li><a href="/fid/assignments/basic-css/"><i class="fas fa-briefcase"></i> Create a Page Using Basic CSS</a></li>
+        
+          <li><a href="/fid/assignments/structural-html/"><i class="fas fa-briefcase"></i> HTML Pages with Structural Tags</a></li>
+        
+          <li><a href="/fid/assignments/valid-html/"><i class="fas fa-briefcase"></i> Create a Valid HTML Page</a></li>
+        
+          <li><a href="/fid/assignments/github-site/"><i class="fas fa-briefcase"></i> Create a Github Repository and Site</a></li>
+        
+          <li><a href="/fid/assignments/lynda-com/"><i class="fas fa-briefcase"></i> Create a Lynda.com Account</a></li>
+        
+        </ul>
+    </div>
+
+  <div class="sidebar-module sidebar-module-inset">
+  <h4>Class Links</h4>
+  <ul>
+      <li><a href="http://github.com/planetoftheweb/fid"><i class="fas fa-external-link-square-alt"></i> Github Repo</a></li>
+      <li><a href="http://github.com/planetoftheweb/slides/slides.html"><i class="fas fa-external-link-square-alt"></i> Slides</a></li>
+      <li><a href="https://github.com/planetoftheweb/FID/issues"><i class="fas fa-external-link-square-alt"></i> Submit an issue</a></li>
+      <li><a href="http://www.seminolestate.edu/computers/labhours"><i class="fas fa-external-link-square-alt"></i> Lab Hours</a></li>
+      <li><a href="https://www.seminolestate.edu/catalog/#calendar"><i class="fas fa-external-link-square-alt"></i> Academic Calendars</a></li>
+  </ul>
+</div>
+<div class="sidebar-module sidebar-module-inset">
+    <h4>Code Editors</h4>
+        <ul>
+      <li><a href="https://code.visualstudio.com"><i class="fas fa-code"></i> Visual Studio Code</a></li>
+      <li><a href="https://atom.io"><i class="fas fa-code"></i> Atom</a></li>
+  </ul>
+</div>
+<div class="sidebar-module sidebar-module-inset">
+    <h4>Online Resources</h4>
+  <ul>
+      <li><a href="https://developer.mozilla.org"><i class="fas fa-globe"></i> MDN</a></li>
+      <li><a href="https://css-tricks.com"><i class="fas fa-globe"></i> CSS Tricks</a></li>
+      <li><a href="https://codepen.io"><i class="fas fa-globe"></i> Codepen</a></li>
+      <li><a href="http://jsbin.com"><i class="fas fa-globe"></i> JS Bin</a></li>      
+  </ul>
+</div>
+<div class="sidebar-module sidebar-module-inset">
+    <h4>Lynda.com Tutorials</h4>
+  <ul>
+      <li><a href="https://www.lynda.com/NA-tutorials/How-use-Lynda-com/77683-2.html"><i class="icon icon-lynda"></i> Using Lynda</a></li>
+      <li><a href="https://www.lynda.com/Visual-Studio-tutorials/Visual-Studio-Code-Web-Developers/588785-2.html"><i class="icon icon-lynda"></i> VS Code</a></li>
+      <li><a href="https://www.lynda.com/Web-Development-tutorials/Learn-Atom-Basics/468147-2.html"><i class="icon icon-lynda"></i> Atom</a></li>
+      <li><a href="https://www.lynda.com/Web-Development-tutorials/HTML-Essential-Training/170427-2.html"><i class="icon icon-lynda"></i> HTML</a></li>
+      <li><a href="https://www.lynda.com/CSS-tutorials/CSS-Essential-Training-1/569190-2.html"><i class="icon icon-lynda"></i> CSS 1</a></li>
+      <li><a href="https://www.lynda.com/CSS-tutorials/CSS-Essential-Training-2/569189-2.html"><i class="icon icon-lynda"></i> CSS 2</a></li>
+      <li><a href="https://www.lynda.com/CSS-tutorials/CSS-Essential-Training-3/609030-2.html"><i class="icon icon-lynda"></i> CSS 3</a></li>
+      <li><a href="https://www.lynda.com/Bootstrap-tutorials/Bootstrap-4-Essential-Training/372545-2.html"><i class="icon icon-lynda"></i> Bootstrap 4</a></li>
+  </ul>
+</div>
+
+
+
+          </sidebar>
+      </div><!-- row -->
+    </div><!-- container -->
+    <footer class="blog-footer">
+  <div class="container">
+    <div id="footer-info" class="inner container">
+      <div class="row links custom-links justify-content-center mt-3">
+          <a class="col col-sm-1 icon icon-twitter" href="https://twitter.com/planetoftheweb"><i class="fab fa-twitter"></i></a>
+          <a class="col col-sm-1 icon icon-facebook" href="https://facebook.com/viewsource"><i class="fab fa-facebook"></i></a>
+          <a class="col col-sm-1 icon icon-linkedin" href="https://linkedin.com/in/planetoftheweb"><i class="fab fa-linkedin"></i></a>
+          <a class="col col-sm-1 icon icon-github" href="https://github.com/planetoftheweb"><i class="fab fa-github"></i></a>
+          <a class="col col-sm-1 icon icon-google-plus" href="https://plus.google.com/+RayVillalobos0"><i class="fab fa-google-plus"></i></a>
+          <a class="col col-sm-1 icon icon-dribbble" href="https://dribbble.com/planetoftheweb"><i class="fab fa-dribbble"></i></a>
+          <a class="col col-sm-1 icon icon-flickr" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/"><i class="fab fa-flickr"></i></a>
+          <a class="col col-sm-1 icon icon-youtube" href="https://www.youtube.com/user/planetoftheweb"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+  </div>
+</footer>
+
+  
+
+  
+
+
+
+  
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+<script src="/fid/js/script.js"></script>
+
+</body>
+</html>
