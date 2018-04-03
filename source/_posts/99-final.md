@@ -13,7 +13,9 @@ categories:
 - assignments
 ---
 
-Showcase everything you've learned this semester by putting together a professional online web presence. This is worth half your grade. Do not rest on the laurels of your previous work and make sure you address any issues from previous projects. Don't assume that because you received a certain grade in the previous project that you'll get the same grade for this project, I want to see progression towards a final, professional site.
+Showcase everything you've learned this semester by putting together a professional online web presence. This is worth half your grade. Do not rest on the laurels of your previous work and make sure you address any issues from previous projects. 
+
+Don't assume that because you received a certain grade in the previous project that you'll get the same grade for this project, I want to see progression towards a final, professional site.
 
 <!-- more -->
 
