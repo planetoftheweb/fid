@@ -111,7 +111,7 @@ var info = {
 
 ## Try it
 
-<iframe height='300' scrolling='no' title='rGvaxx' src='//codepen.io/planetoftheweb/embed/rGvaxx/?height=300&theme-id=27192&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh; width: 100%;'>See the Pen <a href='https://codepen.io/planetoftheweb/pen/rGvaxx/'>rGvaxx</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='300' scrolling='no' title='rGvaxx' src='//codepen.io/planetoftheweb/embed/rGvaxx/?height=300&theme-id=27192&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='height: 50vh; width: 100%;'>See the Pen <a  href='https://codepen.io/planetoftheweb/pen/rGvaxx/'>rGvaxx</a> by Ray Villalobos (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 ---
