@@ -1,5 +1,5 @@
 ---
-title: Bootstrap Interactive
+title: Final Project
 date: 2018-04-17 00:00:00
 permalink: bootstrap-final
 tags:
